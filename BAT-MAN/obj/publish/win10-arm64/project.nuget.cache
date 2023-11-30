@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "W6UkulqtbHiDQFPzAjFkdnQSkuR22ji6N815nYy6Dyd0k6ndIK4OO9tOnN4+JkPWSLe5oocjP1482Ve2dZTSTw==",
+  "success": false,
+  "projectFilePath": "C:\\1_REPO\\repo\\BAT-MAN\\BAT-MAN.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\6.0.16\\microsoft.netcore.app.runtime.win-arm64.6.0.16.nupkg.sha512",
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.16\\microsoft.netcore.app.runtime.win-x86.6.0.16.nupkg.sha512",
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.16\\microsoft.netcore.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-arm64.6.0.16.nupkg.sha512",
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.16.nupkg.sha512",
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\6.0.16\\microsoft.aspnetcore.app.runtime.win-arm64.6.0.16.nupkg.sha512",
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x86.6.0.16.nupkg.sha512",
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.App.Crossgen2.win-x64"
+    }
+  ]
+}

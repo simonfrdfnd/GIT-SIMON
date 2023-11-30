@@ -1,0 +1,7 @@
+C:\0_DEV\KL\KLL\bin\Debug\asvxp.exe.config
+C:\0_DEV\KL\KLL\bin\Debug\asvxp.exe
+C:\0_DEV\KL\KLL\bin\Debug\asvxp.pdb
+C:\0_DEV\KL\KLL\obj\Debug\asvxp.csproj.CoreCompileInputs.cache
+C:\0_DEV\KL\KLL\obj\Debug\asvxp.exe
+C:\0_DEV\KL\KLL\obj\Debug\asvxp.pdb
+C:\0_DEV\KL\KLL\obj\Debug\asvxp.csprojAssemblyReference.cache

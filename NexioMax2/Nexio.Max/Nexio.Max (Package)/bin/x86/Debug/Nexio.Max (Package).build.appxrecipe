@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BROCH</Machine>
+    <WindowsUser>simon.froidefond</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>5558200b-2afe-4c3b-a86f-ca0dc67a93e2</PackageIdentityName>
+    <PackageIdentityPublisher>CN=simon.froidefond</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\1_REPO\repo\Nexio.Max\Nexio.Max %28Package%29\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\1_REPO\repo\Nexio.Max\Nexio.Max %28Package%29\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max %28Package%29\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\uap10.0\Microsoft.UI.Text.winmd">
+      <PackagePath>Microsoft.UI.Text.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\uap10.0\Microsoft.Web.WebView2.Core.winmd">
+      <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\MainWindow.xbf">
+      <PackagePath>MainWindow.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Pages\HomePage.xbf">
+      <PackagePath>Pages\HomePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Pages\IOPage.xbf">
+      <PackagePath>Pages\IOPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Pages\PageB.xbf">
+      <PackagePath>Pages\PageB.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22621.0\Redist\Debug\x86\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max %28Package%29\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max %28Package%29\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max %28Package%29\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max %28Package%29\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max %28Package%29\Images\StoreLogo.png">
+      <PackagePath>Images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max %28Package%29\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max %28Package%29\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\communitytoolkit.mvvm\8.2.0\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>Nexio.Max\CommunityToolkit.Mvvm.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.entityframeworkcore\7.0.5\lib\net6.0\Microsoft.EntityFrameworkCore.dll">
+      <PackagePath>Nexio.Max\Microsoft.EntityFrameworkCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.entityframeworkcore.abstractions\7.0.5\lib\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <PackagePath>Nexio.Max\Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.caching.abstractions\7.0.0\lib\net6.0\Microsoft.Extensions.Caching.Abstractions.dll">
+      <PackagePath>Nexio.Max\Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.caching.memory\7.0.0\lib\net6.0\Microsoft.Extensions.Caching.Memory.dll">
+      <PackagePath>Nexio.Max\Microsoft.Extensions.Caching.Memory.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.dependencyinjection\7.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Nexio.Max\Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\7.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Nexio.Max\Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.logging\7.0.0\lib\net6.0\Microsoft.Extensions.Logging.dll">
+      <PackagePath>Nexio.Max\Microsoft.Extensions.Logging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\lib\net6.0\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>Nexio.Max\Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.options\7.0.0\lib\net6.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>Nexio.Max\Microsoft.Extensions.Options.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.primitives\7.0.0\lib\net6.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Nexio.Max\Microsoft.Extensions.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Nexio.Max\Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll">
+      <PackagePath>Nexio.Max\Microsoft.WinUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>Nexio.Max\Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+      <PackagePath>Nexio.Max\Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll">
+      <PackagePath>Nexio.Max\Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>Nexio.Max\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>Nexio.Max\Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>Nexio.Max\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll">
+      <PackagePath>Nexio.Max\Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
+      <PackagePath>Nexio.Max\Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>Nexio.Max\Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll">
+      <PackagePath>Nexio.Max\Microsoft.Windows.System.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll">
+      <PackagePath>Nexio.Max\Microsoft.Windows.Widgets.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>Nexio.Max\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Nexio.Max\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Nexio.Max\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Nexio.Max\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.22621.28\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Nexio.Max\Microsoft.Windows.SDK.NET.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.22621.28\lib\net6.0\WinRT.Runtime.dll">
+      <PackagePath>Nexio.Max\WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\IVI Foundation\VISA\Microsoft.NET\Framework32\v2.0.50727\VISA.NET Shared Components 5.11.0\Ivi.Visa.dll">
+      <PackagePath>Nexio.Max\Ivi.Visa.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\IVI Foundation\VISA\Microsoft.NET\Framework32\v4.0.30319\NI VISA.NET 19.0\NationalInstruments.Visa.dll">
+      <PackagePath>Nexio.Max\NationalInstruments.Visa.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Nexio.Max.deps.json">
+      <PackagePath>Nexio.Max\Nexio.Max.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows10.0.22621.0\App.xbf">
+      <PackagePath>Nexio.Max\App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows10.0.22621.0\MainWindow.xbf">
+      <PackagePath>Nexio.Max\MainWindow.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows10.0.22621.0\Pages\HomePage.xbf">
+      <PackagePath>Nexio.Max\Pages\HomePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows10.0.22621.0\Pages\IOPage.xbf">
+      <PackagePath>Nexio.Max\Pages\IOPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows10.0.22621.0\Pages\PageB.xbf">
+      <PackagePath>Nexio.Max\Pages\PageB.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows10.0.22621.0\apphost.exe">
+      <PackagePath>Nexio.Max\Nexio.Max.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Nexio.Max.runtimeconfig.json">
+      <PackagePath>Nexio.Max\Nexio.Max.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Nexio.Max.dll">
+      <PackagePath>Nexio.Max\Nexio.Max.dll</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.2</Name>
+      <Version>2000.777.2143.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.2, MinVersion = 2000.777.2143.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.2</Name>
+      <Version>2000.777.2143.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.2, MinVersion = 2000.777.2143.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.2.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.2</Name>
+      <Version>2000.777.2143.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.2, MinVersion = 2000.777.2143.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.2.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.2.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.2</Name>
+      <Version>2000.777.2143.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.2, MinVersion = 2000.777.2143.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.2.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

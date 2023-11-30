@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="BAT_MAN.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BAT_MAN"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Name="window">
+
+  <StackPanel x:Name="panel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#272b33">
+    <StackPanel Orientation="Horizontal" Margin="0,50,0,0" HorizontalAlignment="Center">
+      <TextBox x:Name="devPath" Header="Development repository" PlaceholderText="Specify the path for searching branches" MinWidth="305"/>
+      <Button Margin="10,28,0,0" Click="Button_Click1">Browse</Button>
+      <TextBox x:Name="installPath" Margin="50,0,0,0" Header="Installation repository" PlaceholderText="Specify the path for searching versions" MinWidth="305"/>
+      <Button Margin="10,28,0,0" Click="Button_Click2">Browse</Button>
+    </StackPanel>
+  </StackPanel>
+</Window>

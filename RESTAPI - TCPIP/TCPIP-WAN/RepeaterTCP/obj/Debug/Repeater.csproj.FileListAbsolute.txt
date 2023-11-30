@@ -1,0 +1,16 @@
+C:\0_DEV\TCPIP-WAN\obj\Debug\Repeater.csproj.AssemblyReference.cache
+C:\0_DEV\TCPIP-WAN\obj\Debug\Repeater.csproj.SuggestedBindingRedirects.cache
+C:\0_DEV\TCPIP-WAN\obj\Debug\MainWindow.g.cs
+C:\0_DEV\TCPIP-WAN\obj\Debug\App.g.cs
+C:\0_DEV\TCPIP-WAN\obj\Debug\MainWindow.baml
+C:\0_DEV\TCPIP-WAN\obj\Debug\Repeater.csproj.GenerateResource.cache
+C:\0_DEV\TCPIP-WAN\obj\Debug\Repeater.csproj.CoreCompileInputs.cache
+C:\0_DEV\TCPIP-WAN\obj\Debug\Repeater_MarkupCompile.cache
+C:\0_DEV\TCPIP-WAN\obj\Debug\Repeater_MarkupCompile.lref
+C:\0_DEV\TCPIP-WAN\bin\Debug\Repeater.exe.config
+C:\0_DEV\TCPIP-WAN\bin\Debug\Repeater.exe
+C:\0_DEV\TCPIP-WAN\bin\Debug\Repeater.pdb
+C:\0_DEV\TCPIP-WAN\obj\Debug\Repeater.g.resources
+C:\0_DEV\TCPIP-WAN\obj\Debug\Repeater.Properties.Resources.resources
+C:\0_DEV\TCPIP-WAN\obj\Debug\Repeater.exe
+C:\0_DEV\TCPIP-WAN\obj\Debug\Repeater.pdb

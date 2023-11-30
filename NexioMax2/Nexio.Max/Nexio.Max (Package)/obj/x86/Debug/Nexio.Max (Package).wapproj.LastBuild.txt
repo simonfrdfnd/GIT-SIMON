@@ -1,0 +1,60 @@
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\uap10.0\Microsoft.UI.Xaml.winmd
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\uap10.0\Microsoft.UI.Text.winmd
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\uap10.0\Microsoft.Web.WebView2.Core.winmd
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\App.xbf
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\MainWindow.xbf
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Pages\HomePage.xbf
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Pages\IOPage.xbf
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Pages\PageB.xbf
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22621.0\Redist\Debug\x86\ucrtbased.dll
+C:\1_REPO\repo\Nexio.Max\Nexio.Max (Package)\Images\SplashScreen.scale-200.png
+C:\1_REPO\repo\Nexio.Max\Nexio.Max (Package)\Images\LockScreenLogo.scale-200.png
+C:\1_REPO\repo\Nexio.Max\Nexio.Max (Package)\Images\Square150x150Logo.scale-200.png
+C:\1_REPO\repo\Nexio.Max\Nexio.Max (Package)\Images\Square44x44Logo.scale-200.png
+C:\1_REPO\repo\Nexio.Max\Nexio.Max (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\1_REPO\repo\Nexio.Max\Nexio.Max (Package)\Images\StoreLogo.png
+C:\1_REPO\repo\Nexio.Max\Nexio.Max (Package)\Images\Wide310x150Logo.scale-200.png
+C:\1_REPO\repo\Nexio.Max\Nexio.Max (Package)\bin\x86\Debug\resources.pri
+C:\Users\simon.froidefond\.nuget\packages\communitytoolkit.mvvm\8.2.0\lib\net6.0\CommunityToolkit.Mvvm.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.entityframeworkcore\7.0.5\lib\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.entityframeworkcore.abstractions\7.0.5\lib\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.caching.abstractions\7.0.0\lib\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.caching.memory\7.0.0\lib\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.dependencyinjection\7.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\7.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.logging\7.0.0\lib\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\lib\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.options\7.0.0\lib\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.extensions.primitives\7.0.0\lib\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windowsappsdk\1.2.230217.4\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.22621.28\lib\net6.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\simon.froidefond\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.22621.28\lib\net6.0\WinRT.Runtime.dll
+C:\Program Files (x86)\IVI Foundation\VISA\Microsoft.NET\Framework32\v2.0.50727\VISA.NET Shared Components 5.11.0\Ivi.Visa.dll
+C:\Program Files (x86)\IVI Foundation\VISA\Microsoft.NET\Framework32\v4.0.30319\NI VISA.NET 19.0\NationalInstruments.Visa.dll
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Nexio.Max.deps.json
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows10.0.22621.0\App.xbf
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows10.0.22621.0\MainWindow.xbf
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows10.0.22621.0\Pages\HomePage.xbf
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows10.0.22621.0\Pages\IOPage.xbf
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows10.0.22621.0\Pages\PageB.xbf
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows10.0.22621.0\apphost.exe
+C:\Users\simon.froidefond\.nuget\packages\communitytoolkit.mvvm\8.2.0\lib\net6.0\CommunityToolkit.Mvvm.pdb
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Nexio.Max.runtimeconfig.json
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Nexio.Max.dll
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\bin\x86\Debug\net6.0-windows10.0.22621.0\Nexio.Max.pdb

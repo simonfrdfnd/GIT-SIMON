@@ -1,0 +1,29 @@
+﻿<Window x:Class="ModifyWorkNote.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:uc="clr-namespace:ModifyWorkNote.View"
+        xmlns:local="clr-namespace:ModifyWorkNote"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+  <StackPanel>
+    <Grid Margin="0,10,0,0">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="auto"></ColumnDefinition>
+        <ColumnDefinition Width="auto"></ColumnDefinition>
+        <ColumnDefinition Width="auto"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"></RowDefinition>
+        <RowDefinition Height="*"></RowDefinition>
+        <RowDefinition Height="*"></RowDefinition>
+      </Grid.RowDefinitions>
+      <TextBlock Margin="5,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Center">Ticket Number</TextBlock>
+      <TextBox x:Name="tb"  Margin="5,0,5,0" Width="90" Grid.Row="0" Grid.Column="1" Text="INC00" VerticalAlignment="Center" FontSize="14" FontStyle="Italic" MaxLength="10"></TextBox>
+      <Button Margin="5,0,5,0" Grid.Row="0" Grid.Column="2" Click="OnClick">Search</Button>
+      <TextBlock HorizontalAlignment="Center" Margin="0,5,0,5" Grid.Row="1"><Bold>Activities :</Bold></TextBlock>
+    </Grid>
+  </StackPanel>
+</Window>

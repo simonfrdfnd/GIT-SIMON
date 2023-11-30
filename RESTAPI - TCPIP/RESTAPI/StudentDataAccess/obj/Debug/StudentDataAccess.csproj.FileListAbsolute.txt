@@ -1,0 +1,10 @@
+C:\0_DEV\RESTAPI\StudentDataAccess\bin\Debug\StudentDataAccess.dll.config
+C:\0_DEV\RESTAPI\StudentDataAccess\bin\Debug\StudentDataAccess.dll
+C:\0_DEV\RESTAPI\StudentDataAccess\bin\Debug\StudentDataAccess.pdb
+C:\0_DEV\RESTAPI\StudentDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\0_DEV\RESTAPI\StudentDataAccess\bin\Debug\EntityFramework.dll
+C:\0_DEV\RESTAPI\StudentDataAccess\obj\Debug\StudentDataAccess.csproj.AssemblyReference.cache
+C:\0_DEV\RESTAPI\StudentDataAccess\obj\Debug\StudentDataAccess.csproj.CoreCompileInputs.cache
+C:\0_DEV\RESTAPI\StudentDataAccess\obj\Debug\StudentDataAccess.csproj.CopyComplete
+C:\0_DEV\RESTAPI\StudentDataAccess\obj\Debug\StudentDataAccess.dll
+C:\0_DEV\RESTAPI\StudentDataAccess\obj\Debug\StudentDataAccess.pdb

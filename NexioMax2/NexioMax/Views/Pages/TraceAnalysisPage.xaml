@@ -1,0 +1,85 @@
+﻿<ui:UiPage x:Class="NexioMax.Views.Pages.TraceAnalysisPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:NexioMax.Views.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+    Title="TraceAnalysis"
+    d:DataContext="{d:DesignInstance local:TraceAnalysisPage, IsDesignTimeCreatable=False}"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    d:Background="{DynamicResource ApplicationBackgroundBrush}"
+    Foreground="{DynamicResource TextFillColorPrimaryBrush}"
+    mc:Ignorable="d">
+  <Grid Margin="56,0,56,0" VirtualizingPanel.IsVirtualizing="True">
+    <Grid.Resources>
+      <Style x:Key="HeaderStyle" TargetType="DataGridColumnHeader">
+        <Setter Property="Background" Value="DarkSlateGray"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+      </Style>
+      <CollectionViewSource x:Key="MyCollectionViewSource" Source="{Binding ViewModel.CallRows, IsAsync=True, Mode=TwoWay}">
+        <CollectionViewSource.GroupDescriptions>
+          <PropertyGroupDescription PropertyName="Description"/>
+        </CollectionViewSource.GroupDescriptions>
+      </CollectionViewSource>
+      <Style TargetType="{x:Type DataGridCell}">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+      </Style>
+    </Grid.Resources>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"></RowDefinition>
+      <RowDefinition></RowDefinition>
+    </Grid.RowDefinitions>
+
+    <WrapPanel Margin="0,0,0,10" Grid.Row="0" IsEnabled="{Binding ViewModel.EnableWrap}">
+      <ComboBox SelectedIndex="0" Height="Auto">
+        <Label Height="Auto">Filters</Label>
+        <ToggleButton Command="{Binding ViewModel.IoCheckCommand}" IsChecked="{Binding ViewModel.IsIoChecked, Mode=TwoWay}" HorizontalAlignment="Stretch">I/O</ToggleButton>
+        <ToggleButton Command="{Binding ViewModel.BufferCheckCommand}" IsChecked="{Binding ViewModel.IsBufferChecked, Mode=TwoWay}">Buffer</ToggleButton>
+        <ToggleButton IsChecked="{Binding ViewModel.IsGroupChecked}" Checked="ToggleButton_Checked" Unchecked="ToggleButton_UnChecked" x:Name="groupButton">Group</ToggleButton>
+      </ComboBox>
+      <Button Margin="10,0,0,0" Command="{Binding ViewModel.ResetCommand}">Reset</Button>
+      <ui:DropDownButton Margin="10,0,0,0" Command="{Binding ViewModel.DisableCommand}">Disable</ui:DropDownButton>
+      <StackPanel Margin="10,3,0,0">
+        <Button Command="{Binding ViewModel.ImportCommand}">Import</Button>
+        <ProgressBar Height="3" Maximum="100" Value="{Binding ViewModel.ImportProgression}"></ProgressBar>
+      </StackPanel>
+      <TextBox Margin="10,0,0,0" HorizontalAlignment="Stretch" Text="{Binding ViewModel.FileName}" IsReadOnly="True" FontStyle="Italic"/>
+      <Button Margin="10,0,0,0" Command="{Binding ViewModel.PlayCommand}">Play</Button>
+      <Button Margin="10,0,0,0" Command="{Binding ViewModel.PlayOneCommand}">Play One</Button>
+    </WrapPanel>
+
+    <DataGrid ItemsSource="{Binding ViewModel.TableSource, Mode=OneWay}" AutoGenerateColumns="False" Grid.Row="1">
+      <DataGrid.Columns>
+        <DataGridTextColumn Binding="{Binding Path=[0]}" Header="Row number" />
+        <DataGridTextColumn Binding="{Binding Path=[1]}" Header="column 2"/>
+        <DataGridTextColumn Binding="{Binding Path=[2]}" Header="column 3"/>
+      </DataGrid.Columns>
+    </DataGrid>
+
+    <!--<DataGrid x:Name="datagrid" RowHeaderWidth="0" Grid.Row="1" AutoGenerateColumns="False" ItemsSource="{Binding ViewModel.CallRows}" FontSize="12" AlternationCount="1" EnableRowVirtualization="True" EnableColumnVirtualization="True" Margin="0,0,0,10" SelectionMode="Single" SelectionUnit="FullRow" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" SelectedIndex="{Binding ViewModel.SelectedRow}">
+      <DataGrid.Columns>
+        <DataGridTextColumn Header="Number" MinWidth="50" Width="50" Binding="{Binding Number}" HeaderStyle="{StaticResource HeaderStyle}">
+        </DataGridTextColumn>
+        <DataGridTextColumn Header="Description" MinWidth="250" Width="*" Binding="{Binding Description}" HeaderStyle="{StaticResource HeaderStyle}"/>
+        <DataGridTextColumn Header="Timestamp" MinWidth="100" Width="100" Binding="{Binding Timestamp}" HeaderStyle="{StaticResource HeaderStyle}"/>
+        <DataGridTextColumn Header="Duration" MinWidth="100" Width="100" Binding="{Binding Duration}" HeaderStyle="{StaticResource HeaderStyle}">
+        </DataGridTextColumn>
+        <DataGridTextColumn Header="Address" MinWidth="100" Width="200" Binding="{Binding Address}" HeaderStyle="{StaticResource HeaderStyle}"/>
+      </DataGrid.Columns>
+      <DataGrid.RowStyle>
+        <Style TargetType="{x:Type DataGridRow}">
+          <Setter Property="Height" Value="20"></Setter>
+          <Style.Triggers>
+            <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource Self}}" Value="True">
+              <Setter Property="Background" Value="DarkSlateGray" />
+              <Setter Property="Foreground" Value="White"/>
+            </DataTrigger>
+          </Style.Triggers>
+        </Style>
+      </DataGrid.RowStyle>
+    </DataGrid>-->
+  </Grid>
+</ui:UiPage>

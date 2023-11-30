@@ -1,0 +1,25 @@
+﻿<Window x:Class="SenderTCP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SenderTCP"
+        mc:Ignorable="d"
+        Title="Sender" Height="170" Width="220">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="80"></ColumnDefinition>
+      <ColumnDefinition Width="120"></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="30"></RowDefinition>
+      <RowDefinition Height="30"></RowDefinition>
+      <RowDefinition Height="30"></RowDefinition>
+    </Grid.RowDefinitions>
+    <Label>Ip Recipient :</Label>
+    <TextBox x:Name="address" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" TextWrapping="Wrap" Text="127.0.0.1:13000" Width="120"/>
+    <Label Grid.Row="1">Data</Label>
+    <TextBox x:Name="data" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="1" TextWrapping="Wrap" Text="abcde" VerticalAlignment="Center" Width="120"/>
+    <Button Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="100" Content="GO" Click="OnClick"></Button>
+  </Grid>
+</Window>

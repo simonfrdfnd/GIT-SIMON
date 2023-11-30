@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AppIconSource>C:\Users\simon.froidefond\Bureau\Batman-removebg-preview.png</AppIconSource>
+    <SmallTileSource>C:\Users\simon.froidefond\Bureau\Batman-removebg-preview.png</SmallTileSource>
+    <MediumTileSource>C:\Users\simon.froidefond\Bureau\Batman-removebg-preview.png</MediumTileSource>
+    <WideTileSource>C:\Users\simon.froidefond\Bureau\Batman-removebg-preview.png</WideTileSource>
+    <LargeTileSource>C:\Users\simon.froidefond\Bureau\Batman-removebg-preview.png</LargeTileSource>
+    <SplashScreenSource>C:\Users\simon.froidefond\Bureau\Batman-removebg-preview.png</SplashScreenSource>
+    <BadgeLogoSource>C:\Users\simon.froidefond\Bureau\Batman-removebg-preview.png</BadgeLogoSource>
+    <PackageLogoSource>C:\Users\simon.froidefond\Bureau\Batman-removebg-preview.png</PackageLogoSource>
+    <Source>C:\Users\simon.froidefond\Bureau\Batman-removebg-preview.png</Source>
+    <ActiveDebugProfile>BAT-MAN (Package)</ActiveDebugProfile>
+    <_LastSelectedProfileId>C:\1_REPO\repo\BAT-MAN\Properties\PublishProfiles\win10-x64.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="App.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>

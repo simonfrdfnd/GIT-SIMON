@@ -1,0 +1,11 @@
+C:\0_DEV\UnzipDoubleClick\UnzipDoubleClick\bin\Release\UnzipDoubleClick.exe.config
+C:\0_DEV\UnzipDoubleClick\UnzipDoubleClick\bin\Release\UnzipDoubleClick.exe
+C:\0_DEV\UnzipDoubleClick\UnzipDoubleClick\bin\Release\UnzipDoubleClick.pdb
+C:\0_DEV\UnzipDoubleClick\UnzipDoubleClick\bin\Release\Aspose.Zip.dll
+C:\0_DEV\UnzipDoubleClick\UnzipDoubleClick\bin\Release\System.Drawing.Common.dll
+C:\0_DEV\UnzipDoubleClick\UnzipDoubleClick\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\0_DEV\UnzipDoubleClick\UnzipDoubleClick\bin\Release\System.Text.Encoding.CodePages.dll
+C:\0_DEV\UnzipDoubleClick\UnzipDoubleClick\obj\Release\UnzipDoubleClick.csproj.CoreCompileInputs.cache
+C:\0_DEV\UnzipDoubleClick\UnzipDoubleClick\obj\Release\UnzipDoubleClick.csproj.CopyComplete
+C:\0_DEV\UnzipDoubleClick\UnzipDoubleClick\obj\Release\UnzipDoubleClick.exe
+C:\0_DEV\UnzipDoubleClick\UnzipDoubleClick\obj\Release\UnzipDoubleClick.pdb

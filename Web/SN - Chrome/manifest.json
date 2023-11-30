@@ -1,0 +1,92 @@
+{
+    "name": "SN Utils - Nexio",
+    "short_name": "SN Utils - Nexio",
+    "description": "ServiceNow Productivity tools.",
+    "author": "Simon Froidefond",
+    "version": "1.0.1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "activeTab",
+      "declarativeContent",
+      "storage",
+      "contextMenus",
+      "cookies"
+    ],
+    "icons": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "https://*.service-now.com/*"
+        ],
+        "exclude_matches": [
+          "*://*/*?XML*",
+          "*://*/*&XML*",
+          "*://*/*?WSDL*",
+          "*://*/*&WSDL*"
+        ],
+        "js": [
+          "content.js"
+        ],
+        "all_frames": true
+      }
+    ],
+    "commands": {
+      "_execute_action": {
+        "suggested_key": {
+          "default": "Ctrl+1",
+          "mac": "Command+1"
+        },
+        "description": "Cmd 1"
+      },
+      "cmd2": {
+        "suggested_key": {
+          "default": "Ctrl+2",
+          "mac": "Command+2"
+        },
+        "description": "Cmd 2"
+      },
+      "cmd3": {
+        "suggested_key": {
+          "default": "Ctrl+3",
+          "mac": "Command+3"
+        },
+        "description": "Cmd 3"
+      },
+      "cmd4": {
+        "suggested_key": {
+          "default": "Ctrl+4",
+          "mac": "Command+4"
+        },
+        "description": "Cmd 4"
+      }
+    },
+    "incognito": "split",
+    "content_security_policy": {
+      "extension_pages": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src https://*.service-now.com 'self' data:; child-src 'none'; object-src 'none'; connect-src https://*.service-now.com ws://127.0.0.1:1978/"
+    },
+    "action": {
+      "default_title": "SN Utils - Nexio",
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      },
+      "show_matches": [
+        "https://*.service-now.com/*"
+      ]
+    },
+  "host_permissions": [
+      "https://*.service-now.com/*"
+    ]
+  }

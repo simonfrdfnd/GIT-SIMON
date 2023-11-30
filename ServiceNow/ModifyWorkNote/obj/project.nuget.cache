@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1BnlZMXcOyQb9OONp25omRuTbopjv1Fwh6yPDzF+70kYA3Ga9aJWriuLGlrV5iJTy+dahb9uMCg8evMHn8RK4Q==",
+  "success": true,
+  "projectFilePath": "C:\\0_DEV\\ServiceNow\\ModifyWorkNote\\ModifyWorkNote.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

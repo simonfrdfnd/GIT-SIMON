@@ -1,0 +1,16 @@
+C:\0_DEV\TCPIP-WAN\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\0_DEV\TCPIP-WAN\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+C:\0_DEV\TCPIP-WAN\obj\Debug\MainWindow.g.cs
+C:\0_DEV\TCPIP-WAN\obj\Debug\App.g.cs
+C:\0_DEV\TCPIP-WAN\obj\Debug\MainWindow.baml
+C:\0_DEV\TCPIP-WAN\obj\Debug\Server.csproj.GenerateResource.cache
+C:\0_DEV\TCPIP-WAN\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\0_DEV\TCPIP-WAN\bin\Debug\Server.exe.config
+C:\0_DEV\TCPIP-WAN\bin\Debug\Server.exe
+C:\0_DEV\TCPIP-WAN\bin\Debug\Server.pdb
+C:\0_DEV\TCPIP-WAN\obj\Debug\Server_MarkupCompile.cache
+C:\0_DEV\TCPIP-WAN\obj\Debug\Server_MarkupCompile.lref
+C:\0_DEV\TCPIP-WAN\obj\Debug\Server.g.resources
+C:\0_DEV\TCPIP-WAN\obj\Debug\Server.Properties.Resources.resources
+C:\0_DEV\TCPIP-WAN\obj\Debug\Server.exe
+C:\0_DEV\TCPIP-WAN\obj\Debug\Server.pdb

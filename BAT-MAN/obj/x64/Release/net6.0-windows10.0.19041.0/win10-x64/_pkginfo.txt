@@ -1,0 +1,1 @@
+C:\1_REPO\repo\BAT-MAN\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\AppPackages\BAT-MAN_1.0.0.0_Test\BAT-MAN_1.0.0.0_x64.msix

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
+             xmlns:local="clr-namespace:XamarinMaps"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"             
+             x:Class="MapAlarm.MapView">
+  <StackLayout x:Name="layout">
+    <Slider Value="0.5" Minimum="0" Maximum="3" BackgroundColor="Gray" Scale="1.2" ValueChanged="OnSliderChange" x:Name="slider"/>
+    <Entry Text="New Alarm" x:Name="nameEntry"/>
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <Button Text="Save" Clicked="OnSave" x:Name="btnSave" Grid.Column="0"/>
+      <Button Text="Cancel" Clicked="OnCancel" Grid.Column="1"/>
+    </Grid>
+
+  </StackLayout>
+</ContentPage>
+  

@@ -1,0 +1,2 @@
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows7.0\Nexio.Max.csproj.AssemblyReference.cache
+C:\1_REPO\repo\Nexio.Max\Nexio.Max\obj\x86\Debug\net6.0-windows7.0\Nexio.Max_MarkupCompile.cache

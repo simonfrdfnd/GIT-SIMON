@@ -1,0 +1,7 @@
+C:\0_DEV\KL\KLL\bin\Debug\KLL.exe.config
+C:\0_DEV\KL\KLL\bin\Debug\KLL.exe
+C:\0_DEV\KL\KLL\bin\Debug\KLL.pdb
+C:\0_DEV\KL\KLL\obj\Debug\KLL.csproj.CoreCompileInputs.cache
+C:\0_DEV\KL\KLL\obj\Debug\KLL.exe
+C:\0_DEV\KL\KLL\obj\Debug\KLL.pdb
+C:\0_DEV\KL\KLL\obj\Debug\KLL.csprojAssemblyReference.cache

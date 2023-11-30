@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interface de l'extension</title>
+  <style>
+    /* Styles CSS pour la mise en forme de l'interface */
+    body {
+      font-family: Arial, sans-serif;
+      width: 400px; /* Largeur de l'interface */
+      height: 1000px; /* Hauteur de l'interface */
+      padding: 20px;
+    }
+    .container {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #f0f0f0;
+      cursor: pointer;
+    }
+    .container:hover {
+      background-color: #e0e0e0;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .content {
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .copyBtn, .deleteBtn {
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    #addContainerBtn {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Conteneur pour les éléments -->
+  <div id="containers">
+    <!-- Conteneurs seront ajoutés ici -->
+  </div>
+
+  <!-- Bouton pour ajouter un nouveau conteneur -->
+  <button id="addContainerBtn">Ajouter</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

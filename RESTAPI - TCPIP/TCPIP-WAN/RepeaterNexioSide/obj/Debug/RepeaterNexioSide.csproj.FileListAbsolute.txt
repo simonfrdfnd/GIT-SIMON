@@ -1,0 +1,16 @@
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\bin\Debug\RepeaterNexioSide.exe.config
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\bin\Debug\RepeaterNexioSide.exe
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\bin\Debug\RepeaterNexioSide.pdb
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\RepeaterNexioSide.csproj.AssemblyReference.cache
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\RepeaterNexioSide.csproj.SuggestedBindingRedirects.cache
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\MainWindow.g.cs
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\App.g.cs
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\RepeaterNexioSide_MarkupCompile.cache
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\RepeaterNexioSide_MarkupCompile.lref
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\MainWindow.baml
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\RepeaterNexioSide.g.resources
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\RepeaterNexioSide.Properties.Resources.resources
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\RepeaterNexioSide.csproj.GenerateResource.cache
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\RepeaterNexioSide.csproj.CoreCompileInputs.cache
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\RepeaterNexioSide.exe
+C:\0_DEV\TCPIP-WAN\RepeaterNexioSide\obj\Debug\RepeaterNexioSide.pdb

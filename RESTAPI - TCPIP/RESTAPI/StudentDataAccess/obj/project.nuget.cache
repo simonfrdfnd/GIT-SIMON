@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0H6exGGPbCxXNKSH1H5iUNni8aY+v2YEAknpyXZxwR6RvvqgmfRQRQmz248/NN4RkfhAzqd0grn1fCdrwMfevQ==",
+  "success": true,
+  "projectFilePath": "C:\\0_DEV\\RESTAPI\\StudentDataAccess\\StudentDataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

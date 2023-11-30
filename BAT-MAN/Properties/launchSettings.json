@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BAT-MAN (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "BAT-MAN (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

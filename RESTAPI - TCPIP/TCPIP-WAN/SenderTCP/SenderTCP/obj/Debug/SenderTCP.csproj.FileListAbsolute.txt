@@ -1,0 +1,16 @@
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\SenderTCP.csproj.AssemblyReference.cache
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\SenderTCP.csproj.SuggestedBindingRedirects.cache
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\MainWindow.g.cs
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\App.g.cs
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\SenderTCP_MarkupCompile.cache
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\SenderTCP_MarkupCompile.lref
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\bin\Debug\SenderTCP.exe.config
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\bin\Debug\SenderTCP.exe
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\bin\Debug\SenderTCP.pdb
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\MainWindow.baml
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\SenderTCP.g.resources
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\SenderTCP.Properties.Resources.resources
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\SenderTCP.csproj.GenerateResource.cache
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\SenderTCP.csproj.CoreCompileInputs.cache
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\SenderTCP.exe
+C:\0_DEV\TCPIP-WAN\SenderTCP\SenderTCP\obj\Debug\SenderTCP.pdb

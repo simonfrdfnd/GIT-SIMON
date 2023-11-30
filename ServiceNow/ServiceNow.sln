@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceNow", "ServiceNow\ServiceNow.csproj", "{43A839D9-FF68-4CE3-ACEA-05E0398BDCE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModifyWorkNote", "ModifyWorkNote\ModifyWorkNote.csproj", "{05AA0629-157C-4092-9429-8311F611F047}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43A839D9-FF68-4CE3-ACEA-05E0398BDCE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A839D9-FF68-4CE3-ACEA-05E0398BDCE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A839D9-FF68-4CE3-ACEA-05E0398BDCE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A839D9-FF68-4CE3-ACEA-05E0398BDCE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05AA0629-157C-4092-9429-8311F611F047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05AA0629-157C-4092-9429-8311F611F047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05AA0629-157C-4092-9429-8311F611F047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05AA0629-157C-4092-9429-8311F611F047}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42D61648-ED68-4655-A931-45B89B77920A}
+	EndGlobalSection
+EndGlobal

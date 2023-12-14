@@ -5,8 +5,13 @@ var defaultMenuConf = {
 var menuItems = [
     {
         "id": "openall",
-        "contexts": ["link"],
+        "contexts": ["all"],
         "title": "Open All"
+    },
+    {
+        "id": "opengroup",
+        "contexts": ["link"],
+        "title": "Open Group"
     },
     {
         "id": "worknotesnippets",
@@ -128,6 +133,8 @@ chrome.contextMenus.onClicked.addListener(function (clickData, tab) {
         insertWnSnippet(clickData, tab);
     else if (clickData.menuItemId.includes('decsnippet'))
         insertDecSnippet(clickData, tab);
+    else if (clickData.menuItemId.includes('opengroup'))
+        opengroup(clickData, tab);
     else if (clickData.menuItemId.includes('openall'))
         openall(clickData, tab);
 });
@@ -139,6 +146,17 @@ function openall(clickData) {
     }, function (tabs) {
         chrome.tabs.sendMessage(tabs[0].id, {
             "openall": "openall"
+        });
+    });
+}
+
+function opengroup(clickData) {
+    chrome.tabs.query({
+        active: true,
+        currentWindow: true
+    }, function (tabs) {
+        chrome.tabs.sendMessage(tabs[0].id, {
+            "opengroup": "opengroup"
         });
     });
 }

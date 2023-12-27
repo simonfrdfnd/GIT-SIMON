@@ -17,7 +17,7 @@ const Progression = () => {
           {quests.map((quest, index) => (
             <Link
               key={quest.id}
-              to={index === 0 ? '/quete1page1' : '/'}
+              to={`/quete${index+1}page1`}
               className="quest-link"  // Ajoutez une classe pour le style si nécessaire
               onClick={() => onQuestButtonClick(quest.id)}
               style={{ display: index === 0 || quests[index - 1]?.completed ? 'inline-block' : 'none' }}

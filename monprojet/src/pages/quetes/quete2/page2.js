@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageLayout from '../../layout.js';
 
-const Quete1Page2 = () => {
+const Quete2Page2 = () => {
   return (
-    <PageLayout backgroundImage='url("/images/hublot.jpg")'>
+    <PageLayout backgroundImage='url("/images/bonne-nuit.jpg")'>
       {(isVisible) => (
         <>
           <p className={`paragraph-container ${isVisible ? 'visible' : ''}`}>
-            Vous apercevez le Mont Olympe, depuis le hublot. L'anneau étant tombé depuis la demeure des dieux, il y a fort à parier pour qu'il se trouve quelque part en Grèce.
+            Vous regardez les étoiles une dernière fois avant de vous endormir. L'une d'elle semble briller d'un éclat particulier...
+            Bonne nuit ! 
           </p>
           <div className='button-container-right'>
             <Link to="/progression" className='button'>
@@ -21,4 +22,4 @@ const Quete1Page2 = () => {
   );
 };
 
-export default Quete1Page2;
+export default Quete2Page2;

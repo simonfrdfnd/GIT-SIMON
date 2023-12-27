@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import PageLayout from '../../layout.js';
 
 const Quete1Page1 = () => {
-  const [isVisible, setIsVisible] = useState(false);
   const [userLatitude, setUserLatitude] = useState(null);
   const [userLongitude, setUserLongitude] = useState(null);
   const athensCoordinates = { latitude: 37.9838, longitude: 23.7275 }; // Coordonnées d'Athènes
@@ -11,7 +10,6 @@ const Quete1Page1 = () => {
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      setIsVisible(true);
       fetchUserLocation();
     }, 0);
 
@@ -27,6 +25,8 @@ const Quete1Page1 = () => {
         (position) => {
           setUserLatitude(position.coords.latitude);
           setUserLongitude(position.coords.longitude);
+          console.log(position.coords.latitude);
+          console.log(position.coords.longitude);
         },
         (error) => {
           console.error('Erreur lors de la récupération de la localisation :', error);
@@ -53,7 +53,7 @@ const Quete1Page1 = () => {
       const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
       const distance = earthRadius * c;
-      return distance.toFixed(2) - 1950; // Distance arrondie à 2 chiffres après la virgule
+      return distance.toFixed(2) - 1800; // Distance arrondie à 2 chiffres après la virgule
     }
     return 'N/A';
   };
@@ -72,31 +72,33 @@ const Quete1Page1 = () => {
 
   return (
     <PageLayout backgroundImage='url("/images/airfrance.jpg")'>
-      <>
-        <div style={{ position: 'absolute', top: '10px', left: '50%', transform: 'translateX(-50%)', textAlign: 'center', zIndex: '1000' }}>
-          {userLatitude !== null && userLongitude !== null ? (
-            <p className="digital-display">{calculateDistance()} km</p>
-          ) : (
-            <p className="digital-display">Chargement de la localisation...</p>
-          )}
-        </div>
-        <p className={`paragraph-container ${isVisible ? 'visible' : ''}`}>
-          Votre protecteur vous remet des papyrus rédigés de la main de la déesse Athéna. 
-          Ils comportent d'étranges symboles. La quête sera terminée lorsque l'afficheur numérique affichera moins de 50 km.
-        </p>
-        <div className='button-container-left'>
-          <Link to="/progression" className='button'>
-            Précédent
-          </Link>
-        </div>
-        {(userLatitude !== null && userLongitude !== null && parseFloat(calculateDistance()) < 50) && (
-          <div className='button-container-right'>
-            <Link to="/quete1page2" onClick={handleCompleteQuest} className='button'>
-              Suivant
+      {(isVisible) => (
+        <>
+          <div style={{ position: 'absolute', top: '10px', left: '50%', transform: 'translateX(-50%)', textAlign: 'center', zIndex: '1000' }}>
+            {userLatitude !== null && userLongitude !== null ? (
+              <p className="digital-display">{calculateDistance()} km</p>
+            ) : (
+              <p className="digital-display">Chargement de la localisation...</p>
+            )}
+          </div>
+          <p className={`paragraph-container ${isVisible ? 'visible' : ''}`}>
+            Votre protecteur vous remet des papyrus rédigés de la main de la déesse Athéna.
+            Ils comportent d'étranges symboles. La quête sera terminée lorsque l'afficheur numérique affichera moins de 50 km.
+          </p>
+          <div className='button-container-left'>
+            <Link to="/progression" className='button'>
+              Précédent
             </Link>
           </div>
-        )}
-      </>
+          {(userLatitude !== null && userLongitude !== null && parseFloat(calculateDistance()) < 50) && (
+            <div className='button-container-right'>
+              <Link to="/quete1page2" onClick={handleCompleteQuest} className='button'>
+                Suivant
+              </Link>
+            </div>
+          )}
+        </>
+      )}
     </PageLayout>
   );
 };

@@ -12,6 +12,9 @@ import Faction from './pages/intro/faction';
 import Progression from './pages/progression';
 import Quete1Page1 from './pages/quetes/quete1/page1';
 import Quete1Page2 from './pages/quetes/quete1/page2';
+import Quete2Page1 from './pages/quetes/quete2/page1';
+import Quete2Page2 from './pages/quetes/quete2/page2';
+import Quete3Page1 from './pages/quetes/quete3/page1';
 
 const App = () => {
   return (
@@ -27,6 +30,9 @@ const App = () => {
         <Route path="/progression" element={<Progression/>} />
         <Route path="/quete1page1" element={<Quete1Page1/>} />
         <Route path="/quete1page2" element={<Quete1Page2/>} />
+        <Route path="/quete2page1" element={<Quete2Page1/>} />
+        <Route path="/quete2page2" element={<Quete2Page2/>} />
+        <Route path="/quete3page1" element={<Quete3Page1/>} />
       </Routes>
     </Router>
   );

@@ -172,50 +172,5 @@ function exportContainers() {
 // Ajouter un gestionnaire d'événements pour le bouton "Export"
 document.getElementById("exportBtn").addEventListener("click", exportContainers);
 
-
-// Fonction pour importer le contenu depuis un fichier texte
-function importContainers(event) {
-  const fileInput = event.target;
-  const file = fileInput.files[0];
-
-  if (file) {
-    const reader = new FileReader();
-
-    reader.onload = function (e) {
-      const importedContent = e.target.result;
-
-      // Vous pouvez traiter le contenu importé ici selon vos besoins
-      // Dans cet exemple, nous affichons simplement le contenu dans la console
-      console.log("Imported Content:\n", importedContent);
-
-      // Vous devez mettre à jour le stockage local et recharger les conteneurs ici
-      // En supposant que le contenu du fichier texte est au format JSON
-      try {
-        const importedData = JSON.parse(importedContent);
-
-        // Mettez à jour le stockage local avec les données importées
-        localStorage.setItem("containerData", JSON.stringify(importedData));
-
-        // Rechargez les conteneurs avec les données importées
-        loadSavedContainers();
-
-        console.log("Containers imported successfully.");
-      } catch (error) {
-        console.error("Error importing containers:", error);
-      }
-    };
-
-    reader.readAsText(file);
-  }
-}
-
-// Ajouter un gestionnaire d'événements pour le bouton "Import"
-document.getElementById("importBtn").addEventListener("click", function () {
-  // Cliquez sur le véritable input de type fichier pour déclencher la boîte de dialogue du fichier
-  document.getElementById("importInput").click();
-});
-
-// Ajouter un gestionnaire d'événements pour le changement de fichier
-document.getElementById("importInput").addEventListener("change", importContainers);
 // Charger les conteneurs sauvegardés lors du chargement de l'extension
 loadSavedContainers();

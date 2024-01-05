@@ -1,4 +1,3 @@
-var lastCommand;
 var defaultMenuConf = {
     "documentUrlPatterns": ["https://*.service-now.com/*"]
 };
@@ -6,8 +5,13 @@ var defaultMenuConf = {
 var menuItems = [
     {
         "id": "openall",
-        "contexts": ["link"],
+        "contexts": ["all"],
         "title": "Open All"
+    },
+    {
+        "id": "opengroup",
+        "contexts": ["link"],
+        "title": "Open Group"
     },
     {
         "id": "worknotesnippets",
@@ -19,7 +23,7 @@ var menuItems = [
         "contexts": ["selection"],
         "title": "Decoration Snippets"
     }
-    ];
+];
 
 var wnsnippets = {
     "workenotesnippet1": ["worknotesnippets", "Italic", `[code]<em></em>[/code] `],
@@ -74,18 +78,15 @@ function initializeContextMenus() {
 }
 
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
+    console.log(message);
     if (message.event == "initializecontextmenus") {
         chrome.contextMenus.removeAll(initializeContextMenus);
     }
+
     return true;
 });
 
-
 chrome.commands.onCommand.addListener(function (command) {
-    if (typeof lastCommand !== 'undefined' && (new Date()).getTime() - lastCommand < 500) {
-        //dont trigger twice #245
-    }
-
     chrome.tabs.query({
         active: true,
         currentWindow: true
@@ -125,9 +126,6 @@ chrome.commands.onCommand.addListener(function (command) {
         }
         insertDecSnippet(clickData);
     });
-
-    lastCommand = (new Date()).getTime();
-    return true;
 });
 
 chrome.contextMenus.onClicked.addListener(function (clickData, tab) {
@@ -135,6 +133,8 @@ chrome.contextMenus.onClicked.addListener(function (clickData, tab) {
         insertWnSnippet(clickData, tab);
     else if (clickData.menuItemId.includes('decsnippet'))
         insertDecSnippet(clickData, tab);
+    else if (clickData.menuItemId.includes('opengroup'))
+        opengroup(clickData, tab);
     else if (clickData.menuItemId.includes('openall'))
         openall(clickData, tab);
 });
@@ -146,6 +146,17 @@ function openall(clickData) {
     }, function (tabs) {
         chrome.tabs.sendMessage(tabs[0].id, {
             "openall": "openall"
+        });
+    });
+}
+
+function opengroup(clickData) {
+    chrome.tabs.query({
+        active: true,
+        currentWindow: true
+    }, function (tabs) {
+        chrome.tabs.sendMessage(tabs[0].id, {
+            "opengroup": "opengroup"
         });
     });
 }
@@ -183,3 +194,4 @@ function insertDecSnippet(clickData) {
         }
     });
 }
+

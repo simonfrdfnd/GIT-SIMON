@@ -1,12 +1,12 @@
 var lastCommand = (new Date()).getTime();
 
-
 //attach event listener from popup
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     if ((new Date()).getTime() - lastCommand < 500) {
         //dont trigger twice
     }
-    else if (request.wnsnippet) {
+
+    if (request.wnsnippet) {
         insertTextAtCursor(request.wnsnippet);
     }
     else if (request.decsnippet) {
@@ -19,12 +19,14 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     else if (request.decsnippet8) {
         replaceSelectedText8(request.decsnippet8);
     }
+    else if (request.opengroup) {
+        opengroup();
+    }
     else if (request.openall) {
         openall();
     }
 
     lastCommand = (new Date()).getTime();
-
 });
 
 function insertTextAtCursor(text) {
@@ -86,19 +88,72 @@ function replaceSelectedText8() {
     el.value = fullText;
 }
 
-function openall() {
-    console.log("openall");
+function opengroup() {
+    console.log("opengroup");
     var list_incident = document.activeElement.parentElement.parentElement.parentElement;
     var list_group = document.activeElement.parentElement.parentElement;
     var list_group_index = Array.from(list_group.parentNode.children).indexOf(list_group);
+    var compteur = 0;
     for (let i = list_group_index + 1; i < list_incident.childNodes.length; i++) {
+        console.log(compteur);
         if(list_incident.childNodes[i].className.includes("list_group")) {
           return;
         }
+
         if (list_incident.childNodes[i].className.includes("list_row ")) {
+            if (compteur == 19) {
+                const response = confirm("20 tabs are already open. Would you like to continue ?");
+                if (!response) {
+                  return;
+                }
+            }
             var link = list_incident.childNodes[i].childNodes[2].childNodes[0];
             window.open(link.href);
+            compteur+= 1;
         }
     }
-
 }
+
+function openall() {
+    console.log("openall");
+    var incident_table = document.getElementById("incident_table"); 
+    if (incident_table != null) {
+        var list_incident = incident_table.childNodes[2];
+        var compteur = 0;
+        for (let i = 0; i < list_incident.childNodes.length; i++) {
+            console.log(list_incident.childNodes[i]);
+            if (list_incident.childNodes[i].className.includes("list_row ")) {
+                if (compteur == 19) {
+                    const response = confirm("20 tabs are already open. Would you like to continue ?");
+                    if (!response) {
+                      return;
+                    }
+                }
+                var link = list_incident.childNodes[i].childNodes[2].childNodes[0];
+                window.open(link.href);
+                compteur+= 1;
+            }
+        }
+    }
+    
+    var change_request_table = document.getElementById("change_request_table"); 
+    if (change_request_table != null) {
+        var list_change = change_request_table.childNodes[2];
+        var compteur = 0;
+        for (let i = 0; i < list_change.childNodes.length; i++) {
+            console.log(list_change.childNodes[i]);
+            if (list_change.childNodes[i].className.includes("list_row ")) {
+                if (compteur == 19) {
+                    const response = confirm("20 tabs are already open. Would you like to continue ?");
+                    if (!response) {
+                      return;
+                    }
+                }
+                var link = list_change.childNodes[i].childNodes[2].childNodes[0];
+                window.open(link.href);
+                compteur+= 1;
+            }
+        }
+    }
+}
+

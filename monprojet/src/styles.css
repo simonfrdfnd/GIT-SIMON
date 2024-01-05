@@ -75,3 +75,30 @@
   color: #ff0000; /* Ou une couleur de texte de votre choix */
   /* Ajoutez d'autres styles au besoin */
 }
+
+.paragraph-container-hidden {
+  position: absolute;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 75%;
+  bottom: 80px;
+  opacity: 50;
+}
+
+.button-hidden {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #8B4513;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #CD853F;
+  font-family: 'Cinzel';
+  opacity: 0;
+}

@@ -8,7 +8,8 @@ const HomePage = () => {
 
   return (
     <PageLayout backgroundImage='url("/images/background.webp")'>
-      <h1 className='title'>Le voyage de Célia</h1>
+      <h1 className='title'><h1 className='title'>Le voyage de Célia</h1>
+      <h2 className='title'>L'anneau divin</h2></h1>
       <h2 className='title'>L'anneau divin</h2>
       <Link to="/intro1" className="button">
         Introduction

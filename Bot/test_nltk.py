@@ -30,11 +30,11 @@ print(f"Time taken to fetch incidents from the database: {end_time - start_time}
 start_time = time.time()
 
 # Extraire les descriptions de problème de chaque ticket depuis la base de données
-existing_tickets = [row[1] for row in rows]  # Utiliser à la fois la short description et la description complète
+existing_tickets = [(row[1], row[2]) for row in rows]  # Utiliser à la fois la short description et la description complète
 
 # Prétraitement des données existantes
-def preprocess_text(short_description):
-    text = f"{short_description}".lower()  # Combinaison de la short description et de la description
+def preprocess_text(short_description, description):
+    text = f"{short_description} {description}".lower()  # Combinaison de la short description et de la description
     words = word_tokenize(text)
     stop_words = set(stopwords.words('english'))
     words = [word for word in words if word not in stop_words]
@@ -42,13 +42,14 @@ def preprocess_text(short_description):
     words = [stemmer.stem(word) for word in words]
     return ' '.join(words)
 
-preprocessed_tickets = [preprocess_text(ticket) for ticket in existing_tickets]
+preprocessed_tickets = [preprocess_text(short_description, description) for short_description, description in existing_tickets]
 
 # Nouveau ticket (à remplacer par la saisie de l'utilisateur)
-new_ticket_short_description = "ESW mode for scan"
+new_ticket_short_description = "le parametre du measurement time n'est pas envoyé correctement à l'ESW8 (EMI test receiver)"
+new_ticket_description = "Suite à la derniere mise à jour de BAT, il y a un nouveau probleme avec le driver de l'ESW8 qui est apparu. Le mesurement time est systematiquement réglé à 1ms sur l'EMI test receiver quelque soit la valeur indiquée dans BAT. Le probleme apparait quelque soit le mode de l'EMI (time domain ou linear scan). En configurant l ESW avec le driver de l ESR, on s apercoit que le probleme est résolu. Mais c etait juste pour identifier que le probleme vient bien du driver ESW.dll Pouvez-vous rapidement fixer ce probleme ?"
 
 # Prétraitement du nouveau ticket
-preprocessed_new_ticket = preprocess_text(new_ticket_short_description)
+preprocessed_new_ticket = preprocess_text(new_ticket_short_description, new_ticket_description)
 
 # Utilisation de TF-IDF pour la représentation vectorielle des tickets
 vectorizer = TfidfVectorizer()

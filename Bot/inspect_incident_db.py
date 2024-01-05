@@ -11,7 +11,7 @@ rows = cursor.fetchall()
 
 # Afficher les données
 print(str(len(rows)) + " incidents")
-
+print(rows[0])
 # for row in rows[-10:]:
 #     print(row)
 #     print()

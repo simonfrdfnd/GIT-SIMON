@@ -3,7 +3,7 @@
     "short_name": "SN Utils - Nexio",
     "description": "ServiceNow Productivity tools.",
     "author": "Simon Froidefond",
-    "version": "1.0.1.0",
+    "version": "1.0.3.0",
     "manifest_version": 3,
     "permissions": [
       "activeTab",

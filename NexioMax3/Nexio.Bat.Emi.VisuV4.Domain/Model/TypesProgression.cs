@@ -1,7 +1,7 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Model
+﻿namespace NexioMax3.Domain.Model
 {
   using System.ComponentModel;
-  using Nexio.Bat.Emi.VisuV4.Domain.Service;
+  using NexioMax3.Domain.Service;
 
   [TypeConverter(typeof(DomainEnumConverter<TypesProgression>))]
   public enum TypesProgression

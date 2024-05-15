@@ -1,7 +1,7 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model.EMIOverrides2
-{
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+﻿using NexioMax3.Domain.Model;
 
+namespace NexioMax3.Domain.Configuration.Model.EMIOverrides2
+{
   public class EmiOverrideCurve : StyleDefinition
   {
     public Detector Detector { get; set; }

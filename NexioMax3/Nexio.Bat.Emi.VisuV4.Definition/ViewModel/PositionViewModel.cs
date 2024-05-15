@@ -1,10 +1,10 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Definition.ViewModel
+﻿namespace NexioMax3.Definition.ViewModel
 {
   using Nexio.Wpf.Base;
 
   public class PositionViewModel : ViewModelBase
   {
-    public static readonly PositionViewModel All = new PositionViewModel() { Id = -1, Name = Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All };
+    public static readonly PositionViewModel All = new PositionViewModel() { Id = -1, Name = NexioMax3.Definition.Properties.Resources.All };
     private int id;
     private string name;
 

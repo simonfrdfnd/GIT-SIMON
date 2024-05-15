@@ -1,10 +1,10 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model
+﻿namespace NexioMax3.Domain.Configuration.Model
 {
   using System;
   using System.IO;
   using Newtonsoft.Json;
   using Nexio.Bat.Common.Domain.Infrastructure.Service;
-  using Nexio.Bat.Emi.VisuV4.Domain;
+  using NexioMax3.Domain;
 
   public class VisuV4Config
   {

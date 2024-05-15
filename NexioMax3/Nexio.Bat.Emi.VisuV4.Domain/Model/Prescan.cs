@@ -1,5 +1,5 @@
 ﻿#pragma warning disable SA1618
-namespace Nexio.Bat.Emi.VisuV4.Domain.Model
+namespace NexioMax3.Domain.Model
 {
   using System;
   using System.Collections.Generic;

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Nexio.Bat.Emi.VisuV4.EmiOverride.Standalone
+namespace NexioMax3.EmiOverride.Standalone
 {
   using System.Globalization;
   using System.Threading;
@@ -49,7 +49,7 @@ namespace Nexio.Bat.Emi.VisuV4.EmiOverride.Standalone
 
       try
       {
-        Common.Domain.Infrastructure.AccessDataBase.DataBase.Instance.Open(pathDatabase, string.Empty, -1);
+        Nexio.Bat.Common.Domain.Infrastructure.AccessDataBase.DataBase.Instance.Open(pathDatabase, string.Empty, -1);
       }
       catch (Exception ex)
       {

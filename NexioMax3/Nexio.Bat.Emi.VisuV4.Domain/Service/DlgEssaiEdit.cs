@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Service
+﻿namespace NexioMax3.Domain.Service
 {
   using System;
   using System.Collections.Generic;
@@ -7,7 +7,7 @@
   using log4net;
   using Nexio.Bat.Common.Domain.Infrastructure;
   using Nexio.Bat.Common.Domain.Infrastructure.AccessDataBase;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Model;
   using Nexio.Helper;
 
   /// <summary>

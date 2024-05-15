@@ -1,8 +1,8 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Engine
+﻿namespace NexioMax3.Domain.Engine
 {
   using System.ComponentModel;
   using Nexio.Bat.Common.Domain.Equipment.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Service;
+  using NexioMax3.Domain.Service;
 
   public enum Axis
   {

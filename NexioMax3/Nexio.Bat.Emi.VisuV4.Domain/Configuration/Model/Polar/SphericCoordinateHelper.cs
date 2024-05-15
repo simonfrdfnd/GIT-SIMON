@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model.Polar
+﻿namespace NexioMax3.Domain.Configuration.Model.Polar
 {
   using System;
   using System.IO;

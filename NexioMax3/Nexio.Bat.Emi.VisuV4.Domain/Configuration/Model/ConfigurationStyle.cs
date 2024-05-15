@@ -1,10 +1,10 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model
+﻿namespace NexioMax3.Domain.Configuration.Model
 {
+  using global::NexioMax3.Domain.Model;
   using Newtonsoft.Json;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
 
   [JsonObject(MemberSerialization.OptIn)]
-  public class ConfigurationStyle : Base.ModelBase
+  public class ConfigurationStyle : Nexio.Base.ModelBase
   {
     public ConfigurationStyle()
     {

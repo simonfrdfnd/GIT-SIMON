@@ -1,10 +1,10 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Definition.Converters
+﻿namespace NexioMax3.Definition.Converters
 {
   using System;
   using System.Globalization;
   using System.Windows;
   using System.Windows.Data;
-  using Nexio.Bat.Emi.VisuV4.Definition.ViewModel;
+  using NexioMax3.Definition.ViewModel;
 
   public class SelectionToOverrideGroupConverter : IValueConverter
   {

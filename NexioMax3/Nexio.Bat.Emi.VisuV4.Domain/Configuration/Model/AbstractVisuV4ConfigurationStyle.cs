@@ -1,8 +1,8 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model
+﻿namespace NexioMax3.Domain.Configuration.Model
 {
   using Newtonsoft.Json;
 
-  public abstract class AbstractVisuV4ConfigurationStyle : Base.ModelBase
+  public abstract class AbstractVisuV4ConfigurationStyle : Nexio.Base.ModelBase
   {
     [JsonProperty(PropertyName = "Color")]
     public string Color { get; set; }

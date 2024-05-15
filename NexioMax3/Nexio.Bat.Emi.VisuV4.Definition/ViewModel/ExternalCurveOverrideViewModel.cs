@@ -1,28 +1,28 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Definition.ViewModel
+﻿namespace NexioMax3.Definition.ViewModel
 {
   using System.Collections.Generic;
   using System.Collections.ObjectModel;
   using System.Linq;
   using System.Windows.Media;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model.EMIOverrides2;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Configuration.Model;
+  using NexioMax3.Domain.Configuration.Model.EMIOverrides2;
+  using NexioMax3.Domain.Model;
   using Nexio.Validation;
   using Nexio.Wpf.Base;
 
   public class ExternalCurveOverrideViewModel : ValidationViewModelBase
   {
-    public static readonly string ImportedFromFile = Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.ImportedFromFile;
-    public static readonly string OldProject = Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.OldProjectV3OrMax;
-    public static readonly string AllProject = Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All;
-    public static readonly string AllPosition = Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All;
+    public static readonly string ImportedFromFile = NexioMax3.Definition.Properties.Resources.ImportedFromFile;
+    public static readonly string OldProject = NexioMax3.Definition.Properties.Resources.OldProjectV3OrMax;
+    public static readonly string AllProject = NexioMax3.Definition.Properties.Resources.All;
+    public static readonly string AllPosition = NexioMax3.Definition.Properties.Resources.All;
 
-    private static readonly ValidationMessage AllPositionsCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(AllPositionsCovered)}Error", Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.OneOrMoreStyleCoverAllPositionsForThisCurve, new List<object>(), nameof(Position), nameof(Project), nameof(Name));
-    private static readonly ValidationMessage AllProjectError = new ValidationMessage(ValidationLevel.Error, typeof(ExternalCurveOverrideViewModel), nameof(AllProjectError), Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.OneOrMoreStyleCoverAllProjectsForThisDetector, new List<object>(), nameof(Project));
-    private static readonly ValidationMessage SameProject = new ValidationMessage(ValidationLevel.Error, typeof(ExternalCurveOverrideViewModel), nameof(SameProject), Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.OneOrMoreStyleCoverHaveTheSameProjectForThisDetector, new List<object>(), nameof(project));
-    private static readonly ValidationMessage AllCoveredError = new ValidationMessage(ValidationLevel.Error, typeof(ExternalCurveOverrideViewModel), nameof(AllCoveredError), Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.AtLeastOneCombinationProjectPositionCoversThisSourceSCombination, new List<object>(), nameof(Position), nameof(Project), nameof(Name));
-    private static readonly ValidationMessage CombinationCoveredError = new ValidationMessage(ValidationLevel.Error, typeof(ExternalCurveOverrideViewModel), nameof(CombinationCoveredError), Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.ThisCombinationProjectNamePositionIsAlreadyDefined, new List<object>(), nameof(Position), nameof(Project), nameof(Name));
-    private static readonly ValidationMessage NoNameError = new ValidationMessage(ValidationLevel.Error, typeof(ExternalCurveOverrideViewModel), nameof(NoNameError), Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.NoNameForThisCurve, new List<object>(), nameof(Name));
+    private static readonly ValidationMessage AllPositionsCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(AllPositionsCovered)}Error", NexioMax3.Definition.Properties.Resources.OneOrMoreStyleCoverAllPositionsForThisCurve, new List<object>(), nameof(Position), nameof(Project), nameof(Name));
+    private static readonly ValidationMessage AllProjectError = new ValidationMessage(ValidationLevel.Error, typeof(ExternalCurveOverrideViewModel), nameof(AllProjectError), NexioMax3.Definition.Properties.Resources.OneOrMoreStyleCoverAllProjectsForThisDetector, new List<object>(), nameof(Project));
+    private static readonly ValidationMessage SameProject = new ValidationMessage(ValidationLevel.Error, typeof(ExternalCurveOverrideViewModel), nameof(SameProject), NexioMax3.Definition.Properties.Resources.OneOrMoreStyleCoverHaveTheSameProjectForThisDetector, new List<object>(), nameof(project));
+    private static readonly ValidationMessage AllCoveredError = new ValidationMessage(ValidationLevel.Error, typeof(ExternalCurveOverrideViewModel), nameof(AllCoveredError), NexioMax3.Definition.Properties.Resources.AtLeastOneCombinationProjectPositionCoversThisSourceSCombination, new List<object>(), nameof(Position), nameof(Project), nameof(Name));
+    private static readonly ValidationMessage CombinationCoveredError = new ValidationMessage(ValidationLevel.Error, typeof(ExternalCurveOverrideViewModel), nameof(CombinationCoveredError), NexioMax3.Definition.Properties.Resources.ThisCombinationProjectNamePositionIsAlreadyDefined, new List<object>(), nameof(Position), nameof(Project), nameof(Name));
+    private static readonly ValidationMessage NoNameError = new ValidationMessage(ValidationLevel.Error, typeof(ExternalCurveOverrideViewModel), nameof(NoNameError), NexioMax3.Definition.Properties.Resources.NoNameForThisCurve, new List<object>(), nameof(Name));
 
     private string project = AllProject;
     private Color? color = Colors.Black;
@@ -107,7 +107,7 @@
         Color = color,
         Detector = detector,
         IsVisible = true,
-        Position = Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All, // PositionViewModel.All,
+        Position = NexioMax3.Definition.Properties.Resources.All, // PositionViewModel.All,
         OverrideIsVisible = false,
         OverrideWidth = def.OverrideWidth,
         OverrideColor = def.OverrideColor,

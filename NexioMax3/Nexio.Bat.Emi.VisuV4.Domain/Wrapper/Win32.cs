@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Wrapper
+﻿namespace NexioMax3.Domain.Wrapper
 {
   using System;
   using System.Collections.Generic;
@@ -6,7 +6,7 @@
   using System.Runtime.InteropServices;
   using System.Text;
   using Microsoft.Win32;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Model;
 
   public static class Win32
   {

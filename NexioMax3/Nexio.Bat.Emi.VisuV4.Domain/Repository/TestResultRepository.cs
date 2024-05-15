@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Repository
+﻿namespace NexioMax3.Domain.Repository
 {
   using System;
   using System.Data.OleDb;
@@ -9,7 +9,7 @@
   using Newtonsoft.Json.Converters;
   using Newtonsoft.Json.Linq;
   using Nexio.Bat.Common.Domain.Infrastructure;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Service;
+  using NexioMax3.Domain.Configuration.Service;
   using Nexio.Helper;
 
   public class TestResultRepository : IRepository<TestResult>

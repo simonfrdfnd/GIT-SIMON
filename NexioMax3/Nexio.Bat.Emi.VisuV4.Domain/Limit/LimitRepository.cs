@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Limit
+﻿namespace NexioMax3.Domain.Limit
 {
   using System;
   using System.Collections.Generic;

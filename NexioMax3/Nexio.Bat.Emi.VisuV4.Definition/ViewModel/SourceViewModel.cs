@@ -1,10 +1,10 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Definition.ViewModel
+﻿namespace NexioMax3.Definition.ViewModel
 {
   using Nexio.Wpf.Base;
 
   public class SourceViewModel : ViewModelBase
   {
-    public static readonly SourceViewModel All = new SourceViewModel(Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All);
+    public static readonly SourceViewModel All = new SourceViewModel(NexioMax3.Definition.Properties.Resources.All);
     private string displayName;
 
     public SourceViewModel()
@@ -20,7 +20,7 @@
 
     public string DisplayName
     {
-      get => this.displayName ?? Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Other;
+      get => this.displayName ?? NexioMax3.Definition.Properties.Resources.Other;
       set => this.Set(nameof(this.DisplayName), ref this.displayName, value);
     }
   }

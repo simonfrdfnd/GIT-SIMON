@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Service
+﻿namespace NexioMax3.Domain.Service
 {
   using System.Data.OleDb;
   using Nexio.Bat.Common.Domain.Infrastructure.AccessDataBase;

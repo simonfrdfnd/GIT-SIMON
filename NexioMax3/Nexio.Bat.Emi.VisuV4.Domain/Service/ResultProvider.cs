@@ -1,11 +1,11 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Service
+﻿namespace NexioMax3.Domain.Service
 {
   using System;
   using System.Collections.Generic;
   using System.Linq;
   using System.Text;
   using System.Threading.Tasks;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Model;
 
   public class ResultProvider
   {

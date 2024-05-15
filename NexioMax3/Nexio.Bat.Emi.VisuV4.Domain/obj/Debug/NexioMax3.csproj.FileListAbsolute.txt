@@ -1,0 +1,4 @@
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\NexioMax3.csproj.AssemblyReference.cache
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\NexioMax3.Domain.Properties.Resources.resources
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\NexioMax3.csproj.GenerateResource.cache
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\NexioMax3.csproj.CoreCompileInputs.cache

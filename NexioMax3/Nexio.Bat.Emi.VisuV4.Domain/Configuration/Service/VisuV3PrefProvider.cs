@@ -1,9 +1,10 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Service
+﻿namespace NexioMax3.Domain.Configuration.Service
 {
   using System;
   using System.Collections.Generic;
   using System.Xml;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model;
+  using Nexio;
+  using NexioMax3.Domain.Configuration.Model;
 
   internal class VisuV3PrefProvider
   {

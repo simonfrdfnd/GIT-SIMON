@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Wrapper
+﻿namespace NexioMax3.Domain.Wrapper
 {
   using System;
   using System.Collections.Generic;
@@ -6,7 +6,7 @@
   using System.Runtime.InteropServices;
   using System.Text;
   using System.Threading;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Model;
   using Nexio.Helper;
   using Nexio.Tools;
 
@@ -2070,7 +2070,7 @@
         {
           if (optionnalFunction == false)
           {
-            throw new Exception(string.Format(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.CanNotLoad0Function1, "Bat_data.dll", cppFunctionName));
+            throw new Exception(string.Format(NexioMax3.Domain.Properties.Resources.CanNotLoad0Function1, "Bat_data.dll", cppFunctionName));
           }
           else
           {
@@ -2247,7 +2247,7 @@
         }
         else
         {
-          throw new Exception(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.CanNotLoad + dllPath);
+          throw new Exception(NexioMax3.Domain.Properties.Resources.CanNotLoad + dllPath);
         }
 
         this.IsInitialized = true;

@@ -1,10 +1,10 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model
+﻿namespace NexioMax3.Domain.Configuration.Model
 {
   using System.Collections.Generic;
   using Newtonsoft.Json;
 
   [JsonObject(MemberSerialization.OptIn)]
-  public class GraphicOptions : Base.ModelBase
+  public class GraphicOptions : Nexio.Base.ModelBase
   {
     public string BackgroundColor { get; set; }
 

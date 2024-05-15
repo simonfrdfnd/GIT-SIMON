@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Model
+﻿namespace NexioMax3.Domain.Model
 {
   /// <summary>
   /// Copie de ce fichier dans Nexio.Bat.Report.EmiWithoutBand.Enum si l'un change penser à changer l'autre

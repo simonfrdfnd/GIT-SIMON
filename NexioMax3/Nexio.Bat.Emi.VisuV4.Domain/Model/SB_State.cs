@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Model
+﻿namespace NexioMax3.Domain.Model
 {
   // Etat d'une sous bande
   public enum SB_State

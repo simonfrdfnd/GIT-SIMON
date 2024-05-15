@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Wrapper
+﻿namespace NexioMax3.Domain.Wrapper
 {
   using System;
   using System.Collections.Generic;
@@ -271,7 +271,7 @@
       {
         if (optionnalFunction == false)
         {
-          throw new Exception(string.Format(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.CanNotLoad0Function1, this.DllPath, cppFunctionName));
+          throw new Exception(string.Format(NexioMax3.Domain.Properties.Resources.CanNotLoad0Function1, this.DllPath, cppFunctionName));
         }
         else
         {
@@ -342,7 +342,7 @@
         else
         {
           Log.Fatal($"Load of {dllPath} failed");
-          throw new Exception(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.CanNotLoad + dllPath);
+          throw new Exception(NexioMax3.Domain.Properties.Resources.CanNotLoad + dllPath);
         }
 
         this.IsFree = false;

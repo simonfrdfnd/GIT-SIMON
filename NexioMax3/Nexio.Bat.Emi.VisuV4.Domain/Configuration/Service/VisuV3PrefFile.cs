@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Service
+﻿namespace NexioMax3.Domain.Configuration.Service
 {
   using System;
   using System.Collections.Generic;
@@ -6,9 +6,10 @@
   using System.Linq;
   using System.Text;
   using System.Threading.Tasks;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Configuration.Model;
+  using NexioMax3.Domain.Model;
   using Nexio.Helper;
+  using Nexio;
 
   public class VisuV3PrefFile
   {

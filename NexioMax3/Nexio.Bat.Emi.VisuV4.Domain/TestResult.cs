@@ -1,11 +1,11 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain
+﻿namespace NexioMax3.Domain
 {
   using System;
   using System.Collections.Generic;
   using Newtonsoft.Json;
   using Nexio.Bat.Common.Domain.Infrastructure;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Configuration.Model;
+  using NexioMax3.Domain.Model;
 
   [IgnoreT4Generation]
   [JsonObject(MemberSerialization.OptIn)]

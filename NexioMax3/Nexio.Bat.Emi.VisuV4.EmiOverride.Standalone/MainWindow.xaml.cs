@@ -1,8 +1,8 @@
 ﻿using System.Windows;
 
-namespace Nexio.Bat.Emi.VisuV4.EmiOverride.Standalone
+namespace NexioMax3.EmiOverride.Standalone
 {
-  using Nexio.Bat.Emi.VisuV4.Definition.ViewModel;
+  using NexioMax3.Definition.ViewModel;
 
   /// <summary>
   /// Logique d'interaction pour MainWindow.xaml

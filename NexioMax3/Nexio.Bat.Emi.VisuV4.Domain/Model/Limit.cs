@@ -1,9 +1,9 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Model
+﻿namespace NexioMax3.Domain.Model
 {
   using System;
   using System.Collections.Generic;
   using System.Linq;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model;
+  using NexioMax3.Domain.Configuration.Model;
   using Nexio.Enums;
 
   public class Limit
@@ -19,7 +19,7 @@
       {
         if (!this.FullLoaded)
         {
-          if (Nexio.Bat.Emi.VisuV4.Domain.Service.Provider.Instance.GetLimiteNiveaux(this.Index, out int iNbVal, out double[] fFreq, out double[] fNiveaux))
+          if (NexioMax3.Domain.Service.Provider.Instance.GetLimiteNiveaux(this.Index, out int iNbVal, out double[] fFreq, out double[] fNiveaux))
           {
             // Transmet les valeurs de niveaux pour cette limite au graphe
             for (int j = 0; j < iNbVal; j += 2)
@@ -74,7 +74,7 @@
     /// <returns>Limit name</returns>
     public string GetFormatedName(bool useShowLimitDirectoryOption = false)
     {
-      int optionDesc = Common.Domain.Infrastructure.Service.OptionProvider.GetOptionValue(Common.Domain.Infrastructure.Service.OptionProvider.Options.DescLimitInsteadName);
+      int optionDesc = Nexio.Bat.Common.Domain.Infrastructure.Service.OptionProvider.GetOptionValue(Nexio.Bat.Common.Domain.Infrastructure.Service.OptionProvider.Options.DescLimitInsteadName);
       if (optionDesc == 1)
       {
         return this.Description;

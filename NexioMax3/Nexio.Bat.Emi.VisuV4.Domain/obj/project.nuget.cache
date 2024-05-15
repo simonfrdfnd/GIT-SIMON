@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6pgDNZo+b6WUvDePFkrX9v6wBrXGSbjFFaf5cmVT5kXtHeIim0a7B9FhcKDhYA39dj6M7/k5ZPXKHwD4BvbvFA==",
+  "dgSpecHash": "sqjUKnIzZcO5p1wxUajmSB0HUvfj6hyax+t098+qonASrtlRxgSGkAOlHMF0IoGhtW+lCdY5U/IbEU4+sF9C8g==",
   "success": true,
-  "projectFilePath": "C:\\0_DEV\\GIT-SIMON\\NexioMax3\\Nexio.Bat.Emi.VisuV4.Domain\\Nexio.Bat.Emi.VisuV4.Domain.csproj",
+  "projectFilePath": "C:\\0_DEV\\GIT-SIMON\\NexioMax3\\Nexio.Bat.Emi.VisuV4.Domain\\NexioMax3.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simon.froidefond\\.nuget\\packages\\aspose.words\\23.7.0\\aspose.words.23.7.0.nupkg.sha512",
     "C:\\Users\\simon.froidefond\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",

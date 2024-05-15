@@ -1,23 +1,23 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Definition.ViewModel
+﻿namespace NexioMax3.Definition.ViewModel
 {
   using System.Collections.Generic;
   using System.Collections.ObjectModel;
   using System.Linq;
   using System.Windows.Media;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model.EMIOverrides2;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Configuration.Model;
+  using NexioMax3.Domain.Configuration.Model.EMIOverrides2;
+  using NexioMax3.Domain.Model;
   using Nexio.Validation;
   using Nexio.Wpf.Base;
 
   public class CurveOverrideViewModel : ValidationViewModelBase
   {
-    private static readonly ValidationMessage AllPositionError = new ValidationMessage(ValidationLevel.Error, typeof(CurveOverrideViewModel), "IncompatiblePositionAll", Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.OneOrMoreStyleCoverAllPositionsForThisDetector, new List<object>(), nameof(Position));
+    private static readonly ValidationMessage AllPositionError = new ValidationMessage(ValidationLevel.Error, typeof(CurveOverrideViewModel), "IncompatiblePositionAll", NexioMax3.Definition.Properties.Resources.OneOrMoreStyleCoverAllPositionsForThisDetector, new List<object>(), nameof(Position));
 
-    private static readonly ValidationMessage SamePositionError = new ValidationMessage(ValidationLevel.Error, typeof(CurveOverrideViewModel), "IncompatiblePositionSame", Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.OneOrMoreStyleCoverHaveTheSamePositionForThisDetector, new List<object>(), nameof(Position));
+    private static readonly ValidationMessage SamePositionError = new ValidationMessage(ValidationLevel.Error, typeof(CurveOverrideViewModel), "IncompatiblePositionSame", NexioMax3.Definition.Properties.Resources.OneOrMoreStyleCoverHaveTheSamePositionForThisDetector, new List<object>(), nameof(Position));
 
     private Detector detector = Detector.AVERAGE;
-    private string position = Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All;
+    private string position = NexioMax3.Definition.Properties.Resources.All;
     private Color? color = Colors.Black;
     private bool isVisible = true;
     private bool isValid;
@@ -99,7 +99,7 @@
         Color = color,
         Detector = detector,
         IsVisible = true,
-        Position = Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All,
+        Position = NexioMax3.Definition.Properties.Resources.All,
         OverrideIsVisible = false,
         OverrideWidth = def.OverrideWidth,
         OverrideColor = def.OverrideColor,
@@ -180,7 +180,7 @@
         return validationMessages;
       }
 
-      if (Equals(curve1.Position, Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All) || Equals(curve2.Position, Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All))
+      if (Equals(curve1.Position, NexioMax3.Definition.Properties.Resources.All) || Equals(curve2.Position, NexioMax3.Definition.Properties.Resources.All))
       {
         // si une des position est All alors l'autre est forcément incompatible
         validationMessages.Add(AllPositionError);

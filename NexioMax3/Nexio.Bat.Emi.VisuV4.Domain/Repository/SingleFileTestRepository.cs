@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Repository
+﻿namespace NexioMax3.Domain.Repository
 {
   using System;
   using System.IO;
@@ -147,7 +147,7 @@
       if (filesInTempath != null && filesInTempath.Length == 0)
       {
         Log.ErrorFormat("CACHE : No files found in desc.TempPath: {0}", desc.TempPath);
-        throw new DomainException(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.CanNotSaveTheTestRiskToDeleteFiles);
+        throw new DomainException(NexioMax3.Domain.Properties.Resources.CanNotSaveTheTestRiskToDeleteFiles);
       }
       else
       {

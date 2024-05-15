@@ -1,0 +1,5 @@
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.NexioMax3.Definition.csproj.AssemblyReference.cache
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\View\EmiOverrideView.g.cs
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.NexioMax3.Definition_MarkupCompile.cache
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.NexioMax3.Definition_MarkupCompile.lref

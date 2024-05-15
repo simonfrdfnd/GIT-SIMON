@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Definition.Markups
+﻿namespace NexioMax3.Definition.Markups
 {
   using System;
   using System.Collections.Generic;

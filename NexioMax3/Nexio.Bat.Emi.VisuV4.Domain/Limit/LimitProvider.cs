@@ -1,12 +1,12 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Limit
+﻿namespace NexioMax3.Domain.Limit
 {
   using System.Collections.Generic;
   using System.Linq;
   using Nexio.Bat.Common.Domain.ATDB.Model;
   using Nexio.Bat.Common.Domain.Grammar.Model;
   using Nexio.Bat.Common.Domain.Grammar.Service;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Service;
+  using NexioMax3.Domain.Model;
+  using NexioMax3.Domain.Service;
 
   public class LimitProvider
   {

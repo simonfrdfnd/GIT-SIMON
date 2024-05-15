@@ -1,7 +1,7 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model
+﻿namespace NexioMax3.Domain.Configuration.Model
 {
   using Newtonsoft.Json;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Model;
 
   public class EnvSuspectConfigurationStyle
   {

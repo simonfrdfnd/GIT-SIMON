@@ -1,8 +1,9 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model.EMIOverrides2
+﻿namespace NexioMax3.Domain.Configuration.Model.EMIOverrides2
 {
   using System.Collections.Generic;
   using System.IO;
   using Newtonsoft.Json;
+  using Nexio.Bat.Common.Domain;
   using Nexio.Bat.Common.Domain.Infrastructure.Service;
   using Nexio.Helper;
   using Nexio.Tools;

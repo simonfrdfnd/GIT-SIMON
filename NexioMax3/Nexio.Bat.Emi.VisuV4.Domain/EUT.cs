@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain
+﻿namespace NexioMax3.Domain
 {
   using System;
   using Nexio.Bat.Common.Domain.TestDefinition.Model;

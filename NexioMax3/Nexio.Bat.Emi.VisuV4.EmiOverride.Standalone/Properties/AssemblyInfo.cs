@@ -7,11 +7,11 @@ using System.Windows;
 // Les informations générales relatives à un assembly dépendent de
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("Nexio.Bat.Emi.VisuV4.EmiOverride.Standalone")]
+[assembly: AssemblyTitle("NexioMax3.EmiOverride.Standalone")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Nexio.Bat.Emi.VisuV4.EmiOverride.Standalone")]
+[assembly: AssemblyProduct("NexioMax3.EmiOverride.Standalone")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -1,7 +1,7 @@
-﻿<Application x:Class="Nexio.Bat.Emi.VisuV4.EmiOverride.Standalone.App"
+﻿<Application x:Class="NexioMax3.EmiOverride.Standalone.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Nexio.Bat.Emi.VisuV4.EmiOverride.Standalone"
+             xmlns:local="clr-namespace:NexioMax3.EmiOverride.Standalone"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

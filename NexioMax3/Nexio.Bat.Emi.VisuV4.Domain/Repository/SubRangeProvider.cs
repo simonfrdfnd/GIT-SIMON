@@ -1,15 +1,16 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Repository
+﻿namespace NexioMax3.Domain.Repository
 {
   using System;
   using System.Collections.Generic;
   using System.Data.OleDb;
   using System.Linq;
+  using Nexio;
   using Nexio.Bat.Common.Domain.ATDB.Service;
   using Nexio.Bat.Common.Domain.Infrastructure;
   using Nexio.Bat.Common.Domain.Infrastructure.AccessDataBase;
-  using Nexio.Bat.Emi.VisuV4.Domain.Engine;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model.Definition;
-  using Nexio.Bat.Emi.VisuV4.Domain.Service;
+  using NexioMax3.Domain.Engine;
+  using NexioMax3.Domain.Model.Definition;
+  using NexioMax3.Domain.Service;
 
   public class SubRangeProvider
   {

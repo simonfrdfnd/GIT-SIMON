@@ -1,9 +1,9 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Model
+﻿namespace NexioMax3.Domain.Model
 {
   using System;
   using System.Collections.Generic;
   using System.Linq;
-  using Nexio.Bat.Emi.VisuV4.Domain.Engine;
+  using NexioMax3.Domain.Engine;
 
   public enum MDS_Types
   {

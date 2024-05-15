@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Service
+﻿namespace NexioMax3.Domain.Configuration.Service
 {
   using System;
   using System.Collections.Generic;
@@ -7,10 +7,10 @@
   using System.Text.RegularExpressions;
   using Nexio.Bat.Common.Domain.Infrastructure.AccessDataBase;
   using Nexio.Bat.Common.Domain.Infrastructure.Service;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model.EMIOverrides2;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Service;
+  using NexioMax3.Domain.Configuration.Model;
+  using NexioMax3.Domain.Configuration.Model.EMIOverrides2;
+  using NexioMax3.Domain.Model;
+  using NexioMax3.Domain.Service;
   using Nexio.Defensive;
 
   public class GraphicOptionHelper
@@ -158,7 +158,7 @@
     public GraphicOptions GetOverridedOptions(List<SubRange> subRanges, List<Limit> limits, List<ExternalCurve> extcurves)
     {
       Domain.Service.Provider.Instance.BatData.GetListePositions(out List<(int Id, string Name)> positions);
-      positions.Insert(0, (0, Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All));
+      positions.Insert(0, (0, NexioMax3.Domain.Properties.Resources.All));
 
       var overrideOptions = new GraphicOptions();
       // fill option.Curves
@@ -530,7 +530,7 @@
       var detector = (Detector)int.Parse(tag.Properties[CurveTag.DetectorKey]);
       {
         var style = data.Limits.FirstOrDefault(curve => curve.Detector == detector) ??
-                    data.Limits.FirstOrDefault(curve => curve.Detector == detector && (curve.Position?.Equals(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All, StringComparison.InvariantCultureIgnoreCase) ?? false));
+                    data.Limits.FirstOrDefault(curve => curve.Detector == detector && (curve.Position?.Equals(NexioMax3.Domain.Properties.Resources.All, StringComparison.InvariantCultureIgnoreCase) ?? false));
 
         if (style != null)
         {
@@ -655,9 +655,9 @@
         var allsources = styleList.Select(item => item.Source).Distinct().ToList();
 
         // On choisis la clé correspondant au tag (tag ou all)
-        var colKey = allcolumns.Any(c => c == tagColumn) ? tagColumn : Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All;
-        var posKey = allpositions.Any(p => p == position) ? position : Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All;
-        var sourceKey = allsources.Any(s => s == source) ? source : Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All;
+        var colKey = allcolumns.Any(c => c == tagColumn) ? tagColumn : NexioMax3.Domain.Properties.Resources.All;
+        var posKey = allpositions.Any(p => p == position) ? position : NexioMax3.Domain.Properties.Resources.All;
+        var sourceKey = allsources.Any(s => s == source) ? source : NexioMax3.Domain.Properties.Resources.All;
 
         // On filtre les styles corrspondants au clés (en théorie 1 ou 0)
         var filtered = styleList.Where(point => point.Column == colKey && point.Position == posKey && point.Source == sourceKey);
@@ -711,18 +711,18 @@
           position = positions.FirstOrDefault(p => p.Id == parsedPosition)?.Name;
         }
 
-        var styles = datas.Externals.Where(curve => (curve.Project == project || curve.Project == Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All)
-                                                 && (position == curve.Position || curve.Position == Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All)
+        var styles = datas.Externals.Where(curve => (curve.Project == project || curve.Project == NexioMax3.Domain.Properties.Resources.All)
+                                                 && (position == curve.Position || curve.Position == NexioMax3.Domain.Properties.Resources.All)
                                                  && (string.IsNullOrWhiteSpace(curve.Name)
                                                      || (curveName.StartsWith(curve.Name)
                                                         && curve.Name.Length <= curveName.Length))).OrderBy(curve => curveName.Length).ToArray();
 
         return styles.FirstOrDefault(curve => curve.Project == project && curve.Name == curveName && curve.Position == position) ??
-               styles.FirstOrDefault(curve => curve.Project == project && (string.IsNullOrWhiteSpace(curve.Name) || curveName.StartsWith(curve.Name)) && curve.Position == Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All) ??
-               styles.FirstOrDefault(curve => curve.Project == Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All && curve.Name == curveName && curve.Position == position) ??
-               styles.FirstOrDefault(curve => curve.Project == Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All && curve.Name == curveName && curve.Position == Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All) ??
-               styles.FirstOrDefault(curve => curve.Project == Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All && (string.IsNullOrWhiteSpace(curve.Name) || curveName.StartsWith(curve.Name)) && curve.Position == position) ??
-               styles.FirstOrDefault(curve => curve.Project == Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All && (string.IsNullOrWhiteSpace(curve.Name) || curveName.StartsWith(curve.Name)) && curve.Position == Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All);
+               styles.FirstOrDefault(curve => curve.Project == project && (string.IsNullOrWhiteSpace(curve.Name) || curveName.StartsWith(curve.Name)) && curve.Position == NexioMax3.Domain.Properties.Resources.All) ??
+               styles.FirstOrDefault(curve => curve.Project == NexioMax3.Domain.Properties.Resources.All && curve.Name == curveName && curve.Position == position) ??
+               styles.FirstOrDefault(curve => curve.Project == NexioMax3.Domain.Properties.Resources.All && curve.Name == curveName && curve.Position == NexioMax3.Domain.Properties.Resources.All) ??
+               styles.FirstOrDefault(curve => curve.Project == NexioMax3.Domain.Properties.Resources.All && (string.IsNullOrWhiteSpace(curve.Name) || curveName.StartsWith(curve.Name)) && curve.Position == position) ??
+               styles.FirstOrDefault(curve => curve.Project == NexioMax3.Domain.Properties.Resources.All && (string.IsNullOrWhiteSpace(curve.Name) || curveName.StartsWith(curve.Name)) && curve.Position == NexioMax3.Domain.Properties.Resources.All);
       }
 
       // else
@@ -735,7 +735,7 @@
           var style =
             datas.Prescans.FirstOrDefault(curve => curve.Detector == detector && curve.Position == position) ??
             datas.Prescans.FirstOrDefault(curve => curve.Detector == detector &&
-                                                   (curve.Position?.Equals(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All, StringComparison.InvariantCultureIgnoreCase) ?? false));
+                                                   (curve.Position?.Equals(NexioMax3.Domain.Properties.Resources.All, StringComparison.InvariantCultureIgnoreCase) ?? false));
 
           return style;
         }

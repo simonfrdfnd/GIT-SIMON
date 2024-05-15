@@ -1,11 +1,11 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model.EMIOverrides2
+﻿namespace NexioMax3.Domain.Configuration.Model.EMIOverrides2
 {
   public class EmiOverrideExternalCurve : StyleDefinition
   {
-    public string Project { get; set; } = Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All;
+    public string Project { get; set; } = NexioMax3.Domain.Properties.Resources.All;
 
     public string Name { get; set; }
 
-    public string Position { get; set; } = Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All;
+    public string Position { get; set; } = NexioMax3.Domain.Properties.Resources.All;
   }
 }

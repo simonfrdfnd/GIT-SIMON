@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Engine
+﻿namespace NexioMax3.Domain.Engine
 {
   using System;
   using System.Collections.Generic;
@@ -8,11 +8,12 @@
   using System.Threading.Tasks;
   using System.Timers;
   using System.Windows;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model.Execution;
-  using Nexio.Bat.Emi.VisuV4.Domain.Service;
-  using Nexio.Bat.Emi.VisuV4.Domain.Wrapper;
+  using NexioMax3.Domain.Model;
+  using NexioMax3.Domain.Model.Execution;
+  using NexioMax3.Domain.Service;
+  using NexioMax3.Domain.Wrapper;
   using Nexio.Helper;
+  using Nexio;
 
   public enum EngineRunState
   {
@@ -324,14 +325,14 @@
         // strFormat.LoadString(VISU_IDS_ERREUR_INIT_FONCTION);
         // m_sMessage.Format(strFormat, szNomDLL);
         // AfxMessageBox(m_sMessage);
-        this.currentProgressInfo.SetMessage(string.Format(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.ErrorInitFunction0, this.nomDllManu));
+        this.currentProgressInfo.SetMessage(string.Format(NexioMax3.Domain.Properties.Resources.ErrorInitFunction0, this.nomDllManu));
         this.currentProgress.Report(this.currentProgressInfo);
         return;
       }
 
       // SINON DLL chargée correctement
       timer.Start();
-      this.currentProgressInfo.SetMessage(string.Format(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.ExecuteFunction0, this.nomDllManu));
+      this.currentProgressInfo.SetMessage(string.Format(NexioMax3.Domain.Properties.Resources.ExecuteFunction0, this.nomDllManu));
       this.currentProgress.Report(this.currentProgressInfo);
 
       // Paramètres à afficher sur l'exécution de la 1ère SB
@@ -632,7 +633,7 @@
         // m_ProgressDlg.SetMessage(m_sMessage);
         this.currentProgressInfo.SetFreqRange(this.fFreqMin * 1e6, this.fFreqMax * 1e6);
         this.currentProgressInfo.SetFreqRangeTraitees(this.fFreqMin * 1e6, this.fFreqMax * 1e6);
-        this.currentProgressInfo.SetMessage(string.Format(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.InitFunction0, szNomDLL));
+        this.currentProgressInfo.SetMessage(string.Format(NexioMax3.Domain.Properties.Resources.InitFunction0, szNomDLL));
         this.currentProgress.Report(this.currentProgressInfo);
 
         // SI une nouvelle DLL doit être chargée
@@ -691,8 +692,8 @@
             // AfxMessageBox(m_sMessage);
             // bErreurExecution = TRUE;
             bErreurExecution = true;
-            log.ErrorFormat(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.ErrorInitFunction0, szNomDLL);
-            this.currentProgressInfo.SetMessage(string.Format(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.ErrorInitFunction0, szNomDLL));
+            log.ErrorFormat(NexioMax3.Domain.Properties.Resources.ErrorInitFunction0, szNomDLL);
+            this.currentProgressInfo.SetMessage(string.Format(NexioMax3.Domain.Properties.Resources.ErrorInitFunction0, szNomDLL));
             this.currentProgress.Report(this.currentProgressInfo);
           }
           else
@@ -702,7 +703,7 @@
             // m_sMessage.Format(strFormat, szNomDLL);
             // m_ProgressDlg.SetMessage(m_sMessage);
             timer.Start();
-            this.currentProgressInfo.SetMessage(string.Format(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.ExecuteFunction0, szNomDLL));
+            this.currentProgressInfo.SetMessage(string.Format(NexioMax3.Domain.Properties.Resources.ExecuteFunction0, szNomDLL));
             this.currentProgress.Report(this.currentProgressInfo);
 
             // Pour indiquer à la BD d'affichage que les services
@@ -944,7 +945,7 @@
         // TODO : gestion du progress
         this.currentProgressInfo.SetFreqRange(this.fFreqMin * 1e6, this.fFreqMax * 1e6);
         this.currentProgressInfo.SetFreqRangeTraitees(this.fFreqMin * 1e6, this.fFreqMax * 1e6);
-        this.currentProgressInfo.SetMessage(string.Format(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.InitFunction0, szNomDLL));
+        this.currentProgressInfo.SetMessage(string.Format(NexioMax3.Domain.Properties.Resources.InitFunction0, szNomDLL));
         this.currentProgress.Report(this.currentProgressInfo);
 
         // SI une nouvelle DLL doit être chargée
@@ -991,8 +992,8 @@
             // AfxMessageBox(m_sMessage);
             bErreurExecution = true;
 
-            log.ErrorFormat(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.ErrorInitFunction0, szNomDLL);
-            this.currentProgressInfo.SetMessage(string.Format(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.ErrorInitFunction0, szNomDLL));
+            log.ErrorFormat(NexioMax3.Domain.Properties.Resources.ErrorInitFunction0, szNomDLL);
+            this.currentProgressInfo.SetMessage(string.Format(NexioMax3.Domain.Properties.Resources.ErrorInitFunction0, szNomDLL));
             this.currentProgress.Report(this.currentProgressInfo);
           }
           else
@@ -1002,7 +1003,7 @@
             timer.Start();
 
             // SINON DLL chargée correctement
-            this.currentProgressInfo.SetMessage(string.Format(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.ExecuteFunction0, szNomDLL));
+            this.currentProgressInfo.SetMessage(string.Format(NexioMax3.Domain.Properties.Resources.ExecuteFunction0, szNomDLL));
             this.currentProgress.Report(this.currentProgressInfo);
 
             // strFormat.LoadString(VISU_IDS_EXECUTION_FONCTION);

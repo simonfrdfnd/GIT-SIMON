@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Definition.View
+﻿namespace NexioMax3.Definition.View
 {
   using System.Windows.Controls;
 

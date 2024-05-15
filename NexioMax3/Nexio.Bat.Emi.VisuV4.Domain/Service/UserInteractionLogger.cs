@@ -1,10 +1,10 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Service
+﻿namespace NexioMax3.Domain.Service
 {
   using System;
   using System.IO;
   using log4net;
   using log4net.Core;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Model;
 
   public class UserInteractionLogger
   {

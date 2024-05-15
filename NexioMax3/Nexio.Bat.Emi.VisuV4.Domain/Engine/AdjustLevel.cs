@@ -1,11 +1,12 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Engine
+﻿namespace NexioMax3.Domain.Engine
 {
   using System;
   using System.Collections.Generic;
   using System.Globalization;
   using System.Linq;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Service;
+  using Nexio;
+  using NexioMax3.Domain.Model;
+  using NexioMax3.Domain.Service;
 
   public class AdjustLevel
   {

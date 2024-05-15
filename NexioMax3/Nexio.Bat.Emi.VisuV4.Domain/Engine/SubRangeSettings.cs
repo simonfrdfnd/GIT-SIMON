@@ -1,7 +1,7 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Engine
+﻿namespace NexioMax3.Domain.Engine
 {
   using System.Collections.Generic;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Model;
 
   public class SubRangeSettings
   {

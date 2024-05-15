@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Wrapper
+﻿namespace NexioMax3.Domain.Wrapper
 {
   using System;
   using System.Collections.Generic;
@@ -287,7 +287,7 @@
         {
           if (optionnalFunction == false)
           {
-            throw new Exception(string.Format(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.CanNotLoad0Function1, "MesureManuelleMaxHold.dll", cppFunctionName));
+            throw new Exception(string.Format(NexioMax3.Domain.Properties.Resources.CanNotLoad0Function1, "MesureManuelleMaxHold.dll", cppFunctionName));
           }
           else
           {
@@ -371,7 +371,7 @@
         }
         else
         {
-          throw new Exception(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.CanNotLoad + dllPath);
+          throw new Exception(NexioMax3.Domain.Properties.Resources.CanNotLoad + dllPath);
         }
 
         return true;

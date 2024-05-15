@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Definition.Converters
+﻿namespace NexioMax3.Definition.Converters
 {
   using System;
   using System.Globalization;

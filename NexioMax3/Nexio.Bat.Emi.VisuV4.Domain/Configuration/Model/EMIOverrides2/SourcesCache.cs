@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model.EMIOverrides2
+﻿namespace NexioMax3.Domain.Configuration.Model.EMIOverrides2
 {
   using System;
   using System.Collections.Generic;
@@ -18,9 +18,9 @@
       var cached = GetSources();
       if (!cached.ContainsKey(source))
       {
-        if (!columns.Contains(Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All))
+        if (!columns.Contains(NexioMax3.Domain.Properties.Resources.All))
         {
-          columns.Insert(0, Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All);
+          columns.Insert(0, NexioMax3.Domain.Properties.Resources.All);
         }
 
         cached.Add(source, new DatasCache() { Columns = columns });
@@ -75,7 +75,7 @@
       {
         foreach (var src in srcCached.Sources)
         {
-          var data = new DatasCache() { Columns = new List<string>() { Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All } };
+          var data = new DatasCache() { Columns = new List<string>() { NexioMax3.Domain.Properties.Resources.All } };
           srcCached.SourceDic.Add(src, data);
         }
       }
@@ -102,7 +102,7 @@
     private static Dictionary<string, DatasCache> InitSourceFile()
     {
       var sourceDic = new Dictionary<string, DatasCache>();
-      List<string> columns = new List<string>() { Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.All };
+      List<string> columns = new List<string>() { NexioMax3.Domain.Properties.Resources.All };
       DatasCache dataCache = new DatasCache() { Columns = columns };
       sourceDic.Add("Manual", dataCache);
       sourceDic.Add("Max Hold Manual meas.", dataCache);

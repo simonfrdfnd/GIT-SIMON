@@ -1,31 +1,32 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Definition.ViewModel
+﻿namespace NexioMax3.Definition.ViewModel
 {
   using System;
   using System.Collections.Generic;
   using System.Collections.ObjectModel;
   using System.Linq;
   using System.Windows.Media;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model.EMIOverrides2;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Configuration.Model;
+  using NexioMax3.Domain.Configuration.Model.EMIOverrides2;
+  using NexioMax3.Domain.Model;
   using Nexio.Validation;
   using Nexio.Wpf.Base;
+  using Nexio;
 
   public class PointOverrideViewModel : ViewModelBase
   {
-    private static readonly ValidationMessage AllPositionsCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(AllPositionsCovered)}Error", Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.OneOrMoreStyleCoverAllPositionsForThisSource, new List<object>(), nameof(Position), nameof(SourceName), nameof(Column));
+    private static readonly ValidationMessage AllPositionsCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(AllPositionsCovered)}Error", NexioMax3.Definition.Properties.Resources.OneOrMoreStyleCoverAllPositionsForThisSource, new List<object>(), nameof(Position), nameof(SourceName), nameof(Column));
 
-    private static readonly ValidationMessage AllColumnsCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(AllColumnsCovered)}Error", Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.OneOrMoreStyleCoverAllColumnsForThisSource, new List<object>(), nameof(Position), nameof(SourceName), nameof(Column));
+    private static readonly ValidationMessage AllColumnsCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(AllColumnsCovered)}Error", NexioMax3.Definition.Properties.Resources.OneOrMoreStyleCoverAllColumnsForThisSource, new List<object>(), nameof(Position), nameof(SourceName), nameof(Column));
 
-    private static readonly ValidationMessage SameCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(SameCovered)}Error", Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.YourCombinationPositionSourceIsAlreadyCovered, new List<object>(), nameof(Position), nameof(SourceName), nameof(Column));
+    private static readonly ValidationMessage SameCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(SameCovered)}Error", NexioMax3.Definition.Properties.Resources.YourCombinationPositionSourceIsAlreadyCovered, new List<object>(), nameof(Position), nameof(SourceName), nameof(Column));
 
-    private static readonly ValidationMessage SameColumnCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(SameColumnCovered)}Error", Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.YourCombinationColumnSourceIsAlreadyCovered, new List<object>(), nameof(Position), nameof(SourceName), nameof(Column));
+    private static readonly ValidationMessage SameColumnCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(SameColumnCovered)}Error", NexioMax3.Definition.Properties.Resources.YourCombinationColumnSourceIsAlreadyCovered, new List<object>(), nameof(Position), nameof(SourceName), nameof(Column));
 
-    private static readonly ValidationMessage AllCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(AllCovered)}Error", Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.AtLeastOneCombinationColumnPositionCoversThisSourceSCombination, new List<object>(), nameof(Position), nameof(SourceName), nameof(Column));
+    private static readonly ValidationMessage AllCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(AllCovered)}Error", NexioMax3.Definition.Properties.Resources.AtLeastOneCombinationColumnPositionCoversThisSourceSCombination, new List<object>(), nameof(Position), nameof(SourceName), nameof(Column));
 
-    private static readonly ValidationMessage CombinationCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(CombinationCovered)}Error", Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.ThisCombinationSourceColumnPositionIsAlreadyDefined, new List<object>(), nameof(Position), nameof(SourceName), nameof(Column));
+    private static readonly ValidationMessage CombinationCovered = new ValidationMessage(ValidationLevel.Error, typeof(PointOverrideViewModel), $"{nameof(CombinationCovered)}Error", NexioMax3.Definition.Properties.Resources.ThisCombinationSourceColumnPositionIsAlreadyDefined, new List<object>(), nameof(Position), nameof(SourceName), nameof(Column));
 
-    private string position = Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All;
+    private string position = NexioMax3.Definition.Properties.Resources.All;
 
     private Color? color = Colors.Black;
 
@@ -47,7 +48,7 @@
 
     private string sourceName = "Peak";
 
-    private string column = Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All;
+    private string column = NexioMax3.Definition.Properties.Resources.All;
 
     private bool useProjection;
 
@@ -322,8 +323,8 @@
         return validationMessages;
       }
 
-      var isPXAllPosition = Equals(point1.Position, Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All) || Equals(point2.Position, Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All);
-      var isPXAllColumns = Equals(point1.Column, Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All) || Equals(point2.Column, Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All);
+      var isPXAllPosition = Equals(point1.Position, NexioMax3.Definition.Properties.Resources.All) || Equals(point2.Position, NexioMax3.Definition.Properties.Resources.All);
+      var isPXAllColumns = Equals(point1.Column, NexioMax3.Definition.Properties.Resources.All) || Equals(point2.Column, NexioMax3.Definition.Properties.Resources.All);
       var isSamePosition = (string.IsNullOrWhiteSpace(point1.position) && string.IsNullOrWhiteSpace(point2.Position)) || point1.Position.Equals(point2.Position);
       var isSameColumn = point1.Column.Equals(point2.Column);
 

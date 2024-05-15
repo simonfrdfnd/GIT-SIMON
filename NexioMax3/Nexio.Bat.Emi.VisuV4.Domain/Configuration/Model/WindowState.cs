@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model
+﻿namespace NexioMax3.Domain.Configuration.Model
 {
   /// <summary>
   /// Proxy pour ne pas ramener tout presentaion framework dans la DLL de domain

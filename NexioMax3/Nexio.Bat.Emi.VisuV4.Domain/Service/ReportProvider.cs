@@ -1,13 +1,14 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Service
+﻿namespace NexioMax3.Domain.Service
 {
   using System;
   using System.Collections.Generic;
   using System.Data;
   using System.Linq;
   using Nexio.Bat.Common.Domain.ATDB.Service;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Configuration.Model;
+  using NexioMax3.Domain.Model;
   using Nexio.Helper;
+  using Nexio;
 
   public class ReportProvider
   {

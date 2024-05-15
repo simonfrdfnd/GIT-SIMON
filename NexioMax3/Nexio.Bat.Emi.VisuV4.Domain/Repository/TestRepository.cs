@@ -1,10 +1,10 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Repository
+﻿namespace NexioMax3.Domain.Repository
 {
   using System;
   using System.Data.OleDb;
   using Nexio.Bat.Common.Domain.Infrastructure;
   using Nexio.Bat.Common.Domain.Infrastructure.AccessDataBase;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Model;
 
   public class TestRepository
   {

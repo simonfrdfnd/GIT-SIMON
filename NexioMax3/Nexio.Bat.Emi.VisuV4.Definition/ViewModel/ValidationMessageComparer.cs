@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Definition.ViewModel
+﻿namespace NexioMax3.Definition.ViewModel
 {
   using System.Collections.Generic;
   using Nexio.Validation;

@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Definition.ViewModel
+﻿namespace NexioMax3.Definition.ViewModel
 {
   using System;
   using System.Collections.Generic;
@@ -12,10 +12,10 @@
   using System.Windows.Forms;
   using Nexio.Bat.Common.Domain.ATDB.Service;
   using Nexio.Bat.Common.Domain.Infrastructure.Service;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model.EMIOverrides2;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Service;
+  using NexioMax3.Domain.Configuration.Model;
+  using NexioMax3.Domain.Configuration.Model.EMIOverrides2;
+  using NexioMax3.Domain.Model;
+  using NexioMax3.Domain.Service;
   using Nexio.Helper;
   using Nexio.Tools;
   using Nexio.Wpf.Base;
@@ -92,7 +92,7 @@
     {
       using (new NexioStopwatch($"{nameof(EmiOverrideViewModel)}.ctor"))
       {
-        this.Positions.Add(Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.All);
+        this.Positions.Add(NexioMax3.Definition.Properties.Resources.All);
         //Provider.Instance.GetAllPositions().Select(position => position.Name).Distinct().Where(s => !string.IsNullOrWhiteSpace(s)).OrderBy(s => s).ToList().ForEach(s => this.Positions.Add(s));
 
         this.sourceDic = SourcesCache.GetSources();
@@ -124,7 +124,7 @@
         {
           if (!Directory.Exists(this.SaveDirectory))
           {
-            MessageBox.Show(Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.UnableToLocateEMIOverrideSFileSDirectory);
+            MessageBox.Show(NexioMax3.Definition.Properties.Resources.UnableToLocateEMIOverrideSFileSDirectory);
           }
           else
           {
@@ -412,7 +412,7 @@
 
     private void ClearCache()
     {
-      if (MessageBox.Show(Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.AreYouSureToDeleteTheCache, Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.DeleteCache, MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+      if (MessageBox.Show(NexioMax3.Definition.Properties.Resources.AreYouSureToDeleteTheCache, NexioMax3.Definition.Properties.Resources.DeleteCache, MessageBoxButton.YesNo) == MessageBoxResult.Yes)
       {
         SourcesCache.Clear();
         this.Save();
@@ -519,7 +519,7 @@
       LogInteraction("Exporting EmiOverride style");
       this.SaveDatas(filePath);
 
-      Notify(Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.ExportComplete, Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.StylesExportComplete);
+      Notify(NexioMax3.Definition.Properties.Resources.ExportComplete, NexioMax3.Definition.Properties.Resources.StylesExportComplete);
     }
 
     private bool HasInvalidStyle()
@@ -692,7 +692,7 @@
         Filter = @"Json File (*.json)|*.json;|Old Configuration File (*.ini)|*.ini;|All Files (*.*)|*.*",
         AddExtension = true,
         CheckFileExists = true,
-        Title = Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.SelectEMIOverrideConfigurationToImport,
+        Title = NexioMax3.Definition.Properties.Resources.SelectEMIOverrideConfigurationToImport,
       };
 
       var res = dialog.ShowDialog();
@@ -1029,8 +1029,8 @@
       if (!Directory.Exists(this.SaveDirectory))
       {
         if (
-          MessageBox.Show(Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.EMIOverrideSDefaultSaveDirectoryIsNotAccessible,
-                          Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.DirectoryNotFound, MessageBoxButton.YesNo) != MessageBoxResult.Yes)
+          MessageBox.Show(NexioMax3.Definition.Properties.Resources.EMIOverrideSDefaultSaveDirectoryIsNotAccessible,
+                          NexioMax3.Definition.Properties.Resources.DirectoryNotFound, MessageBoxButton.YesNo) != MessageBoxResult.Yes)
         {
           return;
         }

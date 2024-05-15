@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Model.Definition
+﻿namespace NexioMax3.Domain.Model.Definition
 {
   using System;
   using System.Collections.Generic;
@@ -7,8 +7,8 @@
   using Nexio.Bat.Common.Domain.ATDB.Service;
   using Nexio.Bat.Common.Domain.Infrastructure;
   using Nexio.Bat.Common.Domain.Infrastructure.AccessDataBase;
-  using Nexio.Bat.Emi.VisuV4.Domain.Engine;
-  using Nexio.Bat.Emi.VisuV4.Domain.Repository;
+  using NexioMax3.Domain.Engine;
+  using NexioMax3.Domain.Repository;
 
   public class EMISousBandeFonction
   {

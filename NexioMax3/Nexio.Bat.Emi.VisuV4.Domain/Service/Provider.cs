@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Service
+﻿namespace NexioMax3.Domain.Service
 {
   using System;
   using System.Collections.Generic;
@@ -11,12 +11,13 @@
   using Nexio.Bat.Common.Domain.Infrastructure.AccessDataBase;
   using Nexio.Bat.Common.Domain.TestDefinition.Model;
   using Nexio.Bat.Common.Domain.TestDefinition.Repository;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Configuration.Service;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Repository;
-  using Nexio.Bat.Emi.VisuV4.Domain.Wrapper;
+  using NexioMax3.Domain.Configuration.Model;
+  using NexioMax3.Domain.Configuration.Service;
+  using NexioMax3.Domain.Model;
+  using NexioMax3.Domain.Repository;
+  using NexioMax3.Domain.Wrapper;
   using Nexio.Tools;
+  using Nexio;
 
   public class Provider
   {

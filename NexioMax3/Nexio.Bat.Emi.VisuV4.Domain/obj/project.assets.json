@@ -603,9 +603,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\0_DEV\\GIT-SIMON\\NexioMax3\\Nexio.Bat.Emi.VisuV4.Domain\\Nexio.Bat.Emi.VisuV4.Domain.csproj",
-      "projectName": "Nexio.Bat.Emi.VisuV4.Domain",
-      "projectPath": "C:\\0_DEV\\GIT-SIMON\\NexioMax3\\Nexio.Bat.Emi.VisuV4.Domain\\Nexio.Bat.Emi.VisuV4.Domain.csproj",
+      "projectUniqueName": "C:\\0_DEV\\GIT-SIMON\\NexioMax3\\Nexio.Bat.Emi.VisuV4.Domain\\NexioMax3.Domain.csproj",
+      "projectName": "NexioMax3.Domain",
+      "projectPath": "C:\\0_DEV\\GIT-SIMON\\NexioMax3\\Nexio.Bat.Emi.VisuV4.Domain\\NexioMax3.Domain.csproj",
       "packagesPath": "C:\\Users\\simon.froidefond\\.nuget\\packages\\",
       "outputPath": "C:\\0_DEV\\GIT-SIMON\\NexioMax3\\Nexio.Bat.Emi.VisuV4.Domain\\obj\\",
       "projectStyle": "PackageReference",

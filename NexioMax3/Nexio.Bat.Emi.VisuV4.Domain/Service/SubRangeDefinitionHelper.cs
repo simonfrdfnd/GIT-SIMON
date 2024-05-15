@@ -1,13 +1,13 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Service
+﻿namespace NexioMax3.Domain.Service
 {
   using System;
   using System.Collections.Generic;
   using System.Linq;
   using System.Threading.Tasks;
-  using Nexio.Bat.Emi.VisuV4.Domain.Engine;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model.Definition;
-  using Nexio.Bat.Emi.VisuV4.Domain.Repository;
+  using NexioMax3.Domain.Engine;
+  using NexioMax3.Domain.Model;
+  using NexioMax3.Domain.Model.Definition;
+  using NexioMax3.Domain.Repository;
 
   public class SubRangeDefinitionHelper
   {

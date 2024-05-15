@@ -1,7 +1,7 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Model
+﻿namespace NexioMax3.Domain.Model
 {
   using Newtonsoft.Json;
-  using Nexio.Bat.Emi.VisuV4.Domain.Engine;
+  using NexioMax3.Domain.Engine;
 
   [JsonObject(MemberSerialization.OptIn)]
   public class YAxisLimit

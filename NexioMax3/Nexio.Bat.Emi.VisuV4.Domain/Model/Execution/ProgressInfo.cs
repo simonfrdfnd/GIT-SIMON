@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Model.Execution
+﻿namespace NexioMax3.Domain.Model.Execution
 {
   using System.Collections.Generic;
   using System.Linq;

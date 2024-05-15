@@ -1,4 +1,4 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Configuration.Model.EMIOverrides2
+﻿namespace NexioMax3.Domain.Configuration.Model.EMIOverrides2
 {
   using System;
   using System.Collections.Generic;

@@ -1,18 +1,18 @@
 ﻿<UserControl
-  x:Class="Nexio.Bat.Emi.VisuV4.Definition.View.EmiOverrideView"
+  x:Class="NexioMax3.Definition.View.EmiOverrideView"
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:controls="clr-namespace:Nexio.Wpf.Controls;assembly=Nexio.Wpf"
-  xmlns:converters="clr-namespace:Nexio.Bat.Emi.VisuV4.Definition.Converters"
+  xmlns:converters="clr-namespace:NexioMax3.Definition.Converters"
   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-  xmlns:local="clr-namespace:Nexio.Bat.Emi.VisuV4.Definition.View"
-  xmlns:markups="clr-namespace:Nexio.Bat.Emi.VisuV4.Definition.Markups"
+  xmlns:local="clr-namespace:NexioMax3.Definition.View"
+  xmlns:markups="clr-namespace:NexioMax3.Definition.Markups"
   xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-  xmlns:model="clr-namespace:Nexio.Bat.Emi.VisuV4.Domain.Model;assembly=Nexio.Bat.Emi.VisuV4.Domain"
+  xmlns:model="clr-namespace:NexioMax3.Domain.Model;assembly=NexioMax3.Domain"
   xmlns:sys="clr-namespace:System;assembly=mscorlib"
   xmlns:validation="clr-namespace:Nexio.Validation;assembly=Nexio"
-  xmlns:viewModel="clr-namespace:Nexio.Bat.Emi.VisuV4.Definition.ViewModel"
+  xmlns:viewModel="clr-namespace:NexioMax3.Definition.ViewModel"
   xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
   d:DesignHeight="450"
   d:DesignWidth="800"
@@ -196,7 +196,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding OverrideWidth, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource LockCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.LockSize}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.LockSize}" />
             </Grid>
             <!--  Color  -->
             <Grid Grid.Column="4">
@@ -217,7 +217,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding OverrideColor, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource LockCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.LockColor}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.LockColor}" />
             </Grid>
             <!--  IsVisible  -->
             <StackPanel Grid.Column="5" Orientation="Horizontal">
@@ -228,7 +228,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding IsVisible, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource VisibilityCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.IsVisible}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.IsVisible}" />
               <CheckBox
                 Width="32"
                 Height="32"
@@ -236,7 +236,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding OverrideIsVisible, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource LockCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.LockVisibility}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.LockVisibility}" />
             </StackPanel>
 
             <materialDesign:PackIcon
@@ -343,7 +343,7 @@
                 IsChecked="{Binding IsStyleApplied, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 IsThreeState="True"
                 Style="{StaticResource LockCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.AppliedStyle}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.AppliedStyle}" />
             </StackPanel>
 
             <!--  Source  -->
@@ -434,7 +434,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding OverrideSize, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource LockCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.OverrideSize}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.OverrideSize}" />
             </Grid>
             <!--  Color  -->
             <Grid Grid.Column="6">
@@ -455,7 +455,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding OverrideColor, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource LockCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.OverrideColor}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.OverrideColor}" />
             </Grid>
             <!--  Projection  -->
             <Grid Grid.Column="7">
@@ -470,7 +470,7 @@
                 Padding="0"
                 VerticalAlignment="Center"
                 IsChecked="{Binding UseProjection}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Projection}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.Projection}" />
               <CheckBox
                 Grid.Column="1"
                 Width="32"
@@ -479,7 +479,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding OverrideUseProjection}"
                 Style="{StaticResource LockCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.OverrideProjection}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.OverrideProjection}" />
             </Grid>
 
             <!--  IsVisible  -->
@@ -496,7 +496,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding IsVisible, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource VisibilityCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.IsVisible}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.IsVisible}" />
               <CheckBox
                 Grid.Column="1"
                 Width="32"
@@ -505,7 +505,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding OverrideIsVisible, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource LockCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.OverrideSize}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.OverrideSize}" />
             </Grid>
 
             <materialDesign:PackIcon
@@ -612,7 +612,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding OverrideWidth, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource LockCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.LockSize}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.LockSize}" />
             </Grid>
             <!--  Color  -->
             <Grid Grid.Column="5">
@@ -633,7 +633,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding OverrideColor, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource LockCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.LockColor}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.LockColor}" />
             </Grid>
             <!--  IsVisible  -->
             <StackPanel Grid.Column="6" Orientation="Horizontal">
@@ -644,7 +644,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding IsVisible, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource VisibilityCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.IsVisible}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.IsVisible}" />
               <CheckBox
                 Width="32"
                 Height="32"
@@ -652,7 +652,7 @@
                 VerticalAlignment="Center"
                 IsChecked="{Binding OverrideIsVisible, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource LockCheckBox}"
-                ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.LockVisibility}" />
+                ToolTip="{Resx NexioMax3.Definition.Properties.Resources.LockVisibility}" />
             </StackPanel>
 
             <materialDesign:PackIcon
@@ -776,7 +776,7 @@
               <StackPanel.InputBindings>
                 <MouseBinding Command="{Binding OrderByDetectorCommand}" MouseAction="LeftClick" />
               </StackPanel.InputBindings>
-              <TextBlock FontWeight="Bold" Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Detector}" />
+              <TextBlock FontWeight="Bold" Text="{Resx NexioMax3.Definition.Properties.Resources.Detector}" />
               <materialDesign:PackIcon FontWeight="Bold" Visibility="{Binding OrderByDetector, Converter={StaticResource EnumMatchToNotVisibilityConverter}, ConverterParameter=None}">
                 <materialDesign:PackIcon.Style>
                   <Style TargetType="materialDesign:PackIcon">
@@ -800,7 +800,7 @@
               <StackPanel.InputBindings>
                 <MouseBinding Command="{Binding OrderCurvesByPositionCommand}" MouseAction="LeftClick" />
               </StackPanel.InputBindings>
-              <TextBlock FontWeight="Bold" Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Position}" />
+              <TextBlock FontWeight="Bold" Text="{Resx NexioMax3.Definition.Properties.Resources.Position}" />
               <materialDesign:PackIcon FontWeight="Bold" Visibility="{Binding OrderByPositionCurves, Converter={StaticResource EnumMatchToNotVisibilityConverter}, ConverterParameter=None}">
                 <materialDesign:PackIcon.Style>
                   <Style TargetType="materialDesign:PackIcon">
@@ -821,17 +821,17 @@
               Grid.Column="3"
               HorizontalAlignment="Center"
               FontWeight="Bold"
-              Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Size}" />
+              Text="{Resx NexioMax3.Definition.Properties.Resources.Size}" />
             <TextBlock
               Grid.Column="4"
               HorizontalAlignment="Center"
               FontWeight="Bold"
-              Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Color}" />
+              Text="{Resx NexioMax3.Definition.Properties.Resources.Color}" />
             <TextBlock
               Grid.Column="5"
               HorizontalAlignment="Center"
               FontWeight="Bold"
-              Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Visibility}" />
+              Text="{Resx NexioMax3.Definition.Properties.Resources.Visibility}" />
           </Grid>
 
           <!--  External Curves Headers  -->
@@ -884,7 +884,7 @@
               <StackPanel.InputBindings>
                 <MouseBinding Command="{Binding OrderByCurveProjectCommand}" MouseAction="LeftClick" />
               </StackPanel.InputBindings>
-              <TextBlock FontWeight="Bold" Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Project}" />
+              <TextBlock FontWeight="Bold" Text="{Resx NexioMax3.Definition.Properties.Resources.Project}" />
               <materialDesign:PackIcon FontWeight="Bold" Visibility="{Binding OrderByProject, Converter={StaticResource EnumMatchToNotVisibilityConverter}, ConverterParameter=None}">
                 <materialDesign:PackIcon.Style>
                   <Style TargetType="materialDesign:PackIcon">
@@ -909,7 +909,7 @@
               <StackPanel.InputBindings>
                 <MouseBinding Command="{Binding OrderByCurveNameCommand}" MouseAction="LeftClick" />
               </StackPanel.InputBindings>
-              <TextBlock FontWeight="Bold" Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Name}" />
+              <TextBlock FontWeight="Bold" Text="{Resx NexioMax3.Definition.Properties.Resources.Name}" />
 
               <materialDesign:PackIcon FontWeight="Bold" Visibility="{Binding OrderByCurveName, Converter={StaticResource EnumMatchToNotVisibilityConverter}, ConverterParameter=None}">
                 <materialDesign:PackIcon.Style>
@@ -935,7 +935,7 @@
               <StackPanel.InputBindings>
                 <MouseBinding Command="{Binding OrderExternalCurvesByPositionCommand}" MouseAction="LeftClick" />
               </StackPanel.InputBindings>
-              <TextBlock FontWeight="Bold" Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Position}" />
+              <TextBlock FontWeight="Bold" Text="{Resx NexioMax3.Definition.Properties.Resources.Position}" />
 
               <materialDesign:PackIcon FontWeight="Bold" Visibility="{Binding OrderByPositionExternalCurve, Converter={StaticResource EnumMatchToNotVisibilityConverter}, ConverterParameter=None}">
                 <materialDesign:PackIcon.Style>
@@ -958,17 +958,17 @@
               Grid.Column="4"
               HorizontalAlignment="Center"
               FontWeight="Bold"
-              Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Size}" />
+              Text="{Resx NexioMax3.Definition.Properties.Resources.Size}" />
             <TextBlock
               Grid.Column="5"
               HorizontalAlignment="Center"
               FontWeight="Bold"
-              Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Color}" />
+              Text="{Resx NexioMax3.Definition.Properties.Resources.Color}" />
             <TextBlock
               Grid.Column="6"
               HorizontalAlignment="Center"
               FontWeight="Bold"
-              Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Visibility}" />
+              Text="{Resx NexioMax3.Definition.Properties.Resources.Visibility}" />
           </Grid>
 
           <!--  Points Headers  -->
@@ -1027,7 +1027,7 @@
               <StackPanel.InputBindings>
                 <MouseBinding Command="{Binding OrderBySourceCommand}" MouseAction="LeftClick" />
               </StackPanel.InputBindings>
-              <TextBlock FontWeight="Bold" Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Source}" />
+              <TextBlock FontWeight="Bold" Text="{Resx NexioMax3.Definition.Properties.Resources.Source}" />
               <materialDesign:PackIcon FontWeight="Bold" Visibility="{Binding OrderBySource, Converter={StaticResource EnumMatchToNotVisibilityConverter}, ConverterParameter=None}">
                 <materialDesign:PackIcon.Style>
                   <Style TargetType="materialDesign:PackIcon">
@@ -1052,7 +1052,7 @@
               <StackPanel.InputBindings>
                 <MouseBinding Command="{Binding OrderByColumnCommand}" MouseAction="LeftClick" />
               </StackPanel.InputBindings>
-              <TextBlock FontWeight="Bold" Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Column}" />
+              <TextBlock FontWeight="Bold" Text="{Resx NexioMax3.Definition.Properties.Resources.Column}" />
               <materialDesign:PackIcon FontWeight="Bold" Visibility="{Binding OrderByColumn, Converter={StaticResource EnumMatchToNotVisibilityConverter}, ConverterParameter=None}">
                 <materialDesign:PackIcon.Style>
                   <Style TargetType="materialDesign:PackIcon">
@@ -1077,7 +1077,7 @@
               <StackPanel.InputBindings>
                 <MouseBinding Command="{Binding OrderPointsByPositionCommand}" MouseAction="LeftClick" />
               </StackPanel.InputBindings>
-              <TextBlock FontWeight="Bold" Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Position}" />
+              <TextBlock FontWeight="Bold" Text="{Resx NexioMax3.Definition.Properties.Resources.Position}" />
               <materialDesign:PackIcon FontWeight="Bold" Visibility="{Binding OrderByPositionPoints, Converter={StaticResource EnumMatchToNotVisibilityConverter}, ConverterParameter=None}">
                 <materialDesign:PackIcon.Style>
                   <Style TargetType="materialDesign:PackIcon">
@@ -1098,27 +1098,27 @@
               Grid.Column="4"
               HorizontalAlignment="Center"
               FontWeight="Bold"
-              Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Symbol}" />
+              Text="{Resx NexioMax3.Definition.Properties.Resources.Symbol}" />
             <TextBlock
               Grid.Column="5"
               HorizontalAlignment="Center"
               FontWeight="Bold"
-              Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Size}" />
+              Text="{Resx NexioMax3.Definition.Properties.Resources.Size}" />
             <TextBlock
               Grid.Column="6"
               HorizontalAlignment="Center"
               FontWeight="Bold"
-              Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Color}" />
+              Text="{Resx NexioMax3.Definition.Properties.Resources.Color}" />
             <TextBlock
               Grid.Column="7"
               HorizontalAlignment="Center"
               FontWeight="Bold"
-              Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Projection}" />
+              Text="{Resx NexioMax3.Definition.Properties.Resources.Projection}" />
             <TextBlock
               Grid.Column="8"
               HorizontalAlignment="Center"
               FontWeight="Bold"
-              Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Visibility}" />
+              Text="{Resx NexioMax3.Definition.Properties.Resources.Visibility}" />
           </Grid>
 
           <!--  Prescans  -->
@@ -1207,7 +1207,7 @@
                   Margin="5,0"
                   VerticalAlignment="Center"
                   Foreground="Black"
-                  Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.AddNewStyle}" />
+                  Text="{Resx NexioMax3.Definition.Properties.Resources.AddNewStyle}" />
               </StackPanel>
 
             </Button>
@@ -1227,7 +1227,7 @@
           HorizontalAlignment="Center"
           FontSize="20"
           FontWeight="Bold"
-          Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.EMIOverride}" />
+          Text="{Resx NexioMax3.Definition.Properties.Resources.EMIOverride}" />
         <materialDesign:PackIcon
           Grid.Column="2"
           Margin="10,0"
@@ -1272,7 +1272,7 @@
       <TextBlock
         Margin="5,0,0,0"
         VerticalAlignment="Center"
-        Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.ConfigurationDirectory}" />
+        Text="{Resx NexioMax3.Definition.Properties.Resources.ConfigurationDirectory}" />
       <TextBlock
         Margin="0,0,20,0"
         VerticalAlignment="Center"
@@ -1280,24 +1280,24 @@
       <Button
         Margin="3,1"
         Command="{Binding ClearCacheCommand}"
-        Content="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.ClearCache}"
-        ToolTip="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.ResetValuesInComboboxWithADefaultListUseItIfYouHaveTooManyValuesInACombobox}" />
+        Content="{Resx NexioMax3.Definition.Properties.Resources.ClearCache}"
+        ToolTip="{Resx NexioMax3.Definition.Properties.Resources.ResetValuesInComboboxWithADefaultListUseItIfYouHaveTooManyValuesInACombobox}" />
       <Button
         Margin="3,1"
         Command="{Binding ImportCommand}"
-        Content="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Import}" />
+        Content="{Resx NexioMax3.Definition.Properties.Resources.Import}" />
       <Button
         Margin="3,1"
         Command="{Binding ExportCommand}"
-        Content="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Export}" />
+        Content="{Resx NexioMax3.Definition.Properties.Resources.Export}" />
       <Button
         Margin="3,1"
         Command="{Binding SaveCommand}"
         IsEnabled="{Binding AreAllStylesValid}">
-        <TextBlock Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Ok}" />
+        <TextBlock Text="{Resx NexioMax3.Definition.Properties.Resources.Ok}" />
       </Button>
       <Button Margin="3,1" Command="{Binding CancelCommand}">
-        <TextBlock Text="{Resx Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.Cancel}" />
+        <TextBlock Text="{Resx NexioMax3.Definition.Properties.Resources.Cancel}" />
       </Button>
     </StackPanel>
   </Grid>

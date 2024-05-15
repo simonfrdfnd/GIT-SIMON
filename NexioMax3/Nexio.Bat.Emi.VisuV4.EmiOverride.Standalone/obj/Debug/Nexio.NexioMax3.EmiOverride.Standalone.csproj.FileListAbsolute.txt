@@ -1,0 +1,3 @@
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.EmiOverride.Standalone\obj\Debug\Nexio.NexioMax3.EmiOverride.Standalone.csproj.AssemblyReference.cache
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.EmiOverride.Standalone\obj\Debug\App.g.cs
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.EmiOverride.Standalone\obj\Debug\Nexio.NexioMax3.EmiOverride.Standalone_MarkupCompile.cache

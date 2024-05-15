@@ -1,10 +1,10 @@
-﻿namespace Nexio.Bat.Emi.VisuV4.Domain.Service
+﻿namespace NexioMax3.Domain.Service
 {
   using System;
   using System.Collections.Generic;
   using System.Linq;
-  using Nexio.Bat.Emi.VisuV4.Domain.Engine;
-  using Nexio.Bat.Emi.VisuV4.Domain.Model;
+  using NexioMax3.Domain.Engine;
+  using NexioMax3.Domain.Model;
 
   /// <summary>
   /// Stocke les mesures Manual Point le temps que ce soit implémenté dans MesureManuelle_MaxHold

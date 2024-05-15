@@ -1,0 +1,20 @@
+C:\0_DEV\BAT_2023.0.X.0_MAINT\binDebug\x64\NationalInstruments.DAQmx.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\binDebug\x86\NationalInstruments.DAQmx.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\binDebug\Nexio.Bat.Emi.VisuV4.Domain.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\binDebug\Nexio.Bat.Emi.VisuV4.Domain.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.csproj.AssemblyReference.cache
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.resources
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.csproj.GenerateResource.cache
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.csproj.CoreCompileInputs.cache
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.csproj.CopyComplete
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.csproj.AssemblyReference.cache
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.resources
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.csproj.GenerateResource.cache
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.csproj.CoreCompileInputs.cache
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\binDebug\Nexio.Bat.Emi.VisuV4.Domain.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\binDebug\Nexio.Bat.Emi.VisuV4.Domain.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Domain\obj\Debug\Nexio.Bat.Emi.VisuV4.Domain.csproj.CopyComplete

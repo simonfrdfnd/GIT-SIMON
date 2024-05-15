@@ -1,0 +1,511 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Definition\\Nexio.Bat.Emi.VisuV4.Definition.csproj": {}
+  },
+  "projects": {
+    "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Definition\\Nexio.Bat.Emi.VisuV4.Definition.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Definition\\Nexio.Bat.Emi.VisuV4.Definition.csproj",
+        "projectName": "Nexio.Bat.Emi.VisuV4.Definition",
+        "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Definition\\Nexio.Bat.Emi.VisuV4.Definition.csproj",
+        "packagesPath": "C:\\Users\\simon.froidefond\\.nuget\\packages\\",
+        "outputPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Definition\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\simon.froidefond\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Domain\\Nexio.Bat.Emi.VisuV4.Domain.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Domain\\Nexio.Bat.Emi.VisuV4.Domain.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Common\\Nexio.Bat.Commun.Domain\\Nexio.Bat.Common.Domain.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Common\\Nexio.Bat.Commun.Domain\\Nexio.Bat.Common.Domain.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Wpf\\Nexio.Wpf.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Wpf\\Nexio.Wpf.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Domain\\Nexio.Bat.Emi.VisuV4.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Domain\\Nexio.Bat.Emi.VisuV4.Domain.csproj",
+        "projectName": "Nexio.Bat.Emi.VisuV4.Domain",
+        "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Domain\\Nexio.Bat.Emi.VisuV4.Domain.csproj",
+        "packagesPath": "C:\\Users\\simon.froidefond\\.nuget\\packages\\",
+        "outputPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\simon.froidefond\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Common\\Nexio.Bat.Commun.Domain\\Nexio.Bat.Common.Domain.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Common\\Nexio.Bat.Commun.Domain\\Nexio.Bat.Common.Domain.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Aspose.Words": {
+              "target": "Package",
+              "version": "[23.7.0, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[2.5.0.1205, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Bat-Emi\\Nexio.V3CommWrapper\\Nexio.V3CommWrapper.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Bat-Emi\\Nexio.V3CommWrapper\\Nexio.V3CommWrapper.vcxproj",
+        "projectName": "Nexio.DllV3Wrapper",
+        "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Bat-Emi\\Nexio.V3CommWrapper\\Nexio.V3CommWrapper.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Com\\Nexio.Com.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Com\\Nexio.Com.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Common\\Nexio.Bat.Commun.Domain\\Nexio.Bat.Common.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Common\\Nexio.Bat.Commun.Domain\\Nexio.Bat.Common.Domain.csproj",
+        "projectName": "Nexio.Bat.Common.Domain",
+        "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Common\\Nexio.Bat.Commun.Domain\\Nexio.Bat.Common.Domain.csproj",
+        "packagesPath": "C:\\Users\\simon.froidefond\\.nuget\\packages\\",
+        "outputPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Common\\Nexio.Bat.Commun.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\simon.froidefond\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Bat-Emi\\Nexio.V3CommWrapper\\Nexio.V3CommWrapper.vcxproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Bat-Emi\\Nexio.V3CommWrapper\\Nexio.V3CommWrapper.vcxproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Com\\Nexio.Com.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Com\\Nexio.Com.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Monitoring\\Nexio.Scope\\Nexio.Scope.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Monitoring\\Nexio.Scope\\Nexio.Scope.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Aspose.Words": {
+              "target": "Package",
+              "version": "[23.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "SharpZipLib": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Com\\Nexio.Com.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Com\\Nexio.Com.csproj",
+        "projectName": "Nexio.Com",
+        "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Com\\Nexio.Com.csproj",
+        "packagesPath": "C:\\Users\\simon.froidefond\\.nuget\\packages\\",
+        "outputPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Com\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\simon.froidefond\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Wpf\\Nexio.Wpf.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Wpf\\Nexio.Wpf.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj",
+        "projectName": "Nexio.Resx",
+        "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Wpf\\Nexio.Wpf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Wpf\\Nexio.Wpf.csproj",
+        "projectName": "Nexio.Wpf",
+        "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Wpf\\Nexio.Wpf.csproj",
+        "packagesPath": "C:\\Users\\simon.froidefond\\.nuget\\packages\\",
+        "outputPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Wpf\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\simon.froidefond\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "AvalonEdit": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Dragablz": {
+              "target": "Package",
+              "version": "[0.0.3.203, )"
+            },
+            "Extended.Wpf.Toolkit": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[2.5.0.1205, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj",
+        "projectName": "Nexio",
+        "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj",
+        "packagesPath": "C:\\Users\\simon.froidefond\\.nuget\\packages\\",
+        "outputPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\simon.froidefond\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Monitoring\\Nexio.Scope\\Nexio.Scope.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Monitoring\\Nexio.Scope\\Nexio.Scope.csproj",
+        "projectName": "Nexio.Scope",
+        "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Monitoring\\Nexio.Scope\\Nexio.Scope.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj"
+              },
+              "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj": {
+                "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

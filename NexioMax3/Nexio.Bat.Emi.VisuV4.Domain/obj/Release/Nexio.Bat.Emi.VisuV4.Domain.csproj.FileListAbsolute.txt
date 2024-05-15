@@ -1,0 +1,11 @@
+C:\0_DEV\BAT_2023.0.X.0_MAINT\bin\x64\NationalInstruments.DAQmx.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\bin\x86\NationalInstruments.DAQmx.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\bin\Nexio.Bat.Emi.VisuV4.Domain.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\bin\Nexio.Bat.Emi.VisuV4.Domain.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Release\Nexio.Bat.Emi.VisuV4.Domain.csproj.AssemblyReference.cache
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Release\Nexio.Bat.Emi.VisuV4.Domain.Properties.Resources.resources
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Release\Nexio.Bat.Emi.VisuV4.Domain.csproj.GenerateResource.cache
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Release\Nexio.Bat.Emi.VisuV4.Domain.csproj.CoreCompileInputs.cache
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Release\Nexio.Bat.Emi.VisuV4.Domain.csproj.CopyComplete
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Release\Nexio.Bat.Emi.VisuV4.Domain.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Domain\obj\Release\Nexio.Bat.Emi.VisuV4.Domain.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0vNKxnWnczB2R31B8z5IdANhg0GOo9dFlRVEdBaYO+QG9BmvfOOM23TWLz43YGMfAqa4SIsrtnSivpYBMNO+vQ==",
+  "dgSpecHash": "tox3wJyZ2RKNpoaytrj3VR0YmQuBiJT+5Y2MKD1yCVLTtxgb4USFC0RfkpUYB5okcOqDowtnk8HQI1amndq4SA==",
   "success": true,
-  "projectFilePath": "C:\\1_REPO\\repo\\NexioMaxWPF\\NexioMax.csproj",
+  "projectFilePath": "C:\\0_DEV\\GIT-SIMON\\NexioMax2\\NexioMax\\NexioMax.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simon.froidefond\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512",
     "C:\\Users\\simon.froidefond\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",

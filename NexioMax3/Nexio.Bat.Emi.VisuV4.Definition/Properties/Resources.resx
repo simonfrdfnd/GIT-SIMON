@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddNewStyle" xml:space="preserve">
+    <value>Add new style</value>
+  </data>
+  <data name="AppliedStyle" xml:space="preserve">
+    <value>Applied style</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="Symbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="Projection" xml:space="preserve">
+    <value>Projection</value>
+  </data>
+  <data name="Detector" xml:space="preserve">
+    <value>Detector</value>
+  </data>
+  <data name="EMIOverride" xml:space="preserve">
+    <value>EMI Override</value>
+  </data>
+  <data name="IsVisible" xml:space="preserve">
+    <value>Is Visible</value>
+  </data>
+  <data name="LockVisibility" xml:space="preserve">
+    <value>Lock Visibility</value>
+  </data>
+  <data name="OverrideSize" xml:space="preserve">
+    <value>Override Size</value>
+  </data>
+  <data name="LockColor" xml:space="preserve">
+    <value>Lock Color</value>
+  </data>
+  <data name="LockSize" xml:space="preserve">
+    <value>Lock Size</value>
+  </data>
+  <data name="OverrideColor" xml:space="preserve">
+    <value>Override Color</value>
+  </data>
+  <data name="OverrideProjection" xml:space="preserve">
+    <value>Override Projection</value>
+  </data>
+  <data name="ResetValuesInComboboxWithADefaultListUseItIfYouHaveTooManyValuesInACombobox" xml:space="preserve">
+    <value>Reset values in combobox with a default list. (Use it if you have too many values in a combobox)</value>
+  </data>
+  <data name="ClearCache" xml:space="preserve">
+    <value>Clear cache</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ConfigurationDirectory" xml:space="preserve">
+    <value>Configuration directory:</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="OneOrMoreStyleCoverAllPositionsForThisDetector" xml:space="preserve">
+    <value>One or more style cover all positions for this detector</value>
+  </data>
+  <data name="OneOrMoreStyleCoverHaveTheSamePositionForThisDetector" xml:space="preserve">
+    <value>One or more style cover have the same position for this detector</value>
+  </data>
+  <data name="UnableToLocateEMIOverrideSFileSDirectory" xml:space="preserve">
+    <value>Unable to locate EMI Override's file's directory. Please check your configuration. The editor will use the default settings.</value>
+  </data>
+  <data name="AreYouSureToDeleteTheCache" xml:space="preserve">
+    <value>Are you sure to delete the cache ?</value>
+  </data>
+  <data name="DeleteCache" xml:space="preserve">
+    <value>Delete cache</value>
+  </data>
+  <data name="ExportComplete" xml:space="preserve">
+    <value>Export Complete</value>
+  </data>
+  <data name="StylesExportComplete" xml:space="preserve">
+    <value>Styles export complete</value>
+  </data>
+  <data name="SelectEMIOverrideConfigurationToImport" xml:space="preserve">
+    <value>Select EMI Override configuration to import</value>
+  </data>
+  <data name="EMIOverrideSDefaultSaveDirectoryIsNotAccessible" xml:space="preserve">
+    <value>EMI Override's default save directory is not accessible. Do you want to save this configuration somewhere else ?</value>
+  </data>
+  <data name="DirectoryNotFound" xml:space="preserve">
+    <value>Directory not found</value>
+  </data>
+  <data name="ImportedFromFile" xml:space="preserve">
+    <value>Imported From File</value>
+  </data>
+  <data name="OldProjectV3OrMax" xml:space="preserve">
+    <value>Old Project (V3) or Max</value>
+  </data>
+  <data name="OneOrMoreStyleCoverAllPositionsForThisCurve" xml:space="preserve">
+    <value>One or more style cover all positions for this Curve</value>
+  </data>
+  <data name="OneOrMoreStyleCoverAllProjectsForThisDetector" xml:space="preserve">
+    <value>One or more style cover all projects for this detector</value>
+  </data>
+  <data name="OneOrMoreStyleCoverHaveTheSameProjectForThisDetector" xml:space="preserve">
+    <value>One or more style cover have the same project for this detector</value>
+  </data>
+  <data name="AtLeastOneCombinationProjectPositionCoversThisSourceSCombination" xml:space="preserve">
+    <value>At least one combination Project/Position covers this Source's combination</value>
+  </data>
+  <data name="ThisCombinationProjectNamePositionIsAlreadyDefined" xml:space="preserve">
+    <value>This Combination Project/Name/Position is already defined</value>
+  </data>
+  <data name="NoNameForThisCurve" xml:space="preserve">
+    <value>No name for this curve</value>
+  </data>
+  <data name="OneOrMoreStyleCoverAllPositionsForThisSource" xml:space="preserve">
+    <value>One or more style cover all positions for this source</value>
+  </data>
+  <data name="OneOrMoreStyleCoverAllColumnsForThisSource" xml:space="preserve">
+    <value>One or more style cover all columns for this source</value>
+  </data>
+  <data name="YourCombinationPositionSourceIsAlreadyCovered" xml:space="preserve">
+    <value>Your combination Position/Source is already covered</value>
+  </data>
+  <data name="YourCombinationColumnSourceIsAlreadyCovered" xml:space="preserve">
+    <value>Your combination Column/Source is already covered</value>
+  </data>
+  <data name="AtLeastOneCombinationColumnPositionCoversThisSourceSCombination" xml:space="preserve">
+    <value>At least one combination Column/Position covers this Source's combination</value>
+  </data>
+  <data name="ThisCombinationSourceColumnPositionIsAlreadyDefined" xml:space="preserve">
+    <value>This Combination Source/Column/Position is already defined</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+</root>

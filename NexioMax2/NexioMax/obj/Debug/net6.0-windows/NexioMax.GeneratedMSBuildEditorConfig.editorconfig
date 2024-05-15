@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NexioMax
-build_property.ProjectDir = C:\1_REPO\repo\NexioMaxWPF\
+build_property.ProjectDir = C:\0_DEV\GIT-SIMON\NexioMax2\NexioMax\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

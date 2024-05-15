@@ -1,0 +1,2213 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Aspose.Words/23.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AvalonEdit/5.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Dragablz/0.0.3.203": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Dragablz.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Dragablz.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Extended.Wpf.Toolkit/3.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MaterialDesignColors/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MaterialDesignThemes/2.5.0.1205": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "1.1.0"
+        },
+        "compile": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpZipLib/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "StyleCop.Analyzers/1.1.118": {
+        "type": "package"
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Nexio/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.dll": {}
+        }
+      },
+      "Nexio.Bat.Common.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Aspose.Words": "23.7.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Nexio": "1.0.0",
+          "Nexio.Com": "1.0.0",
+          "Nexio.DllV3Wrapper": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "Nexio.Scope": "1.0.0",
+          "SharpZipLib": "1.3.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Bat.Common.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Bat.Common.Domain.dll": {}
+        }
+      },
+      "Nexio.Bat.Emi.VisuV4.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Aspose.Words": "23.7.0",
+          "MaterialDesignThemes": "2.5.0.1205",
+          "Newtonsoft.Json": "13.0.3",
+          "Nexio": "1.0.0",
+          "Nexio.Bat.Common.Domain": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "StyleCop.Analyzers": "1.1.118",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Bat.Emi.VisuV4.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Bat.Emi.VisuV4.Domain.dll": {}
+        }
+      },
+      "Nexio.Com/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "Nexio.Wpf": "1.0.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Com.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Com.dll": {}
+        }
+      },
+      "Nexio.DllV3Wrapper/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Nexio.Com": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.DllV3Wrapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.DllV3Wrapper.dll": {}
+        }
+      },
+      "Nexio.Resx/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Nexio.Resx.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Resx.dll": {}
+        }
+      },
+      "Nexio.Scope/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Scope.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Scope.dll": {}
+        }
+      },
+      "Nexio.Wpf/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AvalonEdit": "5.0.4",
+          "Dragablz": "0.0.3.203",
+          "Extended.Wpf.Toolkit": "3.7.0",
+          "MaterialDesignColors": "1.1.3",
+          "MaterialDesignThemes": "2.5.0.1205",
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "System.ValueTuple": "4.5.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Wpf.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "Aspose.Words/23.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AvalonEdit/5.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Dragablz/0.0.3.203": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Dragablz.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Dragablz.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Extended.Wpf.Toolkit/3.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MaterialDesignColors/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MaterialDesignThemes/2.5.0.1205": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "1.1.0"
+        },
+        "compile": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpZipLib/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "StyleCop.Analyzers/1.1.118": {
+        "type": "package"
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Nexio/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.dll": {}
+        }
+      },
+      "Nexio.Bat.Common.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Aspose.Words": "23.7.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Nexio": "1.0.0",
+          "Nexio.Com": "1.0.0",
+          "Nexio.DllV3Wrapper": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "Nexio.Scope": "1.0.0",
+          "SharpZipLib": "1.3.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Bat.Common.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Bat.Common.Domain.dll": {}
+        }
+      },
+      "Nexio.Bat.Emi.VisuV4.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Aspose.Words": "23.7.0",
+          "MaterialDesignThemes": "2.5.0.1205",
+          "Newtonsoft.Json": "13.0.3",
+          "Nexio": "1.0.0",
+          "Nexio.Bat.Common.Domain": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "StyleCop.Analyzers": "1.1.118",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Bat.Emi.VisuV4.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Bat.Emi.VisuV4.Domain.dll": {}
+        }
+      },
+      "Nexio.Com/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "Nexio.Wpf": "1.0.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Com.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Com.dll": {}
+        }
+      },
+      "Nexio.DllV3Wrapper/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Nexio.Com": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.DllV3Wrapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.DllV3Wrapper.dll": {}
+        }
+      },
+      "Nexio.Resx/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Nexio.Resx.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Resx.dll": {}
+        }
+      },
+      "Nexio.Scope/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Scope.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Scope.dll": {}
+        }
+      },
+      "Nexio.Wpf/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AvalonEdit": "5.0.4",
+          "Dragablz": "0.0.3.203",
+          "Extended.Wpf.Toolkit": "3.7.0",
+          "MaterialDesignColors": "1.1.3",
+          "MaterialDesignThemes": "2.5.0.1205",
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "System.ValueTuple": "4.5.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Wpf.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-arm64": {
+      "Aspose.Words/23.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AvalonEdit/5.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Dragablz/0.0.3.203": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Dragablz.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Dragablz.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Extended.Wpf.Toolkit/3.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MaterialDesignColors/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MaterialDesignThemes/2.5.0.1205": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "1.1.0"
+        },
+        "compile": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpZipLib/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "StyleCop.Analyzers/1.1.118": {
+        "type": "package"
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Nexio/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.dll": {}
+        }
+      },
+      "Nexio.Bat.Common.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Aspose.Words": "23.7.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Nexio": "1.0.0",
+          "Nexio.Com": "1.0.0",
+          "Nexio.DllV3Wrapper": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "Nexio.Scope": "1.0.0",
+          "SharpZipLib": "1.3.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Bat.Common.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Bat.Common.Domain.dll": {}
+        }
+      },
+      "Nexio.Bat.Emi.VisuV4.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Aspose.Words": "23.7.0",
+          "MaterialDesignThemes": "2.5.0.1205",
+          "Newtonsoft.Json": "13.0.3",
+          "Nexio": "1.0.0",
+          "Nexio.Bat.Common.Domain": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "StyleCop.Analyzers": "1.1.118",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Bat.Emi.VisuV4.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Bat.Emi.VisuV4.Domain.dll": {}
+        }
+      },
+      "Nexio.Com/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "Nexio.Wpf": "1.0.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Com.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Com.dll": {}
+        }
+      },
+      "Nexio.DllV3Wrapper/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Nexio.Com": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.DllV3Wrapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.DllV3Wrapper.dll": {}
+        }
+      },
+      "Nexio.Resx/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Nexio.Resx.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Resx.dll": {}
+        }
+      },
+      "Nexio.Scope/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Scope.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Scope.dll": {}
+        }
+      },
+      "Nexio.Wpf/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AvalonEdit": "5.0.4",
+          "Dragablz": "0.0.3.203",
+          "Extended.Wpf.Toolkit": "3.7.0",
+          "MaterialDesignColors": "1.1.3",
+          "MaterialDesignThemes": "2.5.0.1205",
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "System.ValueTuple": "4.5.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Wpf.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "Aspose.Words/23.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AvalonEdit/5.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Dragablz/0.0.3.203": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Dragablz.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Dragablz.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Extended.Wpf.Toolkit/3.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MaterialDesignColors/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MaterialDesignThemes/2.5.0.1205": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "1.1.0"
+        },
+        "compile": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpZipLib/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "StyleCop.Analyzers/1.1.118": {
+        "type": "package"
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Nexio/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.dll": {}
+        }
+      },
+      "Nexio.Bat.Common.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Aspose.Words": "23.7.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Nexio": "1.0.0",
+          "Nexio.Com": "1.0.0",
+          "Nexio.DllV3Wrapper": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "Nexio.Scope": "1.0.0",
+          "SharpZipLib": "1.3.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Bat.Common.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Bat.Common.Domain.dll": {}
+        }
+      },
+      "Nexio.Bat.Emi.VisuV4.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Aspose.Words": "23.7.0",
+          "MaterialDesignThemes": "2.5.0.1205",
+          "Newtonsoft.Json": "13.0.3",
+          "Nexio": "1.0.0",
+          "Nexio.Bat.Common.Domain": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "StyleCop.Analyzers": "1.1.118",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Bat.Emi.VisuV4.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Bat.Emi.VisuV4.Domain.dll": {}
+        }
+      },
+      "Nexio.Com/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "Nexio.Wpf": "1.0.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Com.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Com.dll": {}
+        }
+      },
+      "Nexio.DllV3Wrapper/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Nexio.Com": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.DllV3Wrapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.DllV3Wrapper.dll": {}
+        }
+      },
+      "Nexio.Resx/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Nexio.Resx.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Resx.dll": {}
+        }
+      },
+      "Nexio.Scope/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Scope.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Scope.dll": {}
+        }
+      },
+      "Nexio.Wpf/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AvalonEdit": "5.0.4",
+          "Dragablz": "0.0.3.203",
+          "Extended.Wpf.Toolkit": "3.7.0",
+          "MaterialDesignColors": "1.1.3",
+          "MaterialDesignThemes": "2.5.0.1205",
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "System.ValueTuple": "4.5.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Wpf.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "Aspose.Words/23.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AvalonEdit/5.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Dragablz/0.0.3.203": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Dragablz.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Dragablz.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Extended.Wpf.Toolkit/3.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MaterialDesignColors/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MaterialDesignThemes/2.5.0.1205": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "1.1.0"
+        },
+        "compile": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpZipLib/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "StyleCop.Analyzers/1.1.118": {
+        "type": "package"
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Nexio/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.dll": {}
+        }
+      },
+      "Nexio.Bat.Common.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Aspose.Words": "23.7.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Nexio": "1.0.0",
+          "Nexio.Com": "1.0.0",
+          "Nexio.DllV3Wrapper": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "Nexio.Scope": "1.0.0",
+          "SharpZipLib": "1.3.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Bat.Common.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Bat.Common.Domain.dll": {}
+        }
+      },
+      "Nexio.Bat.Emi.VisuV4.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Aspose.Words": "23.7.0",
+          "MaterialDesignThemes": "2.5.0.1205",
+          "Newtonsoft.Json": "13.0.3",
+          "Nexio": "1.0.0",
+          "Nexio.Bat.Common.Domain": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "StyleCop.Analyzers": "1.1.118",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Bat.Emi.VisuV4.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Bat.Emi.VisuV4.Domain.dll": {}
+        }
+      },
+      "Nexio.Com/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "Nexio.Wpf": "1.0.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Com.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Com.dll": {}
+        }
+      },
+      "Nexio.DllV3Wrapper/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Nexio.Com": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.DllV3Wrapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.DllV3Wrapper.dll": {}
+        }
+      },
+      "Nexio.Resx/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Nexio.Resx.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Resx.dll": {}
+        }
+      },
+      "Nexio.Scope/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Scope.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Scope.dll": {}
+        }
+      },
+      "Nexio.Wpf/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AvalonEdit": "5.0.4",
+          "Dragablz": "0.0.3.203",
+          "Extended.Wpf.Toolkit": "3.7.0",
+          "MaterialDesignColors": "1.1.3",
+          "MaterialDesignThemes": "2.5.0.1205",
+          "Nexio": "1.0.0",
+          "Nexio.Resx": "1.0.0",
+          "System.ValueTuple": "4.5.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Nexio.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexio.Wpf.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Aspose.Words/23.7.0": {
+      "sha512": "85gkCewomqpoNqeAUUxTWACLXy1lmFqRESpL5+atUSAVNFbjIeOFdWkf1NYjCgm+UREwVFhYnNUzwqBSCXdXEw==",
+      "type": "package",
+      "path": "aspose.words/23.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Help/Aspose.Words Documentation.url",
+        "Images/aspose_words-for-net.png",
+        "License/Aspose_End-User-License-Agreement.txt",
+        "License/thirdpartylicenses-Aspose.Words for .NET.pdf",
+        "aspose.words.23.7.0.nupkg.sha512",
+        "aspose.words.nuspec",
+        "lib/net35-client/Aspose.Words.dll",
+        "lib/net35-client/Aspose.Words.xml",
+        "lib/net40-client/Aspose.Words.dll",
+        "lib/net40-client/Aspose.Words.xml",
+        "lib/net40/Aspose.Words.dll",
+        "lib/net40/Aspose.Words.xml",
+        "lib/net461/Aspose.Words.Pdf2Word.dll",
+        "lib/net461/Aspose.Words.dll",
+        "lib/net461/Aspose.Words.xml",
+        "lib/net6.0/Aspose.Words.Pdf2Word.dll",
+        "lib/net6.0/Aspose.Words.dll",
+        "lib/net6.0/Aspose.Words.xml",
+        "lib/netstandard2.0/Aspose.Words.Pdf2Word.dll",
+        "lib/netstandard2.0/Aspose.Words.dll",
+        "lib/netstandard2.0/Aspose.Words.xml"
+      ]
+    },
+    "AvalonEdit/5.0.4": {
+      "sha512": "E9bmoSz+Awmy4pfx1JrTUBKJ14f8rtbLEU8hz9Gav79IJm4ROgrw6QRQ5cR0cbdDfJex/i6WURnzQ2cbWc5I5Q==",
+      "type": "package",
+      "path": "avalonedit/5.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "avalonedit.5.0.4.nupkg.sha512",
+        "avalonedit.nuspec",
+        "lib/Net35/ICSharpCode.AvalonEdit.dll",
+        "lib/Net35/ICSharpCode.AvalonEdit.xml",
+        "lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "lib/Net40/ICSharpCode.AvalonEdit.xml"
+      ]
+    },
+    "Dragablz/0.0.3.203": {
+      "sha512": "bhfclqJCCwQ1MJgFtz2lAIK2xc1yhGLkEenCG4Y+Vt8Tf/7Hn/r64MGH9iEgkEjESOUSKbejs1sKjimepMj56w==",
+      "type": "package",
+      "path": "dragablz/0.0.3.203",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dragablz.0.0.3.203.nupkg.sha512",
+        "dragablz.nuspec",
+        "lib/net40/Dragablz.XML",
+        "lib/net40/Dragablz.dll",
+        "lib/net40/Dragablz.pdb",
+        "lib/net45/Dragablz.XML",
+        "lib/net45/Dragablz.dll",
+        "lib/net45/Dragablz.pdb",
+        "src/net40/CanvasOrganiser.cs",
+        "src/net40/ContainerCustomisations.cs",
+        "src/net40/Converters/BooleanAndToVisibilityConverter.cs",
+        "src/net40/Converters/EqualityToBooleanConverter.cs",
+        "src/net40/Converters/EqualityToVisibilityConverter.cs",
+        "src/net40/Converters/ShowDefaultCloseButtonConverter.cs",
+        "src/net40/Core/CollectionTeaser.cs",
+        "src/net40/Core/Extensions.cs",
+        "src/net40/Core/FuncComparer.cs",
+        "src/net40/Core/HitTest.cs",
+        "src/net40/Core/InterTabTransfer.cs",
+        "src/net40/Core/MultiComparer.cs",
+        "src/net40/Core/Native.cs",
+        "src/net40/Core/SystemCommand.cs",
+        "src/net40/Core/TabHeaderDragStartInformation.cs",
+        "src/net40/Core/WindowMessage.cs",
+        "src/net40/DefaultInterLayoutClient.cs",
+        "src/net40/DefaultInterTabClient.cs",
+        "src/net40/Dockablz/Branch.cs",
+        "src/net40/Dockablz/BranchAccessor.cs",
+        "src/net40/Dockablz/BranchItem.cs",
+        "src/net40/Dockablz/BranchResult.cs",
+        "src/net40/Dockablz/CouldBeHeaderedStyleSelector.cs",
+        "src/net40/Dockablz/DropZone.cs",
+        "src/net40/Dockablz/DropZoneLocation.cs",
+        "src/net40/Dockablz/Extensions.cs",
+        "src/net40/Dockablz/Finder.cs",
+        "src/net40/Dockablz/FloatRequestedEvent.cs",
+        "src/net40/Dockablz/FloatTransfer.cs",
+        "src/net40/Dockablz/FloatingItemSnapShot.cs",
+        "src/net40/Dockablz/Layout.cs",
+        "src/net40/Dockablz/LayoutAccessor.cs",
+        "src/net40/Dockablz/LocationReport.cs",
+        "src/net40/Dockablz/LocationReportBuilder.cs",
+        "src/net40/Dockablz/LocationReportException.cs",
+        "src/net40/Dockablz/LocationSnapShot.cs",
+        "src/net40/Dockablz/Tiler.cs",
+        "src/net40/Dockablz/TilerCalculator.cs",
+        "src/net40/DragablzColors.cs",
+        "src/net40/DragablzDragCompletedEventArgs.cs",
+        "src/net40/DragablzDragDeltaEventArgs.cs",
+        "src/net40/DragablzDragStartedEventArgs.cs",
+        "src/net40/DragablzIcon.cs",
+        "src/net40/DragablzItem.cs",
+        "src/net40/DragablzItemEventArgs.cs",
+        "src/net40/DragablzItemsControl.cs",
+        "src/net40/DragablzWindow.cs",
+        "src/net40/EmptyHeaderSizingHint.cs",
+        "src/net40/HeaderedDragablzItem.cs",
+        "src/net40/HeaderedItemViewModel.cs",
+        "src/net40/HorizontalOrganiser.cs",
+        "src/net40/HorizontalPositionMonitor.cs",
+        "src/net40/IInterLayoutClient.cs",
+        "src/net40/IInterTabClient.cs",
+        "src/net40/IItemsOrganiser.cs",
+        "src/net40/IManualInterTabClient.cs",
+        "src/net40/INewTabHost.cs",
+        "src/net40/InterTabController.cs",
+        "src/net40/ItemActionCallbackArgs.cs",
+        "src/net40/LocationChangedEventArgs.cs",
+        "src/net40/LocationHint.cs",
+        "src/net40/MoveItemRequest.cs",
+        "src/net40/NewTabHost.cs",
+        "src/net40/OrderChangedEventArgs.cs",
+        "src/net40/PositionMonitor.cs",
+        "src/net40/Properties/AssemblyInfo.cs",
+        "src/net40/Properties/Resources.Designer.cs",
+        "src/net40/Properties/Settings.Designer.cs",
+        "src/net40/Referenceless/AnonymousDisposable.cs",
+        "src/net40/Referenceless/DefaultDisposable.cs",
+        "src/net40/Referenceless/Disposable.cs",
+        "src/net40/Referenceless/ICancelable.cs",
+        "src/net40/Referenceless/SerialDisposable.cs",
+        "src/net40/StackOrganiser.cs",
+        "src/net40/StackPositionMonitor.cs",
+        "src/net40/StoryboardCompletionListener.cs",
+        "src/net40/TabEmptiedResponse.cs",
+        "src/net40/TabablzControl.cs",
+        "src/net40/TabablzHeaderSizeConverter.cs",
+        "src/net40/TabablzItemStyleSelector.cs",
+        "src/net40/Themes/BrushToRadialGradientBrushConverter.cs",
+        "src/net40/Themes/MaterialDesignAssist.cs",
+        "src/net40/Themes/Ripple.cs",
+        "src/net40/Themes/RippleAssist.cs",
+        "src/net40/Themes/SystemCommandIcon.cs",
+        "src/net40/Trapezoid.cs",
+        "src/net40/VerticalOrganiser.cs",
+        "src/net40/VerticalPositionMonitor.cs",
+        "src/net40/obj/Release/GeneratedInternalTypeHelper.g.cs",
+        "src/net45/CanvasOrganiser.cs",
+        "src/net45/ContainerCustomisations.cs",
+        "src/net45/Converters/BooleanAndToVisibilityConverter.cs",
+        "src/net45/Converters/EqualityToBooleanConverter.cs",
+        "src/net45/Converters/EqualityToVisibilityConverter.cs",
+        "src/net45/Converters/ShowDefaultCloseButtonConverter.cs",
+        "src/net45/Core/CollectionTeaser.cs",
+        "src/net45/Core/Extensions.cs",
+        "src/net45/Core/FuncComparer.cs",
+        "src/net45/Core/HitTest.cs",
+        "src/net45/Core/InterTabTransfer.cs",
+        "src/net45/Core/MultiComparer.cs",
+        "src/net45/Core/Native.cs",
+        "src/net45/Core/SystemCommand.cs",
+        "src/net45/Core/TabHeaderDragStartInformation.cs",
+        "src/net45/Core/WindowMessage.cs",
+        "src/net45/DefaultInterLayoutClient.cs",
+        "src/net45/DefaultInterTabClient.cs",
+        "src/net45/Dockablz/Branch.cs",
+        "src/net45/Dockablz/BranchAccessor.cs",
+        "src/net45/Dockablz/BranchItem.cs",
+        "src/net45/Dockablz/BranchResult.cs",
+        "src/net45/Dockablz/CouldBeHeaderedStyleSelector.cs",
+        "src/net45/Dockablz/DropZone.cs",
+        "src/net45/Dockablz/DropZoneLocation.cs",
+        "src/net45/Dockablz/Extensions.cs",
+        "src/net45/Dockablz/Finder.cs",
+        "src/net45/Dockablz/FloatRequestedEvent.cs",
+        "src/net45/Dockablz/FloatTransfer.cs",
+        "src/net45/Dockablz/FloatingItemSnapShot.cs",
+        "src/net45/Dockablz/Layout.cs",
+        "src/net45/Dockablz/LayoutAccessor.cs",
+        "src/net45/Dockablz/LocationReport.cs",
+        "src/net45/Dockablz/LocationReportBuilder.cs",
+        "src/net45/Dockablz/LocationReportException.cs",
+        "src/net45/Dockablz/LocationSnapShot.cs",
+        "src/net45/Dockablz/Tiler.cs",
+        "src/net45/Dockablz/TilerCalculator.cs",
+        "src/net45/DragablzColors.cs",
+        "src/net45/DragablzDragCompletedEventArgs.cs",
+        "src/net45/DragablzDragDeltaEventArgs.cs",
+        "src/net45/DragablzDragStartedEventArgs.cs",
+        "src/net45/DragablzIcon.cs",
+        "src/net45/DragablzItem.cs",
+        "src/net45/DragablzItemEventArgs.cs",
+        "src/net45/DragablzItemsControl.cs",
+        "src/net45/DragablzWindow.cs",
+        "src/net45/EmptyHeaderSizingHint.cs",
+        "src/net45/HeaderedDragablzItem.cs",
+        "src/net45/HeaderedItemViewModel.cs",
+        "src/net45/HorizontalOrganiser.cs",
+        "src/net45/HorizontalPositionMonitor.cs",
+        "src/net45/IInterLayoutClient.cs",
+        "src/net45/IInterTabClient.cs",
+        "src/net45/IItemsOrganiser.cs",
+        "src/net45/IManualInterTabClient.cs",
+        "src/net45/INewTabHost.cs",
+        "src/net45/InterTabController.cs",
+        "src/net45/ItemActionCallbackArgs.cs",
+        "src/net45/LocationChangedEventArgs.cs",
+        "src/net45/LocationHint.cs",
+        "src/net45/MoveItemRequest.cs",
+        "src/net45/NewTabHost.cs",
+        "src/net45/OrderChangedEventArgs.cs",
+        "src/net45/PositionMonitor.cs",
+        "src/net45/Properties/AssemblyInfo.cs",
+        "src/net45/Properties/Resources.Designer.cs",
+        "src/net45/Properties/Settings.Designer.cs",
+        "src/net45/Referenceless/AnonymousDisposable.cs",
+        "src/net45/Referenceless/DefaultDisposable.cs",
+        "src/net45/Referenceless/Disposable.cs",
+        "src/net45/Referenceless/ICancelable.cs",
+        "src/net45/Referenceless/SerialDisposable.cs",
+        "src/net45/StackOrganiser.cs",
+        "src/net45/StackPositionMonitor.cs",
+        "src/net45/StoryboardCompletionListener.cs",
+        "src/net45/TabEmptiedResponse.cs",
+        "src/net45/TabablzControl.cs",
+        "src/net45/TabablzHeaderSizeConverter.cs",
+        "src/net45/TabablzItemStyleSelector.cs",
+        "src/net45/Themes/BrushToRadialGradientBrushConverter.cs",
+        "src/net45/Themes/MaterialDesignAssist.cs",
+        "src/net45/Themes/Ripple.cs",
+        "src/net45/Themes/RippleAssist.cs",
+        "src/net45/Themes/SystemCommandIcon.cs",
+        "src/net45/Trapezoid.cs",
+        "src/net45/VerticalOrganiser.cs",
+        "src/net45/VerticalPositionMonitor.cs",
+        "src/net45/obj/Release/GeneratedInternalTypeHelper.g.cs"
+      ]
+    },
+    "Extended.Wpf.Toolkit/3.7.0": {
+      "sha512": "DeDuJY5qrXS6Z1RQ65HvgaWmDbSe7MSFuOaN9nBp+/ze8J6OEoNsUKxrQaAvkzeX6CiV1r6GOsovUyjDSSVoKg==",
+      "type": "package",
+      "path": "extended.wpf.toolkit/3.7.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "extended.wpf.toolkit.3.7.0.nupkg.sha512",
+        "extended.wpf.toolkit.nuspec",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "lib/net40/Xceed.Wpf.Toolkit.dll",
+        "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll",
+        "tools/install.ps1"
+      ]
+    },
+    "log4net/2.0.8": {
+      "sha512": "N41MQGHZImiCfn0cUuSBjZxrcNfIQCuCgQP0rpgB3J/NWponEh3lc1LxJEuIsPAR9Oc1jVvfkNNFCY1C5hf9LA==",
+      "type": "package",
+      "path": "log4net/2.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20-full/log4net.dll",
+        "lib/net20-full/log4net.xml",
+        "lib/net35-client/log4net.dll",
+        "lib/net35-client/log4net.xml",
+        "lib/net35-full/log4net.dll",
+        "lib/net35-full/log4net.xml",
+        "lib/net40-client/log4net.dll",
+        "lib/net40-client/log4net.xml",
+        "lib/net40-full/log4net.dll",
+        "lib/net40-full/log4net.xml",
+        "lib/net45-full/log4net.dll",
+        "lib/net45-full/log4net.xml",
+        "lib/netstandard1.3/log4net.dll",
+        "log4net.2.0.8.nupkg.sha512",
+        "log4net.nuspec"
+      ]
+    },
+    "MaterialDesignColors/1.1.3": {
+      "sha512": "Z3sn2PnimFwJPfNz+j7yRlzaRT+VnXCg0Mx0tnOYpq/f8rq2U5tZV97ht7757gAuh3S94zViHtdOf8zlbGGrsg==",
+      "type": "package",
+      "path": "materialdesigncolors/1.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MaterialDesignColors.dll",
+        "lib/net45/MaterialDesignColors.pdb",
+        "materialdesigncolors.1.1.3.nupkg.sha512",
+        "materialdesigncolors.nuspec"
+      ]
+    },
+    "MaterialDesignThemes/2.5.0.1205": {
+      "sha512": "vgxABGoeP1x72cbegEzi5vksv915VsPB7t1sjJbZ0Av5NTjaiohLY6GDbyo8IQsqi5Ro85r1wJs8kHU7Kv9yIA==",
+      "type": "package",
+      "path": "materialdesignthemes/2.5.0.1205",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MaterialDesignThemes.Wpf.XML",
+        "lib/net45/MaterialDesignThemes.Wpf.dll",
+        "lib/net45/MaterialDesignThemes.Wpf.pdb",
+        "materialdesignthemes.2.5.0.1205.nupkg.sha512",
+        "materialdesignthemes.nuspec",
+        "src/net45/Badged.cs",
+        "src/net45/BaseTheme.cs",
+        "src/net45/ButtonProgressAssist.cs",
+        "src/net45/Card.cs",
+        "src/net45/Chip.cs",
+        "src/net45/Clock.cs",
+        "src/net45/ClockChoiceMadeEventArgs.cs",
+        "src/net45/ClockItemButton.cs",
+        "src/net45/ColorZone.cs",
+        "src/net45/ColorZoneAssist.cs",
+        "src/net45/ComboBoxAssist.cs",
+        "src/net45/ComboBoxPopup.cs",
+        "src/net45/Converters/BooleanToVisibilityConverter.cs",
+        "src/net45/Converters/BrushRoundConverter.cs",
+        "src/net45/Converters/BrushToRadialGradientBrushConverter.cs",
+        "src/net45/Converters/CalendarDateCoalesceConverter.cs",
+        "src/net45/Converters/CircularProgressBar/ArcEndPointConverter.cs",
+        "src/net45/Converters/CircularProgressBar/ArcSizeConverter.cs",
+        "src/net45/Converters/CircularProgressBar/LargeArcConverter.cs",
+        "src/net45/Converters/CircularProgressBar/LocalEx.cs",
+        "src/net45/Converters/CircularProgressBar/RotateTransformCentreConverter.cs",
+        "src/net45/Converters/CircularProgressBar/RotateTransformConverter.cs",
+        "src/net45/Converters/CircularProgressBar/StartPointConverter.cs",
+        "src/net45/Converters/ClockItemIsCheckedConverter.cs",
+        "src/net45/Converters/ClockLineConverter.cs",
+        "src/net45/Converters/DrawerOffsetConverter.cs",
+        "src/net45/Converters/EqualityToVisibilityConverter.cs",
+        "src/net45/Converters/HintProxyFabricConverter.cs",
+        "src/net45/Converters/ListViewItemContainerStyleConverter.cs",
+        "src/net45/Converters/MathConverter.cs",
+        "src/net45/Converters/MathMultipleConverter.cs",
+        "src/net45/Converters/NotConverter.cs",
+        "src/net45/Converters/NotZeroConverter.cs",
+        "src/net45/Converters/NotZeroToVisibilityConverter.cs",
+        "src/net45/Converters/NullToVisibilityConverter.cs",
+        "src/net45/Converters/NullableDateTimeToCurrentDateConverter.cs",
+        "src/net45/Converters/PointValueConverter.cs",
+        "src/net45/Converters/RangeLengthConverter.cs",
+        "src/net45/Converters/RangePositionConverterConverter.cs",
+        "src/net45/Converters/ShadowConverter.cs",
+        "src/net45/Converters/ShadowEdgeConverter.cs",
+        "src/net45/Converters/ShadowInfo.cs",
+        "src/net45/Converters/SizeToRectConverter.cs",
+        "src/net45/Converters/SnackbarMessageTypeConverter.cs",
+        "src/net45/Converters/TextFieldHintVisibilityConverter.cs",
+        "src/net45/Converters/TimeToVisibilityConverter.cs",
+        "src/net45/CustomPopupPlacementCallbackHelper.cs",
+        "src/net45/DataGridAssist.cs",
+        "src/net45/DateTimeEx.cs",
+        "src/net45/DialogClosingEventArgs.cs",
+        "src/net45/DialogClosingEventHandler.cs",
+        "src/net45/DialogHost.cs",
+        "src/net45/DialogHostEx.cs",
+        "src/net45/DialogOpenedEventArgs.cs",
+        "src/net45/DialogOpenedEventHandler.cs",
+        "src/net45/DialogSession.cs",
+        "src/net45/DpiHelper.cs",
+        "src/net45/DrawerHost.cs",
+        "src/net45/Extensions.cs",
+        "src/net45/Flipper.cs",
+        "src/net45/HintAssist.cs",
+        "src/net45/HintProxyFabric.ComboBox.cs",
+        "src/net45/HintProxyFabric.PasswordBox.cs",
+        "src/net45/HintProxyFabric.TextBox.cs",
+        "src/net45/HintProxyFabric.cs",
+        "src/net45/IHintProxy.cs",
+        "src/net45/ISnackbarMessageQueue.cs",
+        "src/net45/Icon.cs",
+        "src/net45/IconType.cs",
+        "src/net45/ListBoxAssist.cs",
+        "src/net45/ListSortDirectionIndicator.cs",
+        "src/net45/ListViewAssist.cs",
+        "src/net45/MaterialDataGridComboBoxColumn.cs",
+        "src/net45/MaterialDataGridTextColumn.cs",
+        "src/net45/MaterialDateDisplay.cs",
+        "src/net45/MessageQueueExtension.cs",
+        "src/net45/PackIcon.cs",
+        "src/net45/PackIconDataFactory.cs",
+        "src/net45/PackIconExtension.cs",
+        "src/net45/PackIconKind.cs",
+        "src/net45/Palette.cs",
+        "src/net45/PaletteHelper.cs",
+        "src/net45/Plane3D.cs",
+        "src/net45/PopupBox.cs",
+        "src/net45/Properties/AssemblyInfo.cs",
+        "src/net45/Properties/Resources.Designer.cs",
+        "src/net45/Properties/Settings.Designer.cs",
+        "src/net45/RatingBar.cs",
+        "src/net45/RatingBarButton.cs",
+        "src/net45/Ripple.cs",
+        "src/net45/RippleAssist.cs",
+        "src/net45/ScaleHost.cs",
+        "src/net45/Screen.cs",
+        "src/net45/ScrollViewerAssist.cs",
+        "src/net45/ShadowAssist.cs",
+        "src/net45/SmartHint.cs",
+        "src/net45/Snackbar.cs",
+        "src/net45/SnackbarMessage.cs",
+        "src/net45/SnackbarMessageEventArgs.cs",
+        "src/net45/SnackbarMessageQueue.cs",
+        "src/net45/SnackbarMessageQueueItem.cs",
+        "src/net45/Spelling.cs",
+        "src/net45/StringExtensions.cs",
+        "src/net45/TextFieldAssist.cs",
+        "src/net45/ThemeAssist.cs",
+        "src/net45/TimePicker.cs",
+        "src/net45/ToggleButtonAssist.cs",
+        "src/net45/ToolTipAssist.cs",
+        "src/net45/Transitions/CircleWipe.cs",
+        "src/net45/Transitions/FadeWipe.cs",
+        "src/net45/Transitions/ITransitionEffect.cs",
+        "src/net45/Transitions/ITransitionEffectSubject.cs",
+        "src/net45/Transitions/ITransitionWipe.cs",
+        "src/net45/Transitions/IZIndexController.cs",
+        "src/net45/Transitions/IndexedItemOffsetMultiplierExtension.cs",
+        "src/net45/Transitions/SlideDirection.cs",
+        "src/net45/Transitions/SlideOutWipe.cs",
+        "src/net45/Transitions/SlideWipe.cs",
+        "src/net45/Transitions/TransitionAssist.cs",
+        "src/net45/Transitions/TransitionEffect.cs",
+        "src/net45/Transitions/TransitionEffectBase.cs",
+        "src/net45/Transitions/TransitionEffectExtension.cs",
+        "src/net45/Transitions/TransitionEffectKind.cs",
+        "src/net45/Transitions/TransitionEffectTypeConverter.cs",
+        "src/net45/Transitions/Transitioner.cs",
+        "src/net45/Transitions/TransitionerSlide.cs",
+        "src/net45/Transitions/TransitionerSlideState.cs",
+        "src/net45/Transitions/TransitioningContent.cs",
+        "src/net45/Transitions/TransitioningContentBase.cs",
+        "src/net45/TreeHelper.cs",
+        "src/net45/TreeViewAssist.cs",
+        "src/net45/Underline.cs",
+        "src/net45/ValidationAssist.cs",
+        "src/net45/obj/AppVeyor/GeneratedInternalTypeHelper.g.cs"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "SharpZipLib/1.3.0": {
+      "sha512": "pILnzAZBJLZ4HEHqFc044yHyS+CLrieYICRfLb5G/odk//7m8RrcJ7b9jfZevXa90PCjHVGaD1tTZopez/1TZw==",
+      "type": "package",
+      "path": "sharpziplib/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ICSharpCode.SharpZipLib.dll",
+        "lib/net45/ICSharpCode.SharpZipLib.pdb",
+        "lib/net45/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
+        "sharpziplib.1.3.0.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    },
+    "StyleCop.Analyzers/1.1.118": {
+      "sha512": "Onx6ovGSqXSK07n/0eM3ZusiNdB6cIlJdabQhWGgJp3Vooy9AaLS/tigeybOJAobqbtggTamoWndz72JscZBvw==",
+      "type": "package",
+      "path": "stylecop.analyzers/1.1.118",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
+        "analyzers/dotnet/cs/de-DE/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/en-GB/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/es-MX/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/fr-FR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pl-PL/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/ru-RU/StyleCop.Analyzers.resources.dll",
+        "stylecop.analyzers.1.1.118.nupkg.sha512",
+        "stylecop.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Nexio/1.0.0": {
+      "type": "project",
+      "path": "../../Framework/Nexio/Nexio.csproj",
+      "msbuildProject": "../../Framework/Nexio/Nexio.csproj"
+    },
+    "Nexio.Bat.Common.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Common/Nexio.Bat.Commun.Domain/Nexio.Bat.Common.Domain.csproj",
+      "msbuildProject": "../../Common/Nexio.Bat.Commun.Domain/Nexio.Bat.Common.Domain.csproj"
+    },
+    "Nexio.Bat.Emi.VisuV4.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Nexio.Bat.Emi.VisuV4.Domain/Nexio.Bat.Emi.VisuV4.Domain.csproj",
+      "msbuildProject": "../Nexio.Bat.Emi.VisuV4.Domain/Nexio.Bat.Emi.VisuV4.Domain.csproj"
+    },
+    "Nexio.Com/1.0.0": {
+      "type": "project",
+      "path": "../../Framework/Nexio.Com/Nexio.Com.csproj",
+      "msbuildProject": "../../Framework/Nexio.Com/Nexio.Com.csproj"
+    },
+    "Nexio.DllV3Wrapper/1.0.0": {
+      "type": "project",
+      "path": "../../Bat-Emi/Nexio.V3CommWrapper/Nexio.V3CommWrapper.vcxproj",
+      "msbuildProject": "../../Bat-Emi/Nexio.V3CommWrapper/Nexio.V3CommWrapper.vcxproj"
+    },
+    "Nexio.Resx/1.0.0": {
+      "type": "project",
+      "path": "../../Framework/Nexio.Resx/Nexio.Resx.csproj",
+      "msbuildProject": "../../Framework/Nexio.Resx/Nexio.Resx.csproj"
+    },
+    "Nexio.Scope/1.0.0": {
+      "type": "project",
+      "path": "../../Monitoring/Nexio.Scope/Nexio.Scope.csproj",
+      "msbuildProject": "../../Monitoring/Nexio.Scope/Nexio.Scope.csproj"
+    },
+    "Nexio.Wpf/1.0.0": {
+      "type": "project",
+      "path": "../../Framework/Nexio.Wpf/Nexio.Wpf.csproj",
+      "msbuildProject": "../../Framework/Nexio.Wpf/Nexio.Wpf.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Nexio >= 1.0.0",
+      "Nexio.Bat.Common.Domain >= 1.0.0",
+      "Nexio.Bat.Emi.VisuV4.Domain >= 1.0.0",
+      "Nexio.Resx >= 1.0.0",
+      "Nexio.Wpf >= 1.0.0",
+      "StyleCop.Analyzers >= 1.1.118"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\simon.froidefond\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Definition\\Nexio.Bat.Emi.VisuV4.Definition.csproj",
+      "projectName": "Nexio.Bat.Emi.VisuV4.Definition",
+      "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Definition\\Nexio.Bat.Emi.VisuV4.Definition.csproj",
+      "packagesPath": "C:\\Users\\simon.froidefond\\.nuget\\packages\\",
+      "outputPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Definition\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\simon.froidefond\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {
+            "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Domain\\Nexio.Bat.Emi.VisuV4.Domain.csproj": {
+              "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\BAT-EMI VisuV4\\Nexio.Bat.Emi.VisuV4.Domain\\Nexio.Bat.Emi.VisuV4.Domain.csproj"
+            },
+            "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Common\\Nexio.Bat.Commun.Domain\\Nexio.Bat.Common.Domain.csproj": {
+              "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Common\\Nexio.Bat.Commun.Domain\\Nexio.Bat.Common.Domain.csproj"
+            },
+            "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj": {
+              "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Resx\\Nexio.Resx.csproj"
+            },
+            "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Wpf\\Nexio.Wpf.csproj": {
+              "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio.Wpf\\Nexio.Wpf.csproj"
+            },
+            "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj": {
+              "projectPath": "C:\\0_DEV\\BAT_2023.0.X.0_MAINT\\Wpf\\Framework\\Nexio\\Nexio.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "StyleCop.Analyzers": {
+            "target": "Package",
+            "version": "[1.1.118, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

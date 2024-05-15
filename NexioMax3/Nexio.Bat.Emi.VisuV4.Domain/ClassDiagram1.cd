@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nexio.Bat.Emi.VisuV4.Domain.Model.Function">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAgAAAE=</HashCode>
+      <FileName>Model\Function.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nexio.Bat.Emi.VisuV4.Domain.Model.Limit">
+    <Position X="1.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAABA=</HashCode>
+      <FileName>Model\Limit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nexio.Bat.Emi.VisuV4.Domain.Model.Prescan">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAgAAYAAAAAAAAAAAAAAABAABg=</HashCode>
+      <FileName>Model\Prescan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Function" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Nexio.Bat.Emi.VisuV4.Domain.Model.SubRange">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQACAAIBAAAAAAAQAAIAAADAQCAAABAAAAAA=</HashCode>
+      <FileName>Model\SubRange.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="PrescanList" />
+      <Property Name="SuspectList" />
+      <Property Name="FinalList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Nexio.Bat.Emi.VisuV4.Domain.Model.Test">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Test.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="SubRangeList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Nexio.Bat.Emi.VisuV4.Domain.Model.FilteredData">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAIAAIAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\FilteredData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Function" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Nexio.Bat.Emi.VisuV4.Domain.Model.Final">
+    <Position X="12.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Final.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nexio.Bat.Emi.VisuV4.Domain.Model.Suspect">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Suspect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Nexio.Bat.Emi.VisuV4.Domain.Model.Fonction_Action">
+    <Position X="16.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAhAABAAAQCoAIAAAAAAgAAAAAAAABAAA=</HashCode>
+      <FileName>Model\Fonction_Action.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nexio.Bat.Emi.VisuV4.Domain.Model.SB_State">
+    <Position X="15" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAABAAAAAAAAAAAAAAAAABAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\SB_State.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nexio.Bat.Emi.VisuV4.Domain.Model.Test_State">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Model\Test_State.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nexio.Bat.Emi.VisuV4.Domain.Model.TypeCol">
+    <Position X="16.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAIAACAABE=</HashCode>
+      <FileName>Model\TypeCol.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nexio.Bat.Emi.VisuV4.Domain.Model.TypesProgression">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAEAgAAAAAAAAgAAAgABAAAACAAAAAAAAAQAAE=</HashCode>
+      <FileName>Model\TypesProgression.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nexio.Bat.Emi.VisuV4.Domain.Model.FilteredDataType">
+    <Position X="16.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\FilteredData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

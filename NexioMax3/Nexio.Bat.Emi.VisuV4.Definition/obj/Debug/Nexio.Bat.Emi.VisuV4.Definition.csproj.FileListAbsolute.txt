@@ -1,0 +1,126 @@
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\x64\NationalInstruments.DAQmx.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\x86\NationalInstruments.DAQmx.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Bat.Emi.VisuV4.Definition.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Bat.Emi.VisuV4.Definition.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Aspose.Words.Pdf2Word.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Aspose.Words.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Dragablz.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Dragablz.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\log4net.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\MaterialDesignColors.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\MaterialDesignColors.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Newtonsoft.Json.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\System.ValueTuple.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Bat.Common.Domain.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Bat.Emi.VisuV4.Domain.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Resx.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Wpf.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Com.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Scope.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.DllV3Wrapper.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\NationalInstruments.Visa.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Ivi.Visa.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Bat.Common.Domain.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Bat.Emi.VisuV4.Domain.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Resx.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Wpf.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Com.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Scope.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.DllV3Wrapper.pdb
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\fr\Nexio.Bat.Common.Domain.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\fr\Nexio.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\fr\Nexio.Com.resources.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.csproj.AssemblyReference.cache
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\View\EmiOverrideView.g.cs
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition_MarkupCompile.cache
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition_MarkupCompile.lref
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\View\EmiOverrideView.baml
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.g.resources
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.resources
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.csproj.GenerateResource.cache
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.csproj.CoreCompileInputs.cache
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.csproj.CopyComplete
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.dll
+C:\0_DEV\BAT_2023.0.X.0_MAINT\Wpf\BAT-EMI VisuV4\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.csproj.AssemblyReference.cache
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\View\EmiOverrideView.g.cs
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition_MarkupCompile.cache
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition_MarkupCompile.lref
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Bat.Emi.VisuV4.Definition.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Bat.Emi.VisuV4.Definition.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Aspose.Words.Pdf2Word.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Aspose.Words.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Dragablz.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Dragablz.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\log4net.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\MaterialDesignColors.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\MaterialDesignColors.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Newtonsoft.Json.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\System.ValueTuple.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Bat.Common.Domain.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Bat.Emi.VisuV4.Domain.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Resx.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Wpf.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Com.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Scope.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.DllV3Wrapper.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\NationalInstruments.Visa.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Ivi.Visa.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Bat.Emi.VisuV4.Domain.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Com.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.Scope.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\Nexio.DllV3Wrapper.pdb
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\bin\Debug\fr\Nexio.Com.resources.dll
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\View\EmiOverrideView.baml
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.g.resources
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.Properties.Resources.resources
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.csproj.GenerateResource.cache
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.csproj.CoreCompileInputs.cache
+C:\0_DEV\GIT-SIMON\NexioMax3\Nexio.Bat.Emi.VisuV4.Definition\obj\Debug\Nexio.Bat.Emi.VisuV4.Definition.csproj.CopyComplete

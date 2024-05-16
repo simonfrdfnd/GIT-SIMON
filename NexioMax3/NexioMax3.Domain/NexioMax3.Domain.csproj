@@ -83,6 +83,7 @@
     <Compile Include="Configuration\Model\FontSetting.cs" />
     <Compile Include="Configuration\Model\ManualPointComment.cs" />
     <Compile Include="Configuration\Model\ManualPointConfig.cs" />
+    <Compile Include="Configuration\Model\NexioMax3\NexioMax3Data.cs" />
     <Compile Include="Configuration\Model\OptionalColumn.cs" />
     <Compile Include="Configuration\Model\PageSetupConfig.cs" />
     <Compile Include="Configuration\Model\Polar\CoordinateHelper.cs" />

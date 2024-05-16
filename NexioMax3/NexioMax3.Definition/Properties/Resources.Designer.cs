@@ -286,6 +286,15 @@ namespace NexioMax3.Definition.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to NexioMax3.
+        /// </summary>
+        internal static string NexioMax3 {
+            get {
+                return ResourceManager.GetString("NexioMax3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No name for this curve.
         /// </summary>
         internal static string NoNameForThisCurve {

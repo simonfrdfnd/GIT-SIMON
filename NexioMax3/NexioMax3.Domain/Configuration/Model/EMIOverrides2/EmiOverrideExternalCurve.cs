@@ -2,10 +2,10 @@
 {
   public class EmiOverrideExternalCurve : StyleDefinition
   {
-    public string Project { get; set; } = NexioMax3.Domain.Properties.Resources.All;
+    public string Project { get; set; } = Properties.Resources.All;
 
     public string Name { get; set; }
 
-    public string Position { get; set; } = NexioMax3.Domain.Properties.Resources.All;
+    public string Position { get; set; } = Properties.Resources.All;
   }
 }

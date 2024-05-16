@@ -1,8 +1,8 @@
-﻿namespace NexioMax3.Domain.Configuration.Model
-{
-  using Newtonsoft.Json;
-  using NexioMax3.Domain.Model;
+﻿using Newtonsoft.Json;
+using NexioMax3.Domain.Model;
 
+namespace NexioMax3.Domain.Configuration.Model
+{
   public class EnvSuspectConfigurationStyle
   {
     [JsonProperty(PropertyName = "Tag")]

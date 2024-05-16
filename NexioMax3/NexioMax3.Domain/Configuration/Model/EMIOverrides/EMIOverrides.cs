@@ -4,7 +4,7 @@
   using System.Collections.Generic;
   using System.IO;
   using System.Linq;
-  using NexioMax3.Domain.Model;
+  using global::NexioMax3.Domain.Model;
   using Nexio.Helper;
 
   public class EMIOverrides

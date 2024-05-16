@@ -100,3 +100,9 @@ C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\NexioMax3.Definition
 C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\NexioMax3.Definition.pdb
 C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\View\NexioMax3View.g.cs
 C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\View\NexioMax3View.baml
+C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\View\VisaConsoleView.g.cs
+C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\View\VisaConsoleView.baml
+C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\View\VirtualImmunitySetupView.g.cs
+C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\View\VirtualImmunitySetupView.baml
+C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\View\TerminalView.g.cs
+C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\View\TerminalView.baml

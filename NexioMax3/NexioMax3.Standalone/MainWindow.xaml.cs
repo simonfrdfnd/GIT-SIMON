@@ -12,7 +12,7 @@ namespace NexioMax3.Standalone
     public MainWindow()
     {
       this.InitializeComponent();
-      var vm = new EmiOverrideViewModel();
+      var vm = new Max3ViewModel();
       vm.CloseRequested += this.VmOnCloseRequested;
       this.DataContext = vm;
     }

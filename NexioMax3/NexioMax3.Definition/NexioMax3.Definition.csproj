@@ -40,6 +40,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Nexio.Bat.Common.Domain.dll</HintPath>
     </Reference>
+    <Reference Include="Nexio.Com">
+      <HintPath>..\Nexio.Com.dll</HintPath>
+    </Reference>
     <Reference Include="Nexio.Resx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fe6efcb45ab02258, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Nexio.Resx.dll</HintPath>
@@ -65,8 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Converters\BooleanOrToVisibilityConverter.cs" />
+    <Compile Include="Converters\Max3GroupEqualsConverter.cs" />
     <Compile Include="Converters\OverrideGroupEqualsConverter.cs" />
+    <Compile Include="Converters\Max3GroupToTitleConverter.cs" />
     <Compile Include="Converters\OverrideGroupToTitleConverter.cs" />
+    <Compile Include="Converters\SelectionToMax3GroupConverter.cs" />
     <Compile Include="Converters\SelectionToOverrideGroupConverter.cs" />
     <Compile Include="Markups\EnumBindingSourceExtension.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -74,6 +80,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel\Max3ViewModel.cs" />
+    <Compile Include="ViewModel\Max3Group.cs" />
     <Compile Include="ViewModel\EmiOverrideGroup.cs" />
     <Compile Include="ViewModel\EmiOverrideViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,12 +92,23 @@
     <Compile Include="ViewModel\PositionViewModel.cs" />
     <Compile Include="ViewModel\SourceViewModel.cs" />
     <Compile Include="ViewModel\Symbol.cs" />
+    <Compile Include="ViewModel\VisaConsoleViewModel.cs" />
+    <Compile Include="ViewModel\TerminalViewModel.cs" />
     <Compile Include="ViewModel\ValidationMessageComparer.cs" />
     <Compile Include="View\EmiOverrideView.xaml.cs">
       <DependentUpon>EmiOverrideView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\NexioMax3View.xaml.cs">
       <DependentUpon>NexioMax3View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TerminalView.xaml.cs">
+      <DependentUpon>TerminalView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\VirtualImmunitySetupView.xaml.cs">
+      <DependentUpon>VirtualImmunitySetupView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\VisaConsoleView.xaml.cs">
+      <DependentUpon>VisaConsoleView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -110,6 +129,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\NexioMax3View.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TerminalView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\VirtualImmunitySetupView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\VisaConsoleView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

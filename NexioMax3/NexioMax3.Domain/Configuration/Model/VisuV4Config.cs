@@ -1,11 +1,10 @@
-﻿namespace NexioMax3.Domain.Configuration.Model
-{
-  using System;
-  using System.IO;
-  using Newtonsoft.Json;
-  using Nexio.Bat.Common.Domain.Infrastructure.Service;
-  using NexioMax3.Domain;
+﻿using System;
+using System.IO;
+using Newtonsoft.Json;
+using Nexio.Bat.Common.Domain.Infrastructure.Service;
 
+namespace NexioMax3.Domain.Configuration.Model
+{
   public class VisuV4Config
   {
     public bool fileExists;

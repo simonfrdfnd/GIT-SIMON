@@ -1,7 +1,7 @@
 ﻿namespace NexioMax3.Domain.Configuration.Model
 {
+  using global::NexioMax3.Domain.Model;
   using Newtonsoft.Json;
-  using NexioMax3.Domain.Model;
 
   public class EnvCurveConfigurationStyle
   {

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:NexioMax3.Standalone"
         xmlns:view="clr-namespace:NexioMax3.Definition.View;assembly=NexioMax3.Definition"
         mc:Ignorable="d"
-        Title="EMI Override" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+        Title="NexioMax3" Height="600" Width="1200" WindowStartupLocation="CenterScreen">
   <Window.Resources>
     <ResourceDictionary>
 

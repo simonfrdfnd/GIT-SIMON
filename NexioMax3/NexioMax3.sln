@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexioMax3.Definition", "Nexio.Bat.Emi.VisuV4.Definition\NexioMax3.Definition.csproj", "{19B65C0A-8E5E-44D6-B60F-CA45F16526D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexioMax3.Definition", "NexioMax3.Definition\NexioMax3.Definition.csproj", "{19B65C0A-8E5E-44D6-B60F-CA45F16526D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexioMax3.Domain", "Nexio.Bat.Emi.VisuV4.Domain\NexioMax3.Domain.csproj", "{52E27DD3-DB56-40EF-92DE-885C5B896200}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexioMax3.Domain", "NexioMax3.Domain\NexioMax3.Domain.csproj", "{52E27DD3-DB56-40EF-92DE-885C5B896200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexioMax3.EmiOverride.Standalone", "Nexio.Bat.Emi.VisuV4.EmiOverride.Standalone\NexioMax3.EmiOverride.Standalone.csproj", "{17B4AE7A-0761-4626-A0CB-44BF5791DA0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexioMax3.EmiOverride.Standalone", "NexioMax3.EmiOverride.Standalone\NexioMax3.EmiOverride.Standalone.csproj", "{17B4AE7A-0761-4626-A0CB-44BF5791DA0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexioMax3.Standalone", "NexioMax3.Standalone\NexioMax3.Standalone.csproj", "{544AF25B-894A-43B5-9A51-5418CA0BB0A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,22 @@ Global
 		{17B4AE7A-0761-4626-A0CB-44BF5791DA0B}.ReleaseV4|Any CPU.Build.0 = Release|Any CPU
 		{17B4AE7A-0761-4626-A0CB-44BF5791DA0B}.ReleaseV4|x86.ActiveCfg = Release|Any CPU
 		{17B4AE7A-0761-4626-A0CB-44BF5791DA0B}.ReleaseV4|x86.Build.0 = Release|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.Debug|x86.Build.0 = Debug|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.DebugV4|Any CPU.ActiveCfg = Debug|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.DebugV4|Any CPU.Build.0 = Debug|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.DebugV4|x86.ActiveCfg = Debug|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.DebugV4|x86.Build.0 = Debug|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.Release|x86.ActiveCfg = Release|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.Release|x86.Build.0 = Release|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.ReleaseV4|Any CPU.ActiveCfg = Release|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.ReleaseV4|Any CPU.Build.0 = Release|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.ReleaseV4|x86.ActiveCfg = Release|Any CPU
+		{544AF25B-894A-43B5-9A51-5418CA0BB0A8}.ReleaseV4|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

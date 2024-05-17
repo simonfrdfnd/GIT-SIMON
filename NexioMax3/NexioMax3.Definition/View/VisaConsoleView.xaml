@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:NexioMax3.Definition.View"
+             xmlns:controls="clr-namespace:Nexio.Wpf.Controls;assembly=Nexio.Wpf"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
   <Grid>
@@ -13,26 +14,26 @@
     </Grid.ColumnDefinitions>
     <StackPanel>
       <Label FontSize="16">Text mode</Label>
-      <ComboBox SelectedItem="{Binding DisplayMode}">
+      <controls:ComboBox SelectedItem="{Binding DisplayMode}">
         <ComboBoxItem IsSelected="True">Ascii</ComboBoxItem>
         <ComboBoxItem>Ascii/Hex</ComboBoxItem>
-      </ComboBox>
+      </controls:ComboBox>
       <Label FontSize="16">Visa address</Label>
-      <ComboBox IsEditable="True" IsEnabled="{Binding EnableAddress}" ItemsSource="{Binding Addresses, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+      <controls:ComboBox IsEditable="True" IsEnabled="{Binding EnableAddress}" ItemsSource="{Binding Addresses, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
                                     Text="{Binding SelectedAddress, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
-      </ComboBox>
+      </controls:ComboBox>
       <Label FontSize="16" Margin="0,10,0,0">Write EOS</Label>
-      <ComboBox ItemsSource="{Binding EosChars}" Text="{Binding SelectedEosWrite}" IsEditable="True" SelectedIndex="0"></ComboBox>
+      <controls:ComboBox ItemsSource="{Binding EosChars}" Text="{Binding SelectedEosWrite}" IsEditable="True" SelectedIndex="0"></controls:ComboBox>
       <Label FontSize="16" Margin="0,10,0,0">Read EOS</Label>
-      <ComboBox IsEnabled="{Binding EnableEosRead}" ItemsSource="{Binding EosChars}" Text="{Binding SelectedEosRead}" IsEditable="True" SelectedIndex="0"></ComboBox>
+      <controls:ComboBox IsEnabled="{Binding EnableEosRead}" ItemsSource="{Binding EosChars}" Text="{Binding SelectedEosRead}" IsEditable="True" SelectedIndex="0"></controls:ComboBox>
       <Label FontSize="16" Margin="0,10,0,0">Timeout (ms)</Label>
-      <TextBox FontSize="16" IsEnabled="{Binding EnableTimeout}" Text="{Binding Timeout, Mode=TwoWay}"></TextBox>
+      <controls:TextBox FontSize="16" IsEnabled="{Binding EnableTimeout}" Text="{Binding Timeout, Mode=TwoWay}"></controls:TextBox>
       <Label FontSize="16" Margin="0,10,0,0">Buffer Size</Label>
-      <TextBox FontSize="16" IsEnabled="{Binding EnableBuffer}" Text="{Binding BufferSize, Mode=TwoWay}"></TextBox>
+      <controls:TextBox FontSize="16" IsEnabled="{Binding EnableBuffer}" Text="{Binding BufferSize, Mode=TwoWay}"></controls:TextBox>
       <WrapPanel Margin="0,10,0,0">
-        <Button Command="{Binding OpenCommand}" IsEnabled="{Binding EnableOpen}">Open</Button>
-        <Button Command="{Binding CloseCommand}" Margin="10,0,0,0" IsEnabled="{Binding EnableClose}">Close</Button>
-        <Button Command="{Binding ScanCommand}" Margin="10,0,0,0" IsEnabled="{Binding EnableScan}">Scan GPIB</Button>
+        <controls:Button Command="{Binding OpenCommand}" IsEnabled="{Binding EnableOpen}">Open</controls:Button>
+        <controls:Button Command="{Binding CloseCommand}" Margin="10,0,0,0" IsEnabled="{Binding EnableClose}">Close</controls:Button>
+        <controls:Button Command="{Binding ScanCommand}" Margin="10,0,0,0" IsEnabled="{Binding EnableScan}">Scan GPIB</controls:Button>
       </WrapPanel>
     </StackPanel>
 

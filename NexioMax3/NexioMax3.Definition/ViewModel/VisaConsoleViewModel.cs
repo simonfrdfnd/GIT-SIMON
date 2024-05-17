@@ -5,11 +5,14 @@
   using System.Collections.ObjectModel;
   using System.IO;
   using System.Linq;
+  using System.Windows;
+  using Nexio.Com;
   using Nexio.Com.VISA;
+  using Nexio.Enums;
   using Nexio.Wpf.Base;
   using Nexio.Wpf.Command;
-  using NexioMax3.Domain.Configuration.Model.EMIOverrides2;
   using NexioMax3.Domain.Configuration.Model.NexioMax3;
+  using MessageBoxButton = System.Windows.MessageBoxButton;
 
   public class VisaConsoleViewModel : ViewModelBase
   {
@@ -120,6 +123,18 @@
 
     private void OpenAction()
     {
+      IDevice communicationDevice = DeviceFactory.InitVISA(new VisaParameters(this.selectedAddress), "\n", "\n", false);
+      try
+      {
+        communicationDevice.InitDevice();
+      }
+      catch (Exception ex)
+      {
+
+      }
+      communicationDevice.Write("*IDN?", default(System.Threading.CancellationToken));
+      string receive = ""; ;
+      communicationDevice.Read(ref receive, "", "\n", default(System.Threading.CancellationToken));
       this.SaveAddresses();
     }
 
@@ -152,6 +167,7 @@
         this.Addresses.Insert(0, this.selectedAddress);
       }
 
+      this.SelectedAddress = this.Addresses.First();
       var jsonFilePath = Path.Combine(NexioMax3Data.NexioMax3File);
       var datas = new NexioMax3Data
       {

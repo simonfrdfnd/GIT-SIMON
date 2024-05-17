@@ -106,3 +106,4 @@ C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\View\VirtualImmunity
 C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\View\VirtualImmunitySetupView.baml
 C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\View\TerminalView.g.cs
 C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\obj\Debug\View\TerminalView.baml
+C:\0_DEV\GIT-SIMON\NexioMax3\NexioMax3.Definition\bin\Debug\Nexio.Com.dll

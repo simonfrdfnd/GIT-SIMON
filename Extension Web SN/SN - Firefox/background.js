@@ -26,27 +26,29 @@ var menuItems = [
 ];
 
 var wnsnippets = {
-    "workenotesnippet1": ["worknotesnippets", "Italic", `[code]<em></em>[/code] `],
-    "workenotesnippet2": ["worknotesnippets", "Strikethrough", `[code]<strike></strike>[/code] `],
-    "workenotesnippet3": ["worknotesnippets", "Code (inline)", `[code]<code></code>[/code] `],
-    "workenotesnippet4": ["worknotesnippets", "Code (block)", `[code]<pre><code></code></pre>[/code] `],
-    "workenotesnippet5": ["worknotesnippets", "Blockquote", `[code]<blockquote></blockquote>[/code] `],
-    "workenotesnippet6": ["worknotesnippets", "Hyperlink", `[code]<a href="URL" target="_blank"></a>[/code] `],
-    "workenotesnippet7": ["worknotesnippets", "Bullet points", `[code][code]<ul><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul>[/code][/code] `],
-    "workenotesnippet8": ["worknotesnippets", "Numbered lists", `[code]<ol><li>Item 1</li><li>Item 2</li><li>Item 3</li></ol>[/code] `],
-    "workenotesnippet9": ["worknotesnippets", "Header", `[code]<h3></h3>[/code] `],
+    "workenotesnippet1": ["worknotesnippets", "Bold", `[code]<b></b>[/code] `],
+    "workenotesnippet2": ["worknotesnippets", "Italic", `[code]<em></em>[/code] `],
+    "workenotesnippet3": ["worknotesnippets", "Strikethrough", `[code]<strike></strike>[/code] `],
+    "workenotesnippet4": ["worknotesnippets", "Code (inline)", `[code]<code></code>[/code] `],
+    "workenotesnippet5": ["worknotesnippets", "Code (block)", `[code]<pre><code></code></pre>[/code] `],
+    "workenotesnippet6": ["worknotesnippets", "Blockquote", `[code]<blockquote></blockquote>[/code] `],
+    "workenotesnippet7": ["worknotesnippets", "Hyperlink", `[code]<a href="URL" target="_blank"></a>[/code] `],
+    "workenotesnippet8": ["worknotesnippets", "Bullet points", `[code][code]<ul><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul>[/code][/code] `],
+    "workenotesnippet9": ["worknotesnippets", "Numbered lists", `[code]<ol><li>Item 1</li><li>Item 2</li><li>Item 3</li></ol>[/code] `],
+    "workenotesnippet10": ["worknotesnippets", "Header", `[code]<h3></h3>[/code] `],
 };
 
 var decsnippets = {
-    "decsnippet1": ["decsnippets", "Italic", `[code]<em>%s</em>[/code] `],
-    "decsnippet2": ["decsnippets", "Strikethrough", `[code]<strike>%s</strike>[/code] `],
-    "decsnippet3": ["decsnippets", "Code (inline)", `[code]<code>%s</code>[/code] `],
-    "decsnippet4": ["decsnippets", "Code (block)", `[code]<pre><code>%s</code></pre>[/code] `],
-    "decsnippet5": ["decsnippets", "Blockquote", `[code]<blockquote>%s</blockquote>[/code] `],
-    "decsnippet6": ["decsnippets", "Hyperlink", `[code]<a href="URL" target="_blank">%s</a>[/code] `],
-    "decsnippet7": ["decsnippets", "Bullet points", `[code]<ul><li>%s</li><li>Item 2</li><li>Item 3</li></ul>[/code] `],
-    "decsnippet8": ["decsnippets", "Numbered lists", `[code]<ol><li>%s</li><li>Item 2</li><li>Item 3</li></ol>[/code] `],
-    "decsnippet9": ["decsnippets", "Header", `[code]<h3>%s</h3>[/code] `],
+    "decsnippet1": ["decsnippets", "Bold", `[code]<b>%s</b>[/code] `],
+    "decsnippet2": ["decsnippets", "Italic", `[code]<em>%s</em>[/code] `],
+    "decsnippet3": ["decsnippets", "Strikethrough", `[code]<strike>%s</strike>[/code] `],
+    "decsnippet4": ["decsnippets", "Code (inline)", `[code]<code>%s</code>[/code] `],
+    "decsnippet5": ["decsnippets", "Code (block)", `[code]<pre><code>%s</code></pre>[/code] `],
+    "decsnippet6": ["decsnippets", "Blockquote", `[code]<blockquote>%s</blockquote>[/code] `],
+    "decsnippet7": ["decsnippets", "Hyperlink", `[code]<a href="URL" target="_blank">%s</a>[/code] `],
+    "decsnippet8": ["decsnippets", "Bullet points", `[code]<ul><li>%s</li><li>Item 2</li><li>Item 3</li></ul>[/code] `],
+    "decsnippet9": ["decsnippets", "Numbered lists", `[code]<ol><li>%s</li><li>Item 2</li><li>Item 3</li></ol>[/code] `],
+    "decsnippet10": ["decsnippets", "Header", `[code]<h3>%s</h3>[/code] `],
 };
 
 chrome.contextMenus.removeAll(initializeContextMenus);
@@ -93,32 +95,35 @@ chrome.commands.onCommand.addListener(function (command) {
     }, function (tabs) {
         var clickData = { menuItemId: "" };
         switch (command) {
-            case 'italic':
+			case 'bold':
                 clickData.menuItemId = "decsnippet1";
                 break;
-            case 'strikethrough':
+            case 'italic':
                 clickData.menuItemId = "decsnippet2";
                 break;
-            case 'codeinline':
+            case 'strikethrough':
                 clickData.menuItemId = "decsnippet3";
                 break;
-            case 'codeblock':
+            case 'codeinline':
                 clickData.menuItemId = "decsnippet4";
                 break;
-            case 'blockquote':
+            case 'codeblock':
                 clickData.menuItemId = "decsnippet5";
                 break;
-            case 'hyperlink':
+            case 'blockquote':
                 clickData.menuItemId = "decsnippet6";
                 break;
-            case 'bullet':
+            case 'hyperlink':
                 clickData.menuItemId = "decsnippet7";
                 break;
-            case 'numbered':
+            case 'bullet':
                 clickData.menuItemId = "decsnippet8";
                 break;
-            case 'header':
+            case 'numbered':
                 clickData.menuItemId = "decsnippet9";
+                break;
+            case 'header':
+                clickData.menuItemId = "decsnippet10";
                 break;
             default:
                 console.log(`Command not implemented...`);
@@ -177,14 +182,14 @@ function insertDecSnippet(clickData) {
         active: true,
         currentWindow: true
     }, function (tabs) {
-        if (clickData.menuItemId == "decsnippet7") {
-            chrome.tabs.sendMessage(tabs[0].id, {
-                "decsnippet7": decsnippets[clickData.menuItemId][2]
-            });
-        }
-        else if (clickData.menuItemId == "decsnippet8") {
+        if (clickData.menuItemId == "decsnippet8") {
             chrome.tabs.sendMessage(tabs[0].id, {
                 "decsnippet8": decsnippets[clickData.menuItemId][2]
+            });
+        }
+        else if (clickData.menuItemId == "decsnippet9") {
+            chrome.tabs.sendMessage(tabs[0].id, {
+                "decsnippet9": decsnippets[clickData.menuItemId][2]
             });
         }
         else {

@@ -1,3 +1,7 @@
 
 /NexioMax3/.vs
+/NexioMax3/bin
+/NexioMax3/binDebug
+/NexioMax3/NexioMax.Definition/bin
 /NexioMax3/NexioMax3.EmiOverride.Standalone/obj
+/NexioMax3/NexioMax3.Standalone/obj

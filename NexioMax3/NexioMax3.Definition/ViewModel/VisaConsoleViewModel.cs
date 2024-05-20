@@ -1,17 +1,24 @@
 ﻿namespace NexioMax3.Definition.ViewModel
 {
   using System;
+  using System.CodeDom.Compiler;
   using System.Collections.Generic;
   using System.Collections.ObjectModel;
   using System.IO;
   using System.Linq;
+  using System.Runtime.CompilerServices;
+  using System.Threading.Tasks;
   using System.Windows;
   using Nexio.Com;
+  using Nexio.Com.Model.Communication;
   using Nexio.Com.VISA;
   using Nexio.Enums;
   using Nexio.Wpf.Base;
   using Nexio.Wpf.Command;
+  using Nexio.Wpf.Dialog;
+  using Nexio.Wpf.Popup;
   using NexioMax3.Domain.Configuration.Model.NexioMax3;
+  using static ICSharpCode.AvalonEdit.Document.TextDocumentWeakEventManager;
   using MessageBoxButton = System.Windows.MessageBoxButton;
 
   public class VisaConsoleViewModel : ViewModelBase
@@ -38,10 +45,17 @@
 
     private bool enableScan;
 
+    private bool enablePanel;
+
+    private bool enableTerminal;
+
     private RelayCommand openCommand;
+
+    private IPopupService popupManager = new Popup();
 
     public VisaConsoleViewModel()
     {
+      DialogProvider.Instance.Register(new NexioDialogService());
       this.displayMode = "Ascii";
       this.LoadAdresses();
       this.eosChars = new ObservableCollection<string> { "\\n", "\\r", "\\r\\n" };
@@ -52,6 +66,8 @@
       this.enableClose = false;
       this.enableOpen = true;
       this.enableScan = true;
+      this.enablePanel = true;
+      this.enableTerminal = false;
     }
 
     public string DisplayMode
@@ -119,28 +135,47 @@
       set => this.Set(nameof(this.EnableScan), ref this.enableScan, value);
     }
 
-    public RelayCommand OpenCommand => this.openCommand ?? (this.openCommand = new RelayCommand(this.OpenAction));
-
-    private void OpenAction()
+    public bool EnablePanel
     {
-      IDevice communicationDevice = DeviceFactory.InitVISA(new VisaParameters(this.selectedAddress), "\n", "\n", false);
-      try
-      {
-        communicationDevice.InitDevice();
-      }
-      catch (Exception ex)
-      {
+      get => this.enablePanel;
+      set => this.Set(nameof(this.EnablePanel), ref this.enablePanel, value);
+    }
 
-      }
-      communicationDevice.Write("*IDN?", default(System.Threading.CancellationToken));
-      string receive = ""; ;
-      communicationDevice.Read(ref receive, "", "\n", default(System.Threading.CancellationToken));
-      this.SaveAddresses();
+    public bool EnableTerminal
+    {
+      get => this.enableTerminal;
+      set => this.Set(nameof(this.EnableTerminal), ref this.enableTerminal, value);
+    }
+
+    public RelayCommand OpenCommand => this.openCommand ?? (this.openCommand = new RelayCommand(async () => await this.OpenActionAsync()));
+
+    private async Task OpenActionAsync()
+    {
+      this.EnablePanel = false;
+      await Task.Run(() =>
+      {
+        try
+        {
+          IDevice device = DeviceFactory.InitVISA(new VisaParameters(this.selectedAddress), "\n", "\n", false);
+          device.InitDevice();
+          this.EnableClose = true;
+          this.EnableOpen = false;
+          this.EnableTerminal = true;
+        }
+        catch (Exception ex)
+        {
+          Application.Current.Dispatcher.Invoke(() =>
+          {
+            DialogProvider.Instance.Get().ShowDialogSync(Nexio.Enums.MessageBoxButton.OK, ex.Message, title: "Error");
+          });
+        }
+      });
+      this.EnablePanel = true;
     }
 
     private void LoadAdresses()
     {
-      this.addresses = new ObservableCollection<string> {};
+      this.addresses = new ObservableCollection<string> { };
       foreach (string address in NexioMax3Data.Load(NexioMax3Data.NexioMax3File).Addresses)
       {
         this.addresses.Add(address);

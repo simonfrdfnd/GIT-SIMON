@@ -12,7 +12,7 @@
       <ColumnDefinition Width="Auto"/>
       <ColumnDefinition Width="*"/>
     </Grid.ColumnDefinitions>
-    <StackPanel>
+    <StackPanel IsEnabled="{Binding EnablePanel}">
       <Label FontSize="16">Text mode</Label>
       <controls:ComboBox SelectedItem="{Binding DisplayMode}">
         <ComboBoxItem IsSelected="True">Ascii</ComboBoxItem>
@@ -32,11 +32,11 @@
       <controls:TextBox FontSize="16" IsEnabled="{Binding EnableBuffer}" Text="{Binding BufferSize, Mode=TwoWay}"></controls:TextBox>
       <WrapPanel Margin="0,10,0,0">
         <controls:Button Command="{Binding OpenCommand}" IsEnabled="{Binding EnableOpen}">Open</controls:Button>
-        <controls:Button Command="{Binding CloseCommand}" Margin="10,0,0,0" IsEnabled="{Binding EnableClose}">Close</controls:Button>
+        <controls:Button Name="CloseButton" Command="{Binding CloseCommand}" Margin="10,0,0,0" IsEnabled="{Binding EnableClose}">Close</controls:Button>
         <controls:Button Command="{Binding ScanCommand}" Margin="10,0,0,0" IsEnabled="{Binding EnableScan}">Scan GPIB</controls:Button>
       </WrapPanel>
     </StackPanel>
 
-    <local:TerminalView Grid.Column="1" Margin="10,0,10,10"/>
+    <local:TerminalView Grid.Column="1" Margin="10,0,10,10" IsEnabled="{Binding ElementName=CloseButton, Path=IsEnabled}"/>
   </Grid>
 </UserControl>

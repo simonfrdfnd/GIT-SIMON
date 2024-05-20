@@ -4,7 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:NexioMax3.Definition.View"
-             mc:Ignorable="d">
+             mc:Ignorable="d"
+             >
   <Grid>
      <TextBox Name="TerminalTextBox"
              Background="Black"
@@ -16,7 +17,6 @@
              AcceptsReturn="True"
              PreviewKeyDown="TerminalTextBox_PreviewKeyDown"
              SelectionChanged="TerminalTextBox_SelectionChanged"
-             IsEnabled="{Binding EnableTerminal}"
              Text="{Binding Content, UpdateSourceTrigger=PropertyChanged}">
 
       <TextBox.InputBindings>
